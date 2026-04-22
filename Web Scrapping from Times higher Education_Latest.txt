@@ -1,0 +1,19 @@
+Web Scrapping from Times higher education.
+----------------------------------------------------------------------------------------------------------
+Ranking global:
+https://www.timeshighereducation.com/world-university-rankings/latest/world-ranking
+Metodology:
+https://www.timeshighereducation.com/world-university-rankings/methodology
+----------------------------------------------------------------------------------------------------------
+Ranking by subject (Econnomics):
+https://www.timeshighereducation.com/world-university-rankings/2026/subject-ranking/business-and-economics
+Metodology:
+https://www.timeshighereducation.com/world-university-rankings/world-university-rankings-subject-2026-methodology
+----------------------------------------------------------------------------------------------------------
+Ranking Latam:
+https://www.timeshighereducation.com/world-university-rankings/2026/latin-america-university-rankings
+Metodology: 
+https://www.timeshighereducation.com/world-university-rankings/latin-america-university-rankings-2026-methodology
+
+
+

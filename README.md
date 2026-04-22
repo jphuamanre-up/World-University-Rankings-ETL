@@ -1,203 +1,135 @@
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/razekmh/World-University-Rankings-Table/HEAD)
 
-## Aim
-This code tries to extract information from a university ranking website. The concept of collecting data from websites is called web scraping and is used mainly to collect data from websites which do not offer an API to collect data natively. 
-Several tutorials are available to explain the web scraping basics. This notebook is more of a case study. <br />
-Let's start ......  
+# World University Rankings 2026 – ETL desde Times Higher Education
 
-## 1. Prerequisites
-This code assumes that you have python installed on your machine.  Basic knowledge of python is also assumed. Here is a full list of the prerequisites: 
-* python 3.6 or above
-* Jupyter notebook - or any environment that allows running python
-* The following python libraries (BeautifulSoup, Selenium, urllib, objectpath and Pandas) 
-* A web browser, I am using chrome 77 here, but you can use other browsers too
-* Web driver for the browsers you are using, for chrome and chrome based browsers you can download it from here https://chromedriver.chromium.org/downloads
+## Objetivo
+Este repositorio automatiza la extracción de datos desde el sitio web de *Times Higher Education* (THE) mediante *web scraping*. El enfoque es un caso práctico: tomar la lógica original del proyecto (Selenium + BeautifulSoup) y adaptarla a la última versión publicada por THE (**2026**), con sus nuevos pilares metodológicos y tres vistas de ranking: global, por disciplina y regional.
 
-## 2. What data are you trying to get? 
-This is the first question you should ask yourself, before even touching a single key. In our case, we started with the idea of collecting the list of universities with their ranking. To understand how to do so you will need to visit the website itself to understand a bit about it and its webpages. <br/>
+Las URLs fuente se encuentran en el archivo `Web Scrapping from Times higher Education_Latest.txt` e incluyen:
 
-The page we are tyring to scrap looked something like this 
+- **World University Rankings 2026** – ranking global de universidades.
+- **Subject Rankings 2026 – Business & Economics** – ranking por disciplina.
+- **Latin America University Rankings 2026** – ranking regional para Latinoamérica.
 
-![title](img/basic_page_01.PNG)
-<br/> <br/> <br/> 
+## 1. Prerrequisitos
+- Python 3.9 o superior.
+- Jupyter Notebook o cualquier entorno capaz de ejecutar Python.
+- Navegador **Google Chrome** o **Chromium** instalado en la máquina.
+- Librerías Python (ver `requirements.txt`): `beautifulsoup4`, `selenium`, `webdriver-manager`, `requests`, `pandas`, `lxml`.
 
+> Ya **no** es necesario descargar manualmente `chromedriver.exe`. El paquete `webdriver-manager` descarga de forma automática la versión del driver compatible con el Chrome instalado. Si tenías un `chromedriver.exe` del proyecto antiguo, puedes borrarlo.
 
-It is clear that the page contains some sort of a table that hosts the information we are trying to collect. However collecting the information will depend on the HTML code hidden behind what we can see in the browser window. In chrome to display the HTML code simply press F12. The page should look something like this  
+Instalar dependencias:
 
-![title](img/page_code_02.PNG)
-<br/> <br/> <br/> 
-
-
-Using the small inspection cursor you can point at elements of the page and find out which part of the HTML represent them. This important because we will only use the HTML to collect the data and not the displayed page in the browser. Once you have identified the part of HTML corresponds with the information we need then we will start scraping 
-
-## 3. Let's write some python 
-
-A standard method of using python to request internet pages is through the requests library, however in our particular case this approach will not work, because the website uses AJAX to modify the HTML of the page. This means that the HTML code which you will receive by using requests will only contain an empty template of the table and not the information we are trying to collect. To give the JS code a chance to run and populate the table with the information, we use selenium. Selenium uses browsers to request webpages and then collect the HTML after the page is fully loaded, which will allow us to collect the information we need.
-
+```bash
+pip install -r requirements.txt
 ```
-# import standard libraries
-import json
-import time
 
-# import third party libraries
-import objectpath
+## 2. ¿Qué datos vamos a obtener?
+Esta es la primera pregunta que conviene responder antes de tocar una sola tecla. En nuestro caso partimos de la idea de recolectar la lista de universidades con su puesto en el ranking. Para entender cómo hacerlo visitamos primero el sitio y observamos la estructura de sus páginas.
+
+La vista que ofrece THE a sus usuarios luce así:
+
+![Vista del ranking THE 2026](img/basic_page_01.PNG)
+<br/><br/>
+
+La página muestra una tabla con los datos que queremos. Sin embargo, la recolección dependerá del HTML que se esconde detrás de lo que se ve en el navegador. En Chrome se presiona **F12** para abrir las *Developer Tools* y localizar los selectores que utilizará el scraping:
+
+![Inspección del HTML en DevTools](img/page_code_02.PNG)
+<br/><br/>
+
+Con el cursor de inspección identificamos las clases CSS (por ejemplo `overall-score`, `teaching-score`, `research-env-score`, `research-quality-score`, `industry-score`, `international-score`) que representan los campos que nos interesan. Estos serán los que rastreemos con BeautifulSoup.
+
+## 3. Enfoque técnico
+Un método estándar para traer una página con Python es la librería `requests`. En nuestro caso no funciona, porque THE modifica el HTML en el navegador mediante **AJAX/JavaScript**: lo que nos entregaría `requests` sería una plantilla vacía sin datos. Para dejar que el JavaScript corra y la tabla se llene usamos **Selenium**, que controla un navegador real y nos entrega el HTML cuando la página ya ha terminado de cargarse. Una vez con el HTML, **BeautifulSoup** localiza los selectores y extrae el texto de cada celda.
+
+```python
+import json, re, time
 import pandas as pd
-
+import requests
 from bs4 import BeautifulSoup as soup
-from urllib.request import urlopen 
 from selenium import webdriver
+from selenium.webdriver.chrome.service import Service
+from selenium.webdriver.chrome.options import Options
+from selenium.webdriver.common.by import By
+from selenium.webdriver.support.ui import WebDriverWait
+from selenium.webdriver.support import expected_conditions as EC
+from webdriver_manager.chrome import ChromeDriverManager
 ```
 
-Selenium requires a webdriver to access the web browser. It can be installed or used from an executable file directly. In this example we will use the executable file directly, please edit the following code by adding the location of the webdriver. It is recommonded to place it with the code itself.
+### 3.1 Inicializar el driver (sin `chromedriver.exe` manual)
 
-```
-webdriver_location = '***please insert here webdriver location *** /chromedriver.exe'
-
-webdriver_location = 'C:/Users/razek/Desktop/git_pages/World-University-Rankings-Table/chromedriver.exe'
-# initiate webdriver
-driver = webdriver.Chrome(executable_path = webdriver_location)
-```
-
-Defining which web address we are going to use for scrapping is essential for the workflow. A quick inspection of the target web address reveals that changing the length parameter from 25 to -1 will result in collecting all the available universities instead of 25 per page. This should enable us to collect the information we need in one go rather than requesting several web pages. 
-Also checking the tabs available on the web page (ranking, scores) reveals more data to be collected. Therefore we will use two web adresses to collect the data, as follows: 
-
-```
-url_stats = 'https://www.timeshighereducation.com/world-university-rankings/2020/world-ranking#!/page/0/length/-1/sort_by/rank/sort_order/asc/cols/stats'
-url_scores = 'https://www.timeshighereducation.com/world-university-rankings/2020/world-ranking#!/page/0/length/-1/sort_by/rank/sort_order/asc/cols/scores'
+```python
+options = Options()
+options.add_argument('--headless=new')
+options.add_argument('--window-size=1920,1080')
+driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()), options=options)
 ```
 
-```
-# create two webdriver objects, one for each of the two adresses 
-stats_browser = webdriver.Chrome()
-scores_browser = webdriver.Chrome()
-```
+### 3.2 URLs de los tres rankings
 
-In the follwoing two cells, we will follow the same procedures for each of the two pages as follows: 
-* Request the webpage using the webdriver 
-* Collect the HTML code of the webpage 
-* Use BeautifulSoup to "parse" the HTML. This will enable us to collect spesific pices of code after
-* Use "findAll" method to collect the objects which we identified in the HTML code
-
-```
-# use the webdriver to request the ranking webpage
-stats_browser.get(url_stats)
-
-# collect the webpage HTML after its loading
-stats_page_html = stats_browser.page_source
-
-# parse the HTML using BeautifulSoup
-stats_page_soup = soup(stats_page_html, 'html.parser')
-
-# collect HTML objects 
-rank_obj = stats_page_soup.findAll("td", {"class":"rank sorting_1 sorting_2"})
-names_obj = stats_page_soup.findAll("td", {"class":"name namesearch"})
-stats_number_students_obj = stats_page_soup.findAll("td", {"class":"stats stats_number_students"})
-stats_student_staff_ratio_obj = stats_page_soup.findAll("td", {"class":"stats stats_student_staff_ratio"})
-stats_pc_intl_students_obj = stats_page_soup.findAll("td", {"class":"stats stats_pc_intl_students"})
-stats_female_male_ratio_obj = stats_page_soup.findAll("td", {"class":"stats stats_female_male_ratio"})
-
-# close the browser
-stats_browser.close() 
+```python
+RANKINGS = {
+    'world_2026': 'https://www.timeshighereducation.com/world-university-rankings/latest/world-ranking',
+    'business_economics_2026': 'https://www.timeshighereducation.com/world-university-rankings/2026/subject-ranking/business-and-economics',
+    'latam_2026': 'https://www.timeshighereducation.com/world-university-rankings/2026/latin-america-university-rankings',
+}
 ```
 
-```
-# use the webdriver to request the scores webpage
-scores_browser.get(url_scores)
+> Truco que se mantiene desde la versión original: agregar el sufijo `#!/length/-1/sort_by/rank/sort_order/asc` a las URLs fuerza a la tabla a mostrar todas las filas en una sola página.
 
-# collect the webpage HTML after its loading
-scores_page_html = scores_browser.page_source
-scores_page_soup = soup(scores_page_html, 'html.parser')
+### 3.3 Lectura del HTML y extracción de datos
 
-# parse the HTML using BeautifulSoup
-overall_score_obj = scores_page_soup.findAll("td", {"class":"scores overall-score"})
-teaching_score_obj = scores_page_soup.findAll("td", {"class":"scores teaching-score"})
-research_score_obj = scores_page_soup.findAll("td", {"class":"scores research-score"})
-citations_score_obj = scores_page_soup.findAll("td", {"class":"scores citations-score"})
-industry_income_score_obj = scores_page_soup.findAll("td", {"class":"scores industry_income-score"})
-international_outlook_score_obj = scores_page_soup.findAll("td", {"class":"scores international_outlook-score"})
+```python
+driver.get(url + '#!/length/-1/sort_by/rank/sort_order/asc')
+WebDriverWait(driver, 25).until(
+    EC.presence_of_element_located((By.CSS_SELECTOR, 'table tbody tr'))
+)
+pagina = soup(driver.page_source, 'html.parser')
 
-# close the browser
-scores_browser.close() 
+for tr in pagina.select('table tbody tr'):
+    rank   = tr.find('td', {'class': re.compile('rank')}).get_text(strip=True)
+    nombre = tr.find('td', {'class': re.compile('name')}).find('a').get_text(strip=True)
+    overall = tr.find('td', {'class': re.compile('overall-score')}).get_text(strip=True)
+    # ... (teaching, research_env, research_quality, industry, international)
 ```
 
-Once the HTML objects are collected, then we can start extracting the data from them. The data will be presented eventually in pandas dataframe, which can be presented as a table. Pandas dataframe can be constructed using lists of equal length. In the follwoing two cells we will extract/collect the data using two differnet methods
+THE ajusta sus clases CSS de vez en cuando. El notebook incluye un mapa `COLUMNAS_CSS` con varios alias por columna para robustecer el parsing.
 
+### 3.4 (Opcional) Enriquecer con la dirección de cada universidad
+Cada universidad tiene una página de perfil (`https://www.timeshighereducation.com/world-university-rankings/<slug>`) que contiene un bloque JSON-LD (`<script type="application/ld+json">`) con su dirección. El notebook recorre esas páginas y extrae `streetAddress`, `addressLocality`, `addressRegion`, `postalCode` y `addressCountry`, más la dirección completa en texto. Esta parte se puede desactivar con la variable `OBTENER_DIRECCIONES = False`.
 
-#### Extracting data from HTML objects: 
+### 3.5 Limpieza y guardado
+Antes de guardar eliminamos símbolos (`%`, `,`), normalizamos el `rank` (quitamos `=`, `+` y rangos tipo `201–250`) y reemplazamos `n/a` por nulos. Cada ranking se guarda en su propio `.csv`:
 
+| Clave | Archivo |
+|-------|---------|
+| `world_2026`              | `the_world_ranking_2026.csv` |
+| `business_economics_2026` | `the_subject_business_economics_2026.csv` |
+| `latam_2026`              | `the_latam_ranking_2026.csv` |
 
-```
-rank, names, number_students, student_staff_ratio, intl_students, female_male_ratio, web_address =  [], [], [], [], [], [], []
-overall_score, teaching_score, research_score, citations_score, industry_income_score, international_outlook_score = [], [], [], [], [], []
-for i in range(len(names_obj)):
-    web_address.append('https://www.timeshighereducation.com' + names_obj[i].a.get('href'))
-    rank.append(rank_obj[i].text)
-    
-    names.append(names_obj[i].a.text)
-    number_students.append(stats_number_students_obj[i].text)
-    student_staff_ratio.append(stats_student_staff_ratio_obj[i].text)
-    intl_students.append(stats_pc_intl_students_obj[i].text)
-    female_male_ratio.append(stats_female_male_ratio_obj[i].text[:2])
-    
-    overall_score.append(overall_score_obj[i].text)
-    teaching_score.append(teaching_score_obj[i].text)
-    research_score.append(research_score_obj[i].text)
-    citations_score.append(citations_score_obj[i].text)
-    industry_income_score.append(industry_income_score_obj[i].text)
-    international_outlook_score.append(international_outlook_score_obj[i].text)
+```python
+df.to_csv(cfg['archivo_salida'], index=False, encoding='utf-8-sig')
 ```
 
-```
-full_address_list, streetAddress_list, addressLocality_list, addressRegion_list, postalCode_list, addressCountry_list  = [], [], [], [], [], []
-for web in web_address:
-    page = urlopen(web)
-    page_html = soup(page, 'html.parser')
-    location = page_html.findAll('script', {'type':"application/ld+json"})
-    jt = json.loads(location[0].text)
-    jsonnn_tree = objectpath.Tree(jt)
-    streetAddress_list.append(list(jsonnn_tree.execute('$..streetAddress'))[0])
-    addressLocality_list.append(list(jsonnn_tree.execute('$..addressLocality'))[0])
-    addressRegion_list.append(list(jsonnn_tree.execute('$..addressRegion'))[0])
-    postalCode_list.append(list(jsonnn_tree.execute('$..postalCode'))[0])
-    addressCountry_list.append(list(jsonnn_tree.execute('$..addressCountry'))[0])
-    full_address = page_html.findAll('div', {'class':"institution-info__contact-detail institution-info__contact-detail--address"})[0].text.strip()
-    full_address_list.append(full_address)
-    print ('{} out of {}'.format(len(full_address_list), len (web_address)), full_address)
-```
+## 4. Estructura del repositorio
 
 ```
-df = pd.DataFrame({
-    'rank' : rank,
-    'name' : names,
-    'number_students' : number_students,
-    'student_staff_ratio' : student_staff_ratio,
-    'intl_students' : intl_students,
-    'female_male_ratio' : female_male_ratio,
-    'overall_score' : overall_score,
-    'teaching_score' : teaching_score,
-    'research_score' : research_score,
-    'citations_score' : citations_score,
-    'industry_income_score' : industry_income_score,
-    'international_outlook_score' : international_outlook_score,
-    'address' : full_address_list, 
-    'street_address' : streetAddress_list,
-    'locality_address' : addressLocality_list,
-    'region_address' : addressRegion_list,
-    'postcode_address' : postalCode_list,
-    'country_address' : addressCountry_list
-})
-df
+.
+├── README.md
+├── Web Scrapping from Times higher Education_Latest.txt   # URLs fuente (2026)
+├── _config.yml
+├── requirements.txt                                       # dependencias pip
+├── index.ipynb                                            # notebook ETL
+└── img/
+    ├── basic_page_01.PNG                                  # vista del ranking
+    └── page_code_02.PNG                                   # inspección DevTools
 ```
 
-```
-df['intl_students'] = df['intl_students'].str.replace(pat='%', repl='')
-df['rank'] = df['rank'].str.replace(pat='\–\d*|\+', repl='', regex=True)
-df['overall_score'] = df['overall_score'].str.replace(pat='.*\–', repl='', regex=True)
-df['number_students'] = df['number_students'].str.replace(pat=',', repl='', regex=True)
-df = df.replace('n/a*', pd.np.nan, regex=True)
-df
-```
+## 5. Ejecución rápida
+1. Instalar dependencias: `pip install -r requirements.txt`.
+2. Abrir `index.ipynb` en Jupyter (`jupyter notebook` o VS Code).
+3. Ejecutar todas las celdas ("Run All"). Al terminar encontrarás los tres archivos CSV en la raíz del proyecto.
 
-```
-df.to_csv('uni_02.csv', encoding='utf-16', index=False)
-```
+## 6. Mantenimiento
+Si THE vuelve a cambiar los nombres de las clases CSS, el único lugar que normalmente necesita ajustarse es el diccionario **`COLUMNAS_CSS`** dentro del notebook. Agrega el nuevo alias y el resto del flujo sigue funcionando.
