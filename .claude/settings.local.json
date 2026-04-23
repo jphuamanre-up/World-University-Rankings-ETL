@@ -1,0 +1,10 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python3 -c \"import sys; print\\(sys.executable\\)\")",
+      "PowerShell(py --version 2>&1)",
+      "PowerShell(python --version 2>&1)",
+      "PowerShell(Get-ChildItem \"C:\\\\Users\\\\JP.HuamanRe\" -Directory -ErrorAction SilentlyContinue | Where-Object { $_.Name -match \"conda|python|miniconda|anaconda\" })"
+    ]
+  }
+}

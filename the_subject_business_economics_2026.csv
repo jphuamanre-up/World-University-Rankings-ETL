@@ -1,30 +1,1068 @@
-﻿rank,name,url,country,overall_score,teaching_score,research_env_score,research_quality_score,industry_score,international_outlook_score
-,Massachusetts Institute of Technology,https://www.timeshighereducation.com/world-university-rankings/massachusetts-institute-technology,,,,,,,
-,Stanford University,https://www.timeshighereducation.com/world-university-rankings/stanford-university,,,,,,,
-,Tsinghua University,https://www.timeshighereducation.com/world-university-rankings/tsinghua-university,,,,,,,
-,University of Oxford,https://www.timeshighereducation.com/world-university-rankings/university-oxford,,,,,,,
-,"University of California, Berkeley",https://www.timeshighereducation.com/world-university-rankings/university-california-berkeley,,,,,,,
-,University of Cambridge,https://www.timeshighereducation.com/world-university-rankings/university-cambridge,,,,,,,
-,Peking University,https://www.timeshighereducation.com/world-university-rankings/peking-university,,,,,,,
-,Harvard University,https://www.timeshighereducation.com/world-university-rankings/harvard-university,,,,,,,
-,The University of Chicago,https://www.timeshighereducation.com/world-university-rankings/university-chicago,,,,,,,
-,National University of Singapore,https://www.timeshighereducation.com/world-university-rankings/national-university-singapore,,,,,,,
-,University of Pennsylvania,https://www.timeshighereducation.com/world-university-rankings/university-pennsylvania,,,,,,,
-,Yale University,https://www.timeshighereducation.com/world-university-rankings/yale-university,,,,,,,
-,London School of Economics and Political Science,https://www.timeshighereducation.com/world-university-rankings/london-school-economics-and-political-science,,,,,,,
-,Columbia University,https://www.timeshighereducation.com/world-university-rankings/columbia-university,,,,,,,
-,ETH Zurich,https://www.timeshighereducation.com/world-university-rankings/eth-zurich,,,,,,,
-,Cornell University,https://www.timeshighereducation.com/world-university-rankings/cornell-university,,,,,,,
-,Northwestern University,https://www.timeshighereducation.com/world-university-rankings/northwestern-university,,,,,,,
-,New York University,https://www.timeshighereducation.com/world-university-rankings/new-york-university,,,,,,,
-,Duke University,https://www.timeshighereducation.com/world-university-rankings/duke-university,,,,,,,
-,"University of California, Los Angeles",https://www.timeshighereducation.com/world-university-rankings/university-california-los-angeles,,,,,,,
-,University of Michigan-Ann Arbor,https://www.timeshighereducation.com/world-university-rankings/university-michigan-ann-arbor,,,,,,,
-,UCL,https://www.timeshighereducation.com/world-university-rankings/ucl,,,,,,,
-,University of Toronto,https://www.timeshighereducation.com/world-university-rankings/university-toronto,,,,,,,
-,Erasmus University Rotterdam,https://www.timeshighereducation.com/world-university-rankings/erasmus-university-rotterdam,,,,,,,
-,Fudan University,https://www.timeshighereducation.com/world-university-rankings/fudan-university,,,,,,,
-,The Hong Kong Polytechnic University,https://www.timeshighereducation.com/world-university-rankings/hong-kong-polytechnic-university,,,,,,,
-,Carnegie Mellon University,https://www.timeshighereducation.com/world-university-rankings/carnegie-mellon-university,,,,,,,
-,The University of Tokyo,https://www.timeshighereducation.com/world-university-rankings/university-tokyo,,,,,,,
-,Shanghai Jiao Tong University,https://www.timeshighereducation.com/world-university-rankings/shanghai-jiao-tong-university,,,,,,,
+﻿rank_raw,rank,name,country,overall_score,teaching_score,research_env_score,research_quality_score,industry_score,international_score,url
+1,1,Massachusetts Institute of Technology,United States,93.3,94.3,95.0,90.4,99.7,89.2,https://www.timeshighereducation.com/world-university-rankings/massachusetts-institute-technology
+2,2,Stanford University,United States,91.6,96.7,91.1,90.2,84.2,83.5,https://www.timeshighereducation.com/world-university-rankings/stanford-university
+3,3,Tsinghua University,China,91.2,93.6,97.5,80.6,100.0,85.8,https://www.timeshighereducation.com/world-university-rankings/tsinghua-university
+4,4,University of Oxford,United Kingdom,91.0,93.8,98.2,76.8,95.5,94.0,https://www.timeshighereducation.com/world-university-rankings/university-oxford
+5,5,"University of California, Berkeley",United States,90.6,92.0,91.5,91.5,85.7,82.1,https://www.timeshighereducation.com/world-university-rankings/university-california-berkeley
+6,6,University of Cambridge,United Kingdom,90.5,93.4,93.7,83.0,79.7,95.4,https://www.timeshighereducation.com/world-university-rankings/university-cambridge
+7,7,Peking University,China,90.4,97.6,94.5,75.2,99.9,89.4,https://www.timeshighereducation.com/world-university-rankings/peking-university
+8,8,Harvard University,United States,90.3,95.7,91.1,89.7,67.3,81.2,https://www.timeshighereducation.com/world-university-rankings/harvard-university
+9,9,The University of Chicago,United States,89.2,90.8,92.2,90.3,67.6,79.8,https://www.timeshighereducation.com/world-university-rankings/university-chicago
+=10,10,National University of Singapore,Singapore,87.4,80.3,96.5,82.2,95.7,90.7,https://www.timeshighereducation.com/world-university-rankings/national-university-singapore
+=10,10,University of Pennsylvania,United States,87.4,93.8,88.6,83.8,74.7,77.4,https://www.timeshighereducation.com/world-university-rankings/university-pennsylvania
+12,12,Yale University,United States,87.2,95.6,88.5,79.0,68.6,85.6,https://www.timeshighereducation.com/world-university-rankings/yale-university
+13,13,London School of Economics and Political Science,United Kingdom,86.7,85.4,94.3,79.0,63.4,95.7,https://www.timeshighereducation.com/world-university-rankings/london-school-economics-and-political-science
+14,14,Columbia University,United States,86.4,92.0,87.2,80.1,77.2,86.1,https://www.timeshighereducation.com/world-university-rankings/columbia-university
+15,15,ETH Zurich,Switzerland,85.4,81.2,86.9,83.1,97.5,94.9,https://www.timeshighereducation.com/world-university-rankings/eth-zurich
+16,16,Cornell University,United States,83.7,84.8,90.3,78.4,68.3,78.2,https://www.timeshighereducation.com/world-university-rankings/cornell-university
+17,17,Northwestern University,United States,83.3,87.5,85.4,78.5,71.3,80.1,https://www.timeshighereducation.com/world-university-rankings/northwestern-university
+18,18,New York University,United States,83.2,82.3,92.4,74.3,67.9,85.3,https://www.timeshighereducation.com/world-university-rankings/new-york-university
+19,19,Duke University,United States,82.7,84.4,87.4,71.4,99.8,83.7,https://www.timeshighereducation.com/world-university-rankings/duke-university
+20,20,"University of California, Los Angeles",United States,80.2,83.5,85.8,73.2,67.2,74.6,https://www.timeshighereducation.com/world-university-rankings/university-california-los-angeles
+21,21,University of Michigan-Ann Arbor,United States,79.5,79.9,87.5,74.0,75.7,67.5,https://www.timeshighereducation.com/world-university-rankings/university-michigan-ann-arbor
+22,22,UCL,United Kingdom,78.1,70.1,83.2,76.9,67.2,95.7,https://www.timeshighereducation.com/world-university-rankings/ucl
+23,23,University of Toronto,Canada,76.2,71.4,76.7,77.0,67.6,92.0,https://www.timeshighereducation.com/world-university-rankings/university-toronto
+24,24,Erasmus University Rotterdam,Netherlands,76.0,65.4,84.2,73.9,76.2,88.2,https://www.timeshighereducation.com/world-university-rankings/erasmus-university-rotterdam
+25,25,Fudan University,China,74.5,73.3,71.6,74.7,98.6,77.6,https://www.timeshighereducation.com/world-university-rankings/fudan-university
+25,25,The Hong Kong Polytechnic University,Hong Kong,74.5,60.4,70.6,88.3,83.0,97.0,https://www.timeshighereducation.com/world-university-rankings/hong-kong-polytechnic-university
+=26,26,Carnegie Mellon University,United States,74.3,64.8,71.8,84.8,68.8,88.4,https://www.timeshighereducation.com/world-university-rankings/carnegie-mellon-university
+=26,26,The University of Tokyo,Japan,74.3,79.8,86.1,57.8,99.2,49.0,https://www.timeshighereducation.com/world-university-rankings/university-tokyo
+28,28,Shanghai Jiao Tong University,China,73.9,73.3,68.7,74.9,100.0,80.1,https://www.timeshighereducation.com/world-university-rankings/shanghai-jiao-tong-university
+29,29,Technical University of Munich,Germany,71.2,59.8,74.1,76.3,86.4,78.4,https://www.timeshighereducation.com/world-university-rankings/technical-university-munich
+=30,30,The Hong Kong University of Science and Technology,Hong Kong,71.1,54.6,71.1,77.8,99.4,95.8,https://www.timeshighereducation.com/world-university-rankings/hong-kong-university-science-and-technology
+32,32,University of Melbourne,Australia,70.8,63.0,69.5,70.8,89.3,93.4,https://www.timeshighereducation.com/world-university-rankings/university-melbourne
+33,33,University of Mannheim,Germany,70.0,64.2,68.9,72.5,91.9,76.4,https://www.timeshighereducation.com/world-university-rankings/university-mannheim
+34,34,"Nanyang Technological University, Singapore",Singapore,69.8,60.6,66.2,77.3,82.0,87.4,https://www.timeshighereducation.com/world-university-rankings/nanyang-technological-university-singapore
+35,35,University of Warwick,United Kingdom,69.5,63.5,64.5,74.1,64.5,96.4,https://www.timeshighereducation.com/world-university-rankings/university-warwick
+36,36,City University of Hong Kong,Hong Kong,69.1,55.0,61.8,80.2,99.9,98.9,https://www.timeshighereducation.com/world-university-rankings/city-university-hong-kong
+=36,36,University of British Columbia,Canada,69.1,60.4,69.7,70.3,67.0,93.3,https://www.timeshighereducation.com/world-university-rankings/university-british-columbia
+38,38,Zhejiang University,China,69.0,64.2,56.7,81.0,100.0,81.1,https://www.timeshighereducation.com/world-university-rankings/zhejiang-university
+39,39,LMU Munich,Germany,68.8,60.7,72.1,67.2,97.0,76.3,https://www.timeshighereducation.com/world-university-rankings/lmu-munich
+40,40,University of Hong Kong,Hong Kong,68.5,54.5,63.9,80.0,75.1,96.6,https://www.timeshighereducation.com/world-university-rankings/university-hong-kong
+41,41,University of Manchester,United Kingdom,68.0,57.8,61.6,79.2,68.1,94.0,https://www.timeshighereducation.com/world-university-rankings/university-manchester
+42,42,The Chinese University of Hong Kong,Hong Kong,67.8,55.6,68.0,72.8,77.8,89.5,https://www.timeshighereducation.com/world-university-rankings/chinese-university-hong-kong
+43,43,University of Minnesota,United States,67.5,61.6,72.9,72.2,80.2,49.9,https://www.timeshighereducation.com/world-university-rankings/university-minnesota
+44,44,University of Washington,United States,67.4,61.8,63.0,75.1,67.2,80.4,https://www.timeshighereducation.com/world-university-rankings/university-washington
+45,45,"University of California, San Diego",United States,66.5,58.6,56.4,80.8,100.0,74.3,https://www.timeshighereducation.com/world-university-rankings/university-california-san-diego
+46,46,Boston University,United States,65.9,57.7,57.5,82.1,61.2,80.7,https://www.timeshighereducation.com/world-university-rankings/boston-university
+=47,47,Michigan State University,United States,65.6,54.5,66.8,75.5,74.5,67.4,https://www.timeshighereducation.com/world-university-rankings/michigan-state-university
+=47,47,Tilburg University,Netherlands,65.6,53.3,66.4,68.2,99.2,82.8,https://www.timeshighereducation.com/world-university-rankings/tilburg-university
+=47,47,University of Southern California,United States,65.6,54.5,61.1,81.1,69.2,74.8,https://www.timeshighereducation.com/world-university-rankings/university-southern-california
+50,50,University of Texas at Austin,United States,65.4,60.7,64.9,76.0,79.0,47.4,https://www.timeshighereducation.com/world-university-rankings/university-texas-austin
+51,51,Dartmouth College,United States,64.7,71.2,38.6,89.4,68.2,64.6,https://www.timeshighereducation.com/world-university-rankings/dartmouth-college
+52,52,The University of Sydney,Australia,63.8,57.3,54.7,71.6,80.4,89.2,https://www.timeshighereducation.com/world-university-rankings/university-sydney
+=53,53,KU Leuven,Belgium,63.6,49.7,63.0,71.3,100.0,75.4,https://www.timeshighereducation.com/world-university-rankings/ku-leuven
+=53,53,University of Wisconsin-Madison,United States,63.6,58.5,68.8,63.4,69.5,60.5,https://www.timeshighereducation.com/world-university-rankings/university-wisconsin-madison
+55,55,"University of California, Davis",United States,63.5,53.1,56.5,76.2,70.5,84.3,https://www.timeshighereducation.com/world-university-rankings/university-california-davis
+56,56,The University of Queensland,Australia,63.1,40.6,57.9,83.3,79.6,93.4,https://www.timeshighereducation.com/world-university-rankings/university-queensland
+57,57,Korea University,South Korea,62.7,59.0,56.2,62.5,99.9,82.2,https://www.timeshighereducation.com/world-university-rankings/korea-university
+58,58,Monash University,Australia,62.5,49.2,56.6,73.6,72.6,93.5,https://www.timeshighereducation.com/world-university-rankings/monash-university
+59,59,University of Toulouse,France,62.1,48.2,59.4,72.2,83.5,81.2,https://www.timeshighereducation.com/world-university-rankings/university-toulouse
+60,60,University of Edinburgh,United Kingdom,61.9,52.1,48.9,77.6,68.8,94.3,https://www.timeshighereducation.com/world-university-rankings/university-edinburgh
+61,61,Texas A&M University,United States,61.7,50.5,61.1,71.7,94.1,59.9,https://www.timeshighereducation.com/world-university-rankings/texas-am-university
+62,62,University of Illinois at Urbana-Champaign,United States,61.6,52.3,56.2,76.5,68.4,67.2,https://www.timeshighereducation.com/world-university-rankings/university-illinois-urbana-champaign
+63,63,King’s College London,United Kingdom,61.5,51.1,52.3,74.9,59.5,93.3,https://www.timeshighereducation.com/world-university-rankings/kings-college-london
+64,64,University of Virginia (Main campus),United States,61.1,60.4,37.3,88.7,70.6,66.6,https://www.timeshighereducation.com/world-university-rankings/university-virginia-main-campus
+65,65,Aalto University,Finland,60.7,45.7,52.4,80.8,91.9,70.4,https://www.timeshighereducation.com/world-university-rankings/aalto-university
+=66,66,Johns Hopkins University,United States,60.4,53.9,53.7,64.8,71.4,89.3,https://www.timeshighereducation.com/world-university-rankings/johns-hopkins-university
+=66,66,University of St Gallen,Switzerland,60.4,54.7,38.9,79.8,84.1,90.9,https://www.timeshighereducation.com/world-university-rankings/university-st-gallen
+68,68,Seoul National University,South Korea,60.2,62.6,63.7,51.6,100.0,46.0,https://www.timeshighereducation.com/world-university-rankings/seoul-national-university
+69,69,University of Groningen,Netherlands,59.7,36.0,54.7,81.2,88.2,84.8,https://www.timeshighereducation.com/world-university-rankings/university-groningen
+=70,70,Australian National University,Australia,59.5,49.1,51.0,68.9,69.8,93.7,https://www.timeshighereducation.com/world-university-rankings/australian-national-university
+=70,70,"University of Maryland, College Park",United States,59.5,48.4,58.6,74.4,67.6,54.8,https://www.timeshighereducation.com/world-university-rankings/university-maryland-college-park
+72,72,Arizona State University (Tempe),United States,59.1,41.9,54.3,81.3,67.6,68.5,https://www.timeshighereducation.com/world-university-rankings/arizona-state-university-tempe
+73,73,University of Bonn,Germany,59.0,50.1,61.9,58.8,53.4,82.2,https://www.timeshighereducation.com/world-university-rankings/university-bonn
+74,74,Purdue University West Lafayette,United States,58.9,51.8,52.1,67.9,73.6,75.7,https://www.timeshighereducation.com/world-university-rankings/purdue-university-west-lafayette
+75,75,Lomonosov Moscow State University,Russian Federation,58.8,71.4,58.5,38.8,70.6,67.7,https://www.timeshighereducation.com/world-university-rankings/lomonosov-moscow-state-university
+=76,76,University of Bologna,Italy,58.6,50.9,52.1,69.8,80.6,66.7,https://www.timeshighereducation.com/world-university-rankings/university-bologna
+=76,76,University of Glasgow,United Kingdom,58.6,45.2,43.4,81.3,60.3,93.9,https://www.timeshighereducation.com/world-university-rankings/university-glasgow
+78,78,Maastricht University,Netherlands,58.3,48.7,41.5,72.0,93.3,95.9,https://www.timeshighereducation.com/world-university-rankings/maastricht-university
+=79,79,University of Massachusetts,United States,58.2,56.6,47.0,68.2,70.7,69.9,https://www.timeshighereducation.com/world-university-rankings/university-massachusetts
+=79,79,Yonsei University (Seoul campus),South Korea,58.2,49.1,48.1,76.1,76.2,66.4,https://www.timeshighereducation.com/world-university-rankings/yonsei-university-seoul-campus
+=81,81,Abu Dhabi University,United Arab Emirates,57.9,42.9,32.9,97.4,35.1,96.8,https://www.timeshighereducation.com/world-university-rankings/abu-dhabi-university
+=81,81,Lund University,Sweden,57.9,37.8,49.5,82.1,97.2,70.7,https://www.timeshighereducation.com/world-university-rankings/lund-university
+=83,83,HSE University,Russian Federation,57.8,57.4,58.3,55.7,88.1,49.3,https://www.timeshighereducation.com/world-university-rankings/hse-university
+=83,83,Pompeu Fabra University,Spain,57.8,49.4,59.9,56.8,69.0,76.4,https://www.timeshighereducation.com/world-university-rankings/pompeu-fabra-university
+=85,85,Indiana University,United States,57.7,49.0,48.5,73.8,80.5,64.9,https://www.timeshighereducation.com/world-university-rankings/indiana-university
+=85,85,Western University,Canada,57.7,53.4,38.2,70.4,91.6,90.3,https://www.timeshighereducation.com/world-university-rankings/western-university
+87,87,University of Reading,United Kingdom,57.5,37.3,38.8,90.9,69.9,92.8,https://www.timeshighereducation.com/world-university-rankings/university-reading
+=88,88,University of Nottingham,United Kingdom,57.3,43.3,40.7,80.5,66.3,94.9,https://www.timeshighereducation.com/world-university-rankings/university-nottingham
+=88,88,UNSW Sydney,Australia,57.3,43.0,47.6,71.1,76.3,92.4,https://www.timeshighereducation.com/world-university-rankings/unsw-sydney
+90,90,Lancaster University,United Kingdom,57.2,44.1,42.0,76.4,67.4,96.4,https://www.timeshighereducation.com/world-university-rankings/lancaster-university
+91,91,McGill University,Canada,57.1,46.7,45.0,68.3,80.1,93.6,https://www.timeshighereducation.com/world-university-rankings/mcgill-university
+92,92,University of Navarra,Spain,57.0,56.1,38.4,68.6,54.3,93.8,https://www.timeshighereducation.com/world-university-rankings/university-navarra
+=93,93,University of Amsterdam,Netherlands,56.9,43.9,45.9,72.1,72.9,90.3,https://www.timeshighereducation.com/world-university-rankings/university-amsterdam
+=93,93,University of Science and Technology of China,China,56.9,39.2,40.8,84.5,99.9,77.8,https://www.timeshighereducation.com/world-university-rankings/university-science-and-technology-china
+=95,95,University of Florida,United States,56.8,38.8,59.0,77.8,68.4,46.9,https://www.timeshighereducation.com/world-university-rankings/university-florida
+=95,95,University of North Carolina at Chapel Hill,United States,56.8,44.6,54.9,72.5,68.8,55.6,https://www.timeshighereducation.com/world-university-rankings/university-north-carolina-chapel-hill
+97,97,Penn State (Main campus),United States,56.7,47.8,55.3,67.4,67.2,58.0,https://www.timeshighereducation.com/world-university-rankings/penn-state-main-campus
+98,98,Sungkyunkwan University (SKKU),South Korea,56.6,49.5,47.9,62.3,97.4,78.0,https://www.timeshighereducation.com/world-university-rankings/sungkyunkwan-university-skku
+99,99,University of Birmingham,United Kingdom,56.1,42.4,36.2,82.0,68.2,95.4,https://www.timeshighereducation.com/world-university-rankings/university-birmingham
+100,100,University of Surrey,United Kingdom,56.0,33.1,36.5,91.4,66.1,98.2,https://www.timeshighereducation.com/world-university-rankings/university-surrey
+101–125,101,Adelaide University,Australia,55.9,30.9,41.2,76.9,99.4,93.2,https://www.timeshighereducation.com/world-university-rankings/adelaide-university
+101–125,101,Beijing Institute of Technology,China,55.9,29.6,31.0,97.9,92.9,66.8,https://www.timeshighereducation.com/world-university-rankings/beijing-institute-technology
+101–125,101,Boston College,United States,55.9,51.4,29.5,77.0,59.2,65.6,https://www.timeshighereducation.com/world-university-rankings/boston-college
+101–125,101,"City St George's, University of London",United Kingdom,55.9,40.4,36.4,70.2,53.0,96.9,https://www.timeshighereducation.com/world-university-rankings/city-st-georgesuniversity-oflondon
+101–125,101,Durham University,United Kingdom,55.9,32.6,34.2,83.5,44.9,97.6,https://www.timeshighereducation.com/world-university-rankings/durham-university
+101–125,101,Griffith University,Australia,55.9,32.3,38.1,81.4,82.2,88.5,https://www.timeshighereducation.com/world-university-rankings/griffith-university
+101–125,101,Institut Polytechnique de Paris,France,55.9,47.1,43.5,61.7,99.6,84.5,https://www.timeshighereducation.com/world-university-rankings/institut-polytechnique-de-paris
+101–125,101,Kyoto University,Japan,55.9,50.5,60.5,47.2,99.4,59.2,https://www.timeshighereducation.com/world-university-rankings/kyoto-university
+101–125,101,Macquarie University,Australia,55.9,29.6,31.2,85.5,97.7,90.3,https://www.timeshighereducation.com/world-university-rankings/macquarie-university
+101–125,101,Nanjing University,China,55.9,43.9,38.8,78.2,98.3,63.7,https://www.timeshighereducation.com/world-university-rankings/nanjing-university
+101–125,101,National Taiwan University (NTU),Taiwan,55.9,41.9,49.6,64.7,100.0,57.0,https://www.timeshighereducation.com/world-university-rankings/national-taiwan-university-ntu
+101–125,101,Ohio State University (Main campus),United States,55.9,37.9,56.0,68.3,68.3,63.1,https://www.timeshighereducation.com/world-university-rankings/ohio-state-university-main-campus
+101–125,101,Paris Sciences et Lettres – PSL Research University Paris,France,55.9,48.9,50.8,56.6,75.4,58.4,https://www.timeshighereducation.com/world-university-rankings/paris-sciences-et-lettres-psl-research-university-paris
+101–125,101,Politecnico di Milano,Italy,55.9,36.1,48.7,75.5,98.6,48.0,https://www.timeshighereducation.com/world-university-rankings/politecnico-di-milano
+101–125,101,Tongji University,China,55.9,32.3,36.7,80.3,100.0,87.5,https://www.timeshighereducation.com/world-university-rankings/tongji-university
+101–125,101,Trinity College Dublin,Ireland,55.9,38.2,31.5,88.4,61.6,89.7,https://www.timeshighereducation.com/world-university-rankings/trinity-college-dublin
+101–125,101,Université de Montréal,Canada,55.9,45.5,42.9,66.8,92.4,76.8,https://www.timeshighereducation.com/world-university-rankings/universite-de-montreal
+101–125,101,Universiti Teknologi Petronas,Malaysia,55.9,33.8,31.5,95.1,99.9,69.9,https://www.timeshighereducation.com/world-university-rankings/universiti-teknologi-petronas
+101–125,101,University of Bath,United Kingdom,55.9,42.9,35.3,79.6,62.8,94.8,https://www.timeshighereducation.com/world-university-rankings/university-bath
+101–125,101,University of Leeds,United Kingdom,55.9,38.9,41.8,75.8,67.1,94.2,https://www.timeshighereducation.com/world-university-rankings/university-leeds
+101–125,101,University of Liverpool,United Kingdom,55.9,38.9,36.2,72.6,59.6,96.9,https://www.timeshighereducation.com/world-university-rankings/university-liverpool
+101–125,101,University of Malaya,Malaysia,55.9,43.3,43.5,66.7,72.7,76.9,https://www.timeshighereducation.com/world-university-rankings/university-malaya
+101–125,101,University of Southampton,United Kingdom,55.9,32.5,32.9,90.3,67.0,98.3,https://www.timeshighereducation.com/world-university-rankings/university-southampton
+101–125,101,University of Vienna,Austria,55.9,43.5,53.5,59.3,71.7,89.6,https://www.timeshighereducation.com/world-university-rankings/university-vienna
+101–125,101,University of York,United Kingdom,55.9,39.2,41.2,66.6,56.4,93.2,https://www.timeshighereducation.com/world-university-rankings/university-york
+101–125,101,Ural Federal University,Russian Federation,55.9,32.9,38.6,86.5,54.5,82.2,https://www.timeshighereducation.com/world-university-rankings/ural-federal-university
+101–125,101,Washington University in St Louis,United States,55.9,49.0,39.5,68.8,63.4,86.1,https://www.timeshighereducation.com/world-university-rankings/washington-university-st-louis
+101–125,101,Xi’an Jiaotong University,China,55.9,39.6,39.5,83.3,98.8,57.3,https://www.timeshighereducation.com/world-university-rankings/xian-jiaotong-university
+126–150,126,Aarhus University,Denmark,52.1,34.7,42.0,71.6,92.7,69.7,https://www.timeshighereducation.com/world-university-rankings/aarhus-university
+126–150,126,George Washington University,United States,52.1,40.3,33.7,78.2,68.6,76.2,https://www.timeshighereducation.com/world-university-rankings/george-washington-university
+126–150,126,Hamburg University of Technology,Germany,52.1,29.0,26.5,95.7,79.8,64.7,https://www.timeshighereducation.com/world-university-rankings/hamburg-university-technology
+126–150,126,Harbin Institute of Technology,China,52.1,36.5,37.5,77.4,97.7,46.6,https://www.timeshighereducation.com/world-university-rankings/harbin-institute-technology
+126–150,126,Kyung Hee University,South Korea,52.1,29.3,31.2,80.8,100.0,86.6,https://www.timeshighereducation.com/world-university-rankings/kyung-hee-university
+126–150,126,Lebanese American University,Lebanon,52.1,29.9,32.7,96.9,28.2,77.6,https://www.timeshighereducation.com/world-university-rankings/lebanese-american-university
+126–150,126,Sichuan University,China,52.1,32.3,38.6,76.8,100.0,56.8,https://www.timeshighereducation.com/world-university-rankings/sichuan-university
+126–150,126,Sun Yat-sen University,China,52.1,32.2,43.4,77.7,96.6,52.8,https://www.timeshighereducation.com/world-university-rankings/sun-yat-sen-university
+126–150,126,Universitat Autònoma de Barcelona (UAB),Spain,52.1,39.4,38.1,68.2,54.0,75.8,https://www.timeshighereducation.com/world-university-rankings/universitat-autonoma-de-barcelona-uab
+126–150,126,University of Alberta,Canada,52.1,26.2,40.0,74.6,97.2,92.7,https://www.timeshighereducation.com/world-university-rankings/university-alberta
+126–150,126,University of Auckland,New Zealand,52.1,28.2,31.7,82.0,69.6,90.1,https://www.timeshighereducation.com/world-university-rankings/university-auckland
+126–150,126,University of Cologne,Germany,52.1,40.0,48.1,63.9,59.1,68.7,https://www.timeshighereducation.com/world-university-rankings/university-cologne
+126–150,126,University of Essex,United Kingdom,52.1,29.9,31.2,82.3,46.5,97.6,https://www.timeshighereducation.com/world-university-rankings/university-essex
+126–150,126,University of Georgia (USA),United States,52.1,32.4,46.4,75.3,67.1,46.6,https://www.timeshighereducation.com/world-university-rankings/university-georgia-usa
+126–150,126,University of Hamburg,Germany,52.1,34.2,43.9,72.5,90.6,52.9,https://www.timeshighereducation.com/world-university-rankings/university-hamburg
+126–150,126,University of Lausanne,Switzerland,52.1,34.7,43.5,61.8,82.1,85.5,https://www.timeshighereducation.com/world-university-rankings/university-lausanne
+126–150,126,University of São Paulo,Brazil,52.1,53.2,52.2,47.0,92.2,32.6,https://www.timeshighereducation.com/world-university-rankings/university-sao-paulo
+126–150,126,University of Sussex,United Kingdom,52.1,27.7,36.5,81.0,60.8,94.4,https://www.timeshighereducation.com/world-university-rankings/university-sussex
+126–150,126,University of Technology Sydney,Australia,52.1,29.3,35.5,76.8,93.7,88.8,https://www.timeshighereducation.com/world-university-rankings/university-technology-sydney
+126–150,126,University of Twente,Netherlands,52.1,30.4,30.6,80.0,99.8,89.1,https://www.timeshighereducation.com/world-university-rankings/university-twente
+126–150,126,Vanderbilt University,United States,52.1,49.6,31.8,74.2,67.1,54.6,https://www.timeshighereducation.com/world-university-rankings/vanderbilt-university
+126–150,126,Vrije Universiteit Amsterdam,Netherlands,52.1,36.4,36.6,74.4,68.5,81.2,https://www.timeshighereducation.com/world-university-rankings/vrije-universiteit-amsterdam
+126–150,126,Wuhan University,China,52.1,36.4,31.4,85.8,94.9,47.3,https://www.timeshighereducation.com/world-university-rankings/wuhan-university
+126–150,126,Xiamen University,China,52.1,38.1,34.9,80.8,80.3,44.8,https://www.timeshighereducation.com/world-university-rankings/xiamen-university
+151–175,151,Aston University,United Kingdom,49.9,23.4,21.8,94.9,62.8,90.6,https://www.timeshighereducation.com/world-university-rankings/aston-university
+151–175,151,Beijing Normal University,China,49.9,37.4,32.6,74.6,94.7,60.2,https://www.timeshighereducation.com/world-university-rankings/beijing-normal-university
+151–175,151,Central South University,China,49.9,28.6,29.2,95.3,100.0,46.6,https://www.timeshighereducation.com/world-university-rankings/central-south-university
+151–175,151,Ghent University,Belgium,49.9,27.7,39.9,75.8,94.3,52.8,https://www.timeshighereducation.com/world-university-rankings/ghent-university
+151–175,151,Hong Kong Baptist University,Hong Kong,49.9,27.7,28.6,81.3,70.4,95.1,https://www.timeshighereducation.com/world-university-rankings/hong-kong-baptist-university
+151–175,151,Johannes Kepler University of Linz,Austria,49.9,28.6,28.6,82.7,91.2,70.4,https://www.timeshighereducation.com/world-university-rankings/johannes-kepler-university-linz
+151–175,151,King Fahd University of Petroleum and Minerals,Saudi Arabia,49.9,25.7,29.6,87.4,89.4,78.6,https://www.timeshighereducation.com/world-university-rankings/king-fahd-university-petroleum-and-minerals
+151–175,151,KTH Royal Institute of Technology,Sweden,49.9,30.0,38.2,72.1,74.4,75.7,https://www.timeshighereducation.com/world-university-rankings/kth-royal-institute-technology
+151–175,151,LUT University,Finland,49.9,24.0,32.0,97.3,72.9,54.5,https://www.timeshighereducation.com/world-university-rankings/lut-university
+151–175,151,Macau University of Science and Technology,Macao,49.9,24.5,30.5,79.4,93.5,90.3,https://www.timeshighereducation.com/world-university-rankings/macau-university-science-and-technology
+151–175,151,Pusan National University,South Korea,49.9,24.6,28.7,87.1,99.4,75.7,https://www.timeshighereducation.com/world-university-rankings/pusan-national-university
+151–175,151,Sant’Anna School of Advanced Studies – Pisa,Italy,49.9,36.8,30.8,84.9,75.5,42.9,https://www.timeshighereducation.com/world-university-rankings/santanna-school-advanced-studies-pisa
+151–175,151,Sejong University,South Korea,49.9,29.6,23.0,92.8,71.9,67.9,https://www.timeshighereducation.com/world-university-rankings/sejong-university
+151–175,151,Sunway University,Malaysia,49.9,25.8,25.2,93.3,70.0,85.2,https://www.timeshighereducation.com/world-university-rankings/sunway-university
+151–175,151,Swansea University,United Kingdom,49.9,20.9,23.2,98.1,52.5,93.1,https://www.timeshighereducation.com/world-university-rankings/swansea-university
+151–175,151,Swinburne University of Technology,Australia,49.9,24.2,22.2,97.0,75.2,76.5,https://www.timeshighereducation.com/world-university-rankings/swinburne-university-technology
+151–175,151,Technical University of Berlin,Germany,49.9,30.6,38.5,73.9,100.0,52.0,https://www.timeshighereducation.com/world-university-rankings/technical-university-berlin
+151–175,151,Tianjin University,China,49.9,31.4,37.6,76.8,100.0,56.0,https://www.timeshighereducation.com/world-university-rankings/tianjin-university
+151–175,151,United Arab Emirates University,United Arab Emirates,49.9,21.8,29.4,90.2,73.3,82.2,https://www.timeshighereducation.com/world-university-rankings/united-arab-emirates-university
+151–175,151,Universitat Ramon Llull,Spain,49.9,38.3,26.5,79.8,34.7,80.1,https://www.timeshighereducation.com/world-university-rankings/universitat-ramon-llull
+151–175,151,Université Paris-Saclay,France,49.9,39.2,43.6,57.1,70.7,66.4,https://www.timeshighereducation.com/world-university-rankings/universite-paris-saclay
+151–175,151,Universiti Sains Malaysia,Malaysia,49.9,32.1,30.7,83.6,65.0,72.4,https://www.timeshighereducation.com/world-university-rankings/universiti-sains-malaysia
+151–175,151,University of Antwerp,Belgium,49.9,28.7,38.1,73.5,97.1,61.4,https://www.timeshighereducation.com/world-university-rankings/university-antwerp
+151–175,151,University of Bristol,United Kingdom,49.9,32.1,27.9,81.4,52.4,92.5,https://www.timeshighereducation.com/world-university-rankings/university-bristol
+151–175,151,University of Newcastle,Australia,49.9,19.3,23.2,97.0,64.2,93.1,https://www.timeshighereducation.com/world-university-rankings/university-newcastle
+151–175,151,University of Notre Dame,United States,49.9,31.9,35.0,77.4,66.2,62.7,https://www.timeshighereducation.com/world-university-rankings/university-notre-dame
+151–175,151,University of Sheffield,United Kingdom,49.9,26.7,29.3,85.3,64.5,93.6,https://www.timeshighereducation.com/world-university-rankings/university-sheffield
+151–175,151,University of Strathclyde,United Kingdom,49.9,35.0,31.8,72.1,65.6,89.6,https://www.timeshighereducation.com/world-university-rankings/university-strathclyde
+176–200,176,Cardiff University,United Kingdom,48.1,28.4,33.8,69.6,66.6,88.8,https://www.timeshighereducation.com/world-university-rankings/cardiff-university
+176–200,176,Carlos III University of Madrid,Spain,48.1,45.1,39.4,52.4,51.7,71.8,https://www.timeshighereducation.com/world-university-rankings/carlos-iii-university-madrid
+176–200,176,Chalmers University of Technology,Sweden,48.1,26.0,34.4,83.8,81.7,48.7,https://www.timeshighereducation.com/world-university-rankings/chalmers-university-technology
+176–200,176,Free University of Berlin,Germany,48.1,36.2,42.8,58.6,78.6,59.9,https://www.timeshighereducation.com/world-university-rankings/free-university-berlin
+176–200,176,Huazhong University of Science and Technology,China,48.1,29.5,32.1,84.0,87.2,49.1,https://www.timeshighereducation.com/world-university-rankings/huazhong-university-science-and-technology
+176–200,176,Karlsruhe Institute of Technology,Germany,48.1,28.6,38.0,73.2,100.0,49.7,https://www.timeshighereducation.com/world-university-rankings/karlsruhe-institute-technology
+176–200,176,Korea Advanced Institute of Science and Technology (KAIST),South Korea,48.1,43.3,40.5,56.3,78.5,47.9,https://www.timeshighereducation.com/world-university-rankings/korea-advanced-institute-science-and-technology-kaist
+176–200,176,"Northeastern University, US",United States,48.1,31.9,28.6,75.5,66.2,79.5,https://www.timeshighereducation.com/world-university-rankings/northeastern-university-us
+176–200,176,Qatar University,Qatar,48.1,20.7,28.1,93.0,55.2,79.6,https://www.timeshighereducation.com/world-university-rankings/qatar-university
+176–200,176,RMIT University,Australia,48.1,25.3,30.2,77.2,75.5,89.9,https://www.timeshighereducation.com/world-university-rankings/rmit-university
+176–200,176,Stockholm University,Sweden,48.1,30.0,40.7,68.5,85.5,57.7,https://www.timeshighereducation.com/world-university-rankings/stockholm-university
+176–200,176,Temple University,United States,48.1,35.8,28.5,82.2,59.8,49.4,https://www.timeshighereducation.com/world-university-rankings/temple-university
+176–200,176,Universiti Teknologi Malaysia,Malaysia,48.1,32.2,28.6,77.6,72.8,76.9,https://www.timeshighereducation.com/world-university-rankings/universiti-teknologi-malaysia
+176–200,176,University of Arizona,United States,48.1,30.9,41.4,75.0,67.9,43.2,https://www.timeshighereducation.com/world-university-rankings/university-arizona
+176–200,176,University of Bayreuth,Germany,48.1,25.6,34.2,80.3,97.5,55.6,https://www.timeshighereducation.com/world-university-rankings/university-bayreuth
+176–200,176,University of Exeter,United Kingdom,48.1,25.7,27.9,80.5,58.1,96.0,https://www.timeshighereducation.com/world-university-rankings/university-exeter
+176–200,176,University of Johannesburg,South Africa,48.1,24.7,33.7,81.6,70.5,74.7,https://www.timeshighereducation.com/world-university-rankings/university-johannesburg
+176–200,176,University of Macau,Macao,48.1,29.0,35.0,69.9,70.5,85.2,https://www.timeshighereducation.com/world-university-rankings/university-macau
+176–200,176,University of Nicosia,Cyprus,48.1,16.7,23.6,95.6,82.6,85.0,https://www.timeshighereducation.com/world-university-rankings/university-nicosia
+176–200,176,University of Wollongong,Australia,48.1,22.0,30.2,77.1,94.9,90.7,https://www.timeshighereducation.com/world-university-rankings/university-wollongong
+176–200,176,Worcester Polytechnic Institute,United States,48.1,27.7,20.2,95.9,66.9,69.6,https://www.timeshighereducation.com/world-university-rankings/worcester-polytechnic-institute
+201–250,201,Aalborg University,Denmark,47.1,24.9,35.3,68.6,75.5,67.4,https://www.timeshighereducation.com/world-university-rankings/aalborg-university
+201–250,201,"Asia University, Taiwan",Taiwan,47.1,16.6,28.2,93.5,84.3,58.7,https://www.timeshighereducation.com/world-university-rankings/asia-university-taiwan
+201–250,201,Beihang University,China,47.1,27.7,27.4,79.6,97.4,53.6,https://www.timeshighereducation.com/world-university-rankings/beihang-university
+201–250,201,Bilkent University,Turkey,47.1,32.2,31.1,67.7,83.5,58.2,https://www.timeshighereducation.com/world-university-rankings/bilkent-university
+201–250,201,Charles University,Czechia,47.1,34.8,36.9,52.4,77.8,78.2,https://www.timeshighereducation.com/world-university-rankings/charles-university
+201–250,201,Curtin University,Australia,47.1,24.8,23.0,81.5,65.6,96.1,https://www.timeshighereducation.com/world-university-rankings/curtin-university
+201–250,201,Deakin University,Australia,47.1,22.2,25.5,75.4,80.5,91.6,https://www.timeshighereducation.com/world-university-rankings/deakin-university
+201–250,201,Dublin City University,Ireland,47.1,17.9,22.6,98.1,63.6,75.9,https://www.timeshighereducation.com/world-university-rankings/dublin-city-university
+201–250,201,Edith Cowan University,Australia,47.1,19.3,19.9,93.0,57.1,95.3,https://www.timeshighereducation.com/world-university-rankings/edith-cowan-university
+201–250,201,Emory University,United States,47.1,38.2,26.3,67.7,67.6,78.4,https://www.timeshighereducation.com/world-university-rankings/emory-university
+201–250,201,Free University of Bozen-Bolzano,Italy,47.1,20.4,21.8,97.9,51.4,82.7,https://www.timeshighereducation.com/world-university-rankings/free-university-bozen-bolzano
+201–250,201,Hanyang University,South Korea,47.1,34.0,29.1,66.8,89.3,71.1,https://www.timeshighereducation.com/world-university-rankings/hanyang-university
+201–250,201,Jiangsu University,China,47.1,25.6,18.0,90.3,69.1,67.7,https://www.timeshighereducation.com/world-university-rankings/jiangsu-university
+201–250,201,King Khalid University,Saudi Arabia,47.1,30.1,22.6,79.0,53.0,81.0,https://www.timeshighereducation.com/world-university-rankings/king-khalid-university
+201–250,201,La Trobe University,Australia,47.1,23.1,30.1,76.2,60.4,89.7,https://www.timeshighereducation.com/world-university-rankings/la-trobe-university
+201–250,201,Loughborough University,United Kingdom,47.1,29.5,25.5,74.7,66.8,88.8,https://www.timeshighereducation.com/world-university-rankings/loughborough-university
+201–250,201,Middle East Technical University,Turkey,47.1,40.3,35.1,60.5,74.0,62.5,https://www.timeshighereducation.com/world-university-rankings/middle-east-technical-university
+201–250,201,Nankai University,China,47.1,32.5,26.0,76.6,75.4,56.7,https://www.timeshighereducation.com/world-university-rankings/nankai-university
+201–250,201,Newcastle University,United Kingdom,47.1,22.2,25.7,87.2,58.4,90.0,https://www.timeshighereducation.com/world-university-rankings/newcastle-university
+201–250,201,Norwegian University of Science and Technology,Norway,47.1,23.9,28.9,83.9,86.6,55.0,https://www.timeshighereducation.com/world-university-rankings/norwegian-university-science-and-technology
+201–250,201,NOVA University of Lisbon,Portugal,47.1,27.8,35.2,68.4,79.8,77.5,https://www.timeshighereducation.com/world-university-rankings/nova-university-lisbon
+201–250,201,Panthéon-Sorbonne University – Paris 1,France,47.1,39.7,39.9,53.2,52.2,64.8,https://www.timeshighereducation.com/world-university-rankings/pantheon-sorbonne-university-paris-1
+201–250,201,Queen Mary University of London,United Kingdom,47.1,25.4,25.2,77.6,65.0,96.3,https://www.timeshighereducation.com/world-university-rankings/queen-mary-university-london
+201–250,201,Queensland University of Technology,Australia,47.1,23.0,31.8,76.6,80.2,78.5,https://www.timeshighereducation.com/world-university-rankings/queensland-university-technology
+201–250,201,Rice University,United States,47.1,43.1,32.4,57.4,64.7,75.3,https://www.timeshighereducation.com/world-university-rankings/rice-university
+201–250,201,Sapienza University of Rome,Italy,47.1,38.6,32.8,69.8,91.4,37.8,https://www.timeshighereducation.com/world-university-rankings/sapienza-university-rome
+201–250,201,Shandong University,China,47.1,30.2,22.9,80.5,91.5,53.0,https://www.timeshighereducation.com/world-university-rankings/shandong-university
+201–250,201,The University of Western Australia,Australia,47.1,23.5,25.4,76.5,80.7,90.5,https://www.timeshighereducation.com/world-university-rankings/university-western-australia
+201–250,201,Université Catholique de Louvain,Belgium,47.1,33.0,42.0,55.8,81.4,68.7,https://www.timeshighereducation.com/world-university-rankings/universite-catholique-de-louvain
+201–250,201,Universiti Putra Malaysia,Malaysia,47.1,33.5,33.7,66.6,62.5,71.7,https://www.timeshighereducation.com/world-university-rankings/universiti-putra-malaysia
+201–250,201,Universiti Utara Malaysia,Malaysia,47.1,38.2,29.3,74.5,38.5,66.8,https://www.timeshighereducation.com/world-university-rankings/universiti-utara-malaysia
+201–250,201,University College Dublin,Ireland,47.1,24.6,28.5,79.4,65.9,87.9,https://www.timeshighereducation.com/world-university-rankings/university-college-dublin
+201–250,201,University of Aberdeen,United Kingdom,47.1,26.6,20.0,80.2,56.9,97.3,https://www.timeshighereducation.com/world-university-rankings/university-aberdeen
+201–250,201,University of Bradford,United Kingdom,47.1,15.1,16.7,96.9,54.2,98.1,https://www.timeshighereducation.com/world-university-rankings/university-bradford
+201–250,201,"University of California, Irvine",United States,47.1,31.9,32.2,64.9,66.9,78.3,https://www.timeshighereducation.com/world-university-rankings/university-california-irvine
+201–250,201,University of Canterbury,New Zealand,47.1,17.9,25.7,88.9,54.9,81.9,https://www.timeshighereducation.com/world-university-rankings/university-canterbury
+201–250,201,University of Erlangen-Nuremberg,Germany,47.1,25.6,31.3,84.7,99.3,44.8,https://www.timeshighereducation.com/world-university-rankings/university-erlangen-nuremberg
+201–250,201,University of Geneva,Switzerland,47.1,30.8,25.5,72.7,74.7,92.5,https://www.timeshighereducation.com/world-university-rankings/university-geneva
+201–250,201,University of Innsbruck,Austria,47.1,27.9,33.1,65.3,94.2,89.3,https://www.timeshighereducation.com/world-university-rankings/university-innsbruck
+201–250,201,University of Passau,Germany,47.1,27.1,31.4,76.7,94.1,58.0,https://www.timeshighereducation.com/world-university-rankings/university-passau
+201–250,201,University of Rochester,United States,47.1,41.6,30.4,59.0,66.5,81.1,https://www.timeshighereducation.com/world-university-rankings/university-rochester
+201–250,201,University of Sharjah,United Arab Emirates,47.1,15.5,21.6,95.9,55.9,92.3,https://www.timeshighereducation.com/world-university-rankings/university-sharjah
+201–250,201,University of Southern Denmark,Denmark,47.1,19.1,28.5,84.4,79.2,81.3,https://www.timeshighereducation.com/world-university-rankings/university-southern-denmark
+201–250,201,University of Tehran,Iran,47.1,24.3,31.4,81.0,99.2,43.7,https://www.timeshighereducation.com/world-university-rankings/university-tehran
+201–250,201,University of Waikato,New Zealand,47.1,20.3,24.4,81.9,67.4,95.7,https://www.timeshighereducation.com/world-university-rankings/university-waikato
+201–250,201,University of Waterloo,Canada,47.1,30.7,29.6,73.5,67.7,81.0,https://www.timeshighereducation.com/world-university-rankings/university-waterloo
+201–250,201,Uppsala University,Sweden,47.1,29.0,41.6,69.1,72.8,50.6,https://www.timeshighereducation.com/world-university-rankings/uppsala-university
+201–250,201,Virginia Polytechnic Institute and State University,United States,47.1,27.9,32.9,78.4,67.7,59.2,https://www.timeshighereducation.com/world-university-rankings/virginia-polytechnic-institute-and-state-university
+201–250,201,York University,Canada,47.1,24.4,27.4,72.5,67.1,91.1,https://www.timeshighereducation.com/world-university-rankings/york-university
+251–300,251,Al Ain University,United Arab Emirates,44.8,21.2,24.2,78.9,17.4,97.4,https://www.timeshighereducation.com/world-university-rankings/al-ain-university
+251–300,251,American University of the Middle East,Kuwait,44.8,24.6,22.5,78.3,38.5,81.4,https://www.timeshighereducation.com/world-university-rankings/american-university-middle-east
+251–300,251,Boğaziçi University,Turkey,44.8,31.5,34.0,60.7,92.3,51.4,https://www.timeshighereducation.com/world-university-rankings/bogazici-university
+251–300,251,Bournemouth University,United Kingdom,44.8,19.3,20.8,88.3,52.7,89.8,https://www.timeshighereducation.com/world-university-rankings/bournemouth-university
+251–300,251,Brunel University of London,United Kingdom,44.8,20.1,21.3,81.8,64.2,97.6,https://www.timeshighereducation.com/world-university-rankings/brunel-university-london
+251–300,251,Central European University,Austria,44.8,27.6,24.9,70.5,45.8,93.3,https://www.timeshighereducation.com/world-university-rankings/central-european-university
+251–300,251,Dalian University of Technology,China,44.8,23.2,23.4,89.9,81.8,48.7,https://www.timeshighereducation.com/world-university-rankings/dalian-university-technology
+251–300,251,Georgetown University,United States,44.8,35.1,26.1,68.8,72.4,52.7,https://www.timeshighereducation.com/world-university-rankings/georgetown-university
+251–300,251,Georgia State University,United States,44.8,27.0,30.4,73.7,68.3,65.3,https://www.timeshighereducation.com/world-university-rankings/georgia-state-university
+251–300,251,Goethe University Frankfurt,Germany,44.8,35.6,35.8,53.8,75.8,64.0,https://www.timeshighereducation.com/world-university-rankings/goethe-university-frankfurt
+251–300,251,Jönköping University,Sweden,44.8,23.9,29.8,70.1,35.5,84.6,https://www.timeshighereducation.com/world-university-rankings/jonkoping-university
+251–300,251,Koç University,Turkey,44.8,32.3,37.0,51.7,99.8,65.2,https://www.timeshighereducation.com/world-university-rankings/koc-university
+251–300,251,Leuphana University of Lüneburg,Germany,44.8,22.8,28.9,87.6,56.5,49.0,https://www.timeshighereducation.com/world-university-rankings/leuphana-university-luneburg
+251–300,251,Massey University,New Zealand,44.8,20.8,21.1,74.2,71.9,90.0,https://www.timeshighereducation.com/world-university-rankings/massey-university
+251–300,251,McMaster University,Canada,44.8,25.6,23.4,69.1,72.8,88.4,https://www.timeshighereducation.com/world-university-rankings/mcmaster-university
+251–300,251,North Carolina State University,United States,44.8,23.6,36.8,69.6,79.4,47.3,https://www.timeshighereducation.com/world-university-rankings/north-carolina-state-university
+251–300,251,Northwestern Polytechnical University,China,44.8,26.6,27.1,74.0,99.5,58.3,https://www.timeshighereducation.com/world-university-rankings/northwestern-polytechnical-university
+251–300,251,Radboud University Nijmegen,Netherlands,44.8,24.6,32.9,73.3,54.2,66.6,https://www.timeshighereducation.com/world-university-rankings/radboud-university-nijmegen
+251–300,251,Roskilde University,Denmark,44.8,19.3,28.5,86.4,40.3,55.0,https://www.timeshighereducation.com/world-university-rankings/roskilde-university
+251–300,251,Shanghai University,China,44.8,24.2,27.1,74.1,87.0,57.8,https://www.timeshighereducation.com/world-university-rankings/shanghai-university
+251–300,251,SOAS University of London,United Kingdom,44.8,27.9,27.3,68.5,48.5,87.9,https://www.timeshighereducation.com/world-university-rankings/soas-university-london
+251–300,251,Southern University of Science and Technology (SUSTech),China,44.8,26.9,29.8,69.1,79.0,65.3,https://www.timeshighereducation.com/world-university-rankings/southern-university-science-and-technology-sustech
+251–300,251,Syracuse University,United States,44.8,25.5,29.9,64.3,89.5,66.8,https://www.timeshighereducation.com/world-university-rankings/syracuse-university
+251–300,251,Tecnológico de Monterrey,Mexico,44.8,32.1,27.2,66.7,77.9,64.2,https://www.timeshighereducation.com/world-university-rankings/tecnologico-de-monterrey
+251–300,251,The University of Jordan,Jordan,44.8,22.9,20.1,86.0,64.8,58.8,https://www.timeshighereducation.com/world-university-rankings/university-jordan
+251–300,251,The University of Osaka,Japan,44.8,39.8,39.5,43.1,72.0,65.6,https://www.timeshighereducation.com/world-university-rankings/university-osaka
+251–300,251,Universiti Brunei Darussalam,Brunei Darussalam,44.8,24.4,27.0,80.7,42.4,62.4,https://www.timeshighereducation.com/world-university-rankings/universiti-brunei-darussalam
+251–300,251,Universiti Kebangsaan Malaysia,Malaysia,44.8,30.8,32.5,62.2,79.3,69.1,https://www.timeshighereducation.com/world-university-rankings/universiti-kebangsaan-malaysia
+251–300,251,University of Barcelona,Spain,44.8,34.6,33.3,56.6,62.1,53.7,https://www.timeshighereducation.com/world-university-rankings/university-barcelona
+251–300,251,University of Bern,Switzerland,44.8,24.2,28.0,71.6,73.1,73.1,https://www.timeshighereducation.com/world-university-rankings/university-bern
+251–300,251,University of Cape Town,South Africa,44.8,29.1,34.0,61.2,58.6,64.9,https://www.timeshighereducation.com/world-university-rankings/university-cape-town
+251–300,251,University of Central Florida,United States,44.8,27.0,35.4,73.0,67.6,44.3,https://www.timeshighereducation.com/world-university-rankings/university-central-florida
+251–300,251,University of East Anglia,United Kingdom,44.8,22.6,18.5,82.1,59.2,94.8,https://www.timeshighereducation.com/world-university-rankings/university-east-anglia
+251–300,251,University of Hohenheim,Germany,44.8,26.5,31.9,69.9,77.7,50.2,https://www.timeshighereducation.com/world-university-rankings/university-hohenheim
+251–300,251,University of Huddersfield,United Kingdom,44.8,18.9,16.2,83.2,65.6,94.6,https://www.timeshighereducation.com/world-university-rankings/university-huddersfield
+251–300,251,University of International Business and Economics,China,44.8,31.9,17.7,84.9,47.3,51.7,https://www.timeshighereducation.com/world-university-rankings/university-international-business-and-economics
+251–300,251,University of Kent,United Kingdom,44.8,20.5,19.7,80.8,51.1,92.1,https://www.timeshighereducation.com/world-university-rankings/university-kent
+251–300,251,University of Konstanz,Germany,44.8,26.5,30.6,65.6,67.4,65.5,https://www.timeshighereducation.com/world-university-rankings/university-konstanz
+251–300,251,University of Luxembourg,Luxembourg,44.8,24.4,27.1,68.9,70.7,91.9,https://www.timeshighereducation.com/world-university-rankings/university-luxembourg
+251–300,251,University of Otago,New Zealand,44.8,27.7,24.2,78.6,52.5,76.7,https://www.timeshighereducation.com/world-university-rankings/university-otago
+251–300,251,University of Ottawa,Canada,44.8,25.1,26.9,70.0,66.3,89.6,https://www.timeshighereducation.com/world-university-rankings/university-ottawa
+251–300,251,University of Oulu,Finland,44.8,24.0,28.4,85.7,67.4,47.0,https://www.timeshighereducation.com/world-university-rankings/university-oulu
+251–300,251,University of Padua,Italy,44.8,24.0,33.0,69.7,77.0,53.2,https://www.timeshighereducation.com/world-university-rankings/university-padua
+251–300,251,University of Pittsburgh-Pittsburgh campus,United States,44.8,30.3,30.5,66.9,70.6,54.3,https://www.timeshighereducation.com/world-university-rankings/university-pittsburgh-pittsburgh-campus
+251–300,251,University of Portsmouth,United Kingdom,44.8,15.6,17.0,94.9,51.3,95.3,https://www.timeshighereducation.com/world-university-rankings/university-portsmouth
+251–300,251,University of Rome II – Tor Vergata,Italy,44.8,27.8,27.6,70.9,93.2,50.6,https://www.timeshighereducation.com/world-university-rankings/university-rome-ii-tor-vergata
+251–300,251,University of South Carolina-Columbia,United States,44.8,24.7,26.3,77.8,59.8,61.0,https://www.timeshighereducation.com/world-university-rankings/university-south-carolina-columbia
+251–300,251,University of South Florida,United States,44.8,23.9,22.8,80.4,68.7,70.2,https://www.timeshighereducation.com/world-university-rankings/university-south-florida
+251–300,251,University of Vaasa,Finland,44.8,16.5,25.0,90.9,48.0,60.9,https://www.timeshighereducation.com/world-university-rankings/university-vaasa
+251–300,251,Vrije Universiteit Brussel,Belgium,44.8,23.2,30.5,71.0,87.8,68.2,https://www.timeshighereducation.com/world-university-rankings/vrije-universiteit-brussel
+251–300,251,Zhejiang University of Technology,China,44.8,21.3,18.0,85.7,95.0,63.6,https://www.timeshighereducation.com/world-university-rankings/zhejiang-university-technology
+301–400,301,Ajman University,United Arab Emirates,42.4,26.1,21.5,67.3,32.8,98.2,https://www.timeshighereducation.com/world-university-rankings/ajman-university
+301–400,301,Al-Ahliyya Amman University,Jordan,42.4,16.5,17.9,87.4,49.2,86.8,https://www.timeshighereducation.com/world-university-rankings/al-ahliyya-amman-university
+301–400,301,"Amity University, Noida",India,42.4,25.0,18.8,76.6,68.9,46.4,https://www.timeshighereducation.com/world-university-rankings/amity-university-noida
+301–400,301,Applied Science Private University,Jordan,42.4,17.4,20.7,89.5,17.3,74.7,https://www.timeshighereducation.com/world-university-rankings/applied-science-private-university
+301–400,301,Auckland University of Technology,New Zealand,42.4,20.2,22.4,68.7,65.6,89.9,https://www.timeshighereducation.com/world-university-rankings/auckland-university-technology
+301–400,301,"Birkbeck, University of London",United Kingdom,42.4,21.8,21.3,66.5,67.1,95.3,https://www.timeshighereducation.com/world-university-rankings/birkbeck-university-london
+301–400,301,Ca’ Foscari University of Venice,Italy,42.4,29.7,26.4,66.3,76.4,55.3,https://www.timeshighereducation.com/world-university-rankings/ca-foscari-university-venice
+301–400,301,Central Queensland University,Australia,42.4,15.6,24.8,72.0,82.8,84.1,https://www.timeshighereducation.com/world-university-rankings/central-queensland-university
+301–400,301,Chongqing University,China,42.4,20.0,23.9,83.8,75.5,41.9,https://www.timeshighereducation.com/world-university-rankings/chongqing-university
+301–400,301,Chulalongkorn University,Thailand,42.4,26.6,29.3,58.4,88.1,47.3,https://www.timeshighereducation.com/world-university-rankings/chulalongkorn-university
+301–400,301,City University of Macau,Macao,42.4,21.9,14.8,78.9,23.1,88.8,https://www.timeshighereducation.com/world-university-rankings/city-university-macau
+301–400,301,Cyprus International University,Northern Cyprus,42.4,20.3,13.0,92.3,17.6,78.1,https://www.timeshighereducation.com/world-university-rankings/cyprus-international-university
+301–400,301,Dalhousie University,Canada,42.4,15.4,25.1,71.9,62.6,85.9,https://www.timeshighereducation.com/world-university-rankings/dalhousie-university
+301–400,301,Drexel University,United States,42.4,22.8,13.1,80.9,67.7,77.2,https://www.timeshighereducation.com/world-university-rankings/drexel-university
+301–400,301,East China Normal University,China,42.4,22.5,20.6,76.0,83.3,57.3,https://www.timeshighereducation.com/world-university-rankings/east-china-normal-university
+301–400,301,Eastern Mediterranean University,Northern Cyprus,42.4,19.4,11.5,88.0,40.6,78.2,https://www.timeshighereducation.com/world-university-rankings/eastern-mediterranean-university
+301–400,301,Flinders University,Australia,42.4,19.2,26.5,59.2,70.9,87.4,https://www.timeshighereducation.com/world-university-rankings/flinders-university
+301–400,301,Florida Atlantic University,United States,42.4,19.2,27.4,70.2,83.1,61.8,https://www.timeshighereducation.com/world-university-rankings/florida-atlantic-university
+301–400,301,Florida International University,United States,42.4,28.7,26.8,64.3,66.0,52.7,https://www.timeshighereducation.com/world-university-rankings/florida-international-university
+301–400,301,Florida State University,United States,42.4,25.0,27.5,69.7,67.9,50.9,https://www.timeshighereducation.com/world-university-rankings/florida-state-university
+301–400,301,George Mason University,United States,42.4,30.7,28.4,55.7,64.9,58.7,https://www.timeshighereducation.com/world-university-rankings/george-mason-university
+301–400,301,Hebrew University of Jerusalem,Israel,42.4,27.5,37.9,52.0,67.9,41.5,https://www.timeshighereducation.com/world-university-rankings/hebrew-university-jerusalem
+301–400,301,Heriot-Watt University,United Kingdom,42.4,20.5,20.8,64.9,66.0,94.3,https://www.timeshighereducation.com/world-university-rankings/heriot-watt-university
+301–400,301,Hiroshima University,Japan,42.4,23.2,24.9,70.4,55.5,60.3,https://www.timeshighereducation.com/world-university-rankings/hiroshima-university
+301–400,301,Hitotsubashi University,Japan,42.4,44.6,34.5,35.9,31.6,59.0,https://www.timeshighereducation.com/world-university-rankings/hitotsubashi-university
+301–400,301,Hunan University,China,42.4,20.1,21.9,84.8,92.6,39.6,https://www.timeshighereducation.com/world-university-rankings/hunan-university
+301–400,301,Illinois Institute of Technology,United States,42.4,22.9,15.8,80.9,63.3,72.5,https://www.timeshighereducation.com/world-university-rankings/illinois-institute-technology
+301–400,301,Iowa State University,United States,42.4,28.7,29.0,63.5,83.0,40.5,https://www.timeshighereducation.com/world-university-rankings/iowa-state-university
+301–400,301,Iran University of Science and Technology,Iran,42.4,21.6,22.7,74.5,91.1,41.9,https://www.timeshighereducation.com/world-university-rankings/iran-university-science-and-technology
+301–400,301,Istanbul Medipol University,Turkey,42.4,20.0,23.9,87.0,29.1,56.9,https://www.timeshighereducation.com/world-university-rankings/istanbul-medipol-university
+301–400,301,James Cook University,Australia,42.4,20.1,23.3,71.8,75.6,84.5,https://www.timeshighereducation.com/world-university-rankings/james-cook-university
+301–400,301,King Abdulaziz University,Saudi Arabia,42.4,14.0,16.8,90.4,73.5,71.3,https://www.timeshighereducation.com/world-university-rankings/king-abdulaziz-university
+301–400,301,Kyushu University,Japan,42.4,23.4,28.8,68.4,66.7,52.3,https://www.timeshighereducation.com/world-university-rankings/kyushu-university
+301–400,301,Lingnan University Hong Kong,Hong Kong,42.4,22.2,30.5,55.9,57.3,93.9,https://www.timeshighereducation.com/world-university-rankings/lingnan-university-hong-kong
+301–400,301,Linköping University,Sweden,42.4,14.9,28.9,79.4,92.1,56.0,https://www.timeshighereducation.com/world-university-rankings/linkoping-university
+301–400,301,Liverpool John Moores University,United Kingdom,42.4,14.5,11.8,90.9,55.0,77.8,https://www.timeshighereducation.com/world-university-rankings/liverpool-john-moores-university
+301–400,301,London Metropolitan University,United Kingdom,42.4,11.2,11.7,87.7,50.0,95.9,https://www.timeshighereducation.com/world-university-rankings/london-metropolitan-university
+301–400,301,Lovely Professional University,India,42.4,21.7,13.4,93.2,44.6,46.9,https://www.timeshighereducation.com/world-university-rankings/lovely-professional-university
+301–400,301,Montpellier University,France,42.4,21.3,20.1,73.4,65.8,63.1,https://www.timeshighereducation.com/world-university-rankings/montpellier-university
+301–400,301,Nanjing University of Aeronautics and Astronautics,China,42.4,20.3,20.8,84.4,99.2,34.8,https://www.timeshighereducation.com/world-university-rankings/nanjing-university-aeronautics-and-astronautics
+301–400,301,National Tsing Hua University,Taiwan,42.4,22.3,32.0,67.0,74.8,56.2,https://www.timeshighereducation.com/world-university-rankings/national-tsing-hua-university
+301–400,301,Near East University,Northern Cyprus,42.4,22.0,13.1,79.6,40.1,83.1,https://www.timeshighereducation.com/world-university-rankings/near-east-university
+301–400,301,Northumbria University,United Kingdom,42.4,16.0,20.5,81.4,42.1,94.1,https://www.timeshighereducation.com/world-university-rankings/northumbria-university
+301–400,301,Oklahoma State University,United States,42.4,20.5,22.5,82.2,69.6,55.0,https://www.timeshighereducation.com/world-university-rankings/oklahoma-state-university
+301–400,301,Pontifical Catholic University of Rio de Janeiro (PUC-Rio),Brazil,42.4,29.9,30.0,56.9,90.2,40.4,https://www.timeshighereducation.com/world-university-rankings/pontifical-catholic-university-rio-de-janeiro-puc-rio
+301–400,301,Prince Sattam Bin Abdulaziz University,Saudi Arabia,42.4,16.0,22.2,73.7,66.5,74.7,https://www.timeshighereducation.com/world-university-rankings/prince-sattam-bin-abdulaziz-university
+301–400,301,Princess Nourah bint Abdulrahman University,Saudi Arabia,42.4,20.6,13.1,80.2,59.7,76.5,https://www.timeshighereducation.com/world-university-rankings/princess-nourah-bint-abdulrahman-university
+301–400,301,Prince Sultan University (PSU),Saudi Arabia,42.4,14.2,20.7,77.8,56.2,78.2,https://www.timeshighereducation.com/world-university-rankings/prince-sultan-university-psu
+301–400,301,Queen’s University,Canada,42.4,27.0,18.0,67.2,68.6,77.6,https://www.timeshighereducation.com/world-university-rankings/queens-university
+301–400,301,Queen’s University Belfast,United Kingdom,42.4,18.8,23.0,75.5,45.3,96.6,https://www.timeshighereducation.com/world-university-rankings/queens-university-belfast
+301–400,301,"Royal Holloway, University of London",United Kingdom,42.4,22.9,23.8,66.2,48.6,91.1,https://www.timeshighereducation.com/world-university-rankings/royal-holloway-university-london
+301–400,301,Sabancı University,Turkey,42.4,33.2,28.8,50.6,88.1,64.9,https://www.timeshighereducation.com/world-university-rankings/sabanci-university
+301–400,301,Sharif University of Technology,Iran,42.4,24.4,31.1,63.1,99.6,36.9,https://www.timeshighereducation.com/world-university-rankings/sharif-university-technology
+301–400,301,Shenzhen University,China,42.4,17.8,17.7,84.5,88.9,53.1,https://www.timeshighereducation.com/world-university-rankings/shenzhen-university
+301–400,301,Simon Fraser University,Canada,42.4,23.8,23.7,63.9,71.6,92.3,https://www.timeshighereducation.com/world-university-rankings/simon-fraser-university
+301–400,301,South China University of Technology,China,42.4,20.2,22.0,73.2,99.4,45.8,https://www.timeshighereducation.com/world-university-rankings/south-china-university-technology
+301–400,301,Southeast University,China,42.4,24.5,24.7,73.6,75.9,48.5,https://www.timeshighereducation.com/world-university-rankings/southeast-university
+301–400,301,Southwest Jiaotong University,China,42.4,17.6,26.5,78.1,93.5,32.9,https://www.timeshighereducation.com/world-university-rankings/southwest-jiaotong-university
+301–400,301,Tampere University,Finland,42.4,18.0,27.5,82.2,71.3,34.4,https://www.timeshighereducation.com/world-university-rankings/tampere-university
+301–400,301,Teesside University,United Kingdom,42.4,19.8,12.0,83.4,32.4,98.2,https://www.timeshighereducation.com/world-university-rankings/teesside-university
+301–400,301,Tel Aviv University,Israel,42.4,23.5,39.2,57.6,70.6,58.1,https://www.timeshighereducation.com/world-university-rankings/tel-aviv-university
+301–400,301,The University of Tennessee-Knoxville,United States,42.4,22.4,32.0,70.8,65.6,46.1,https://www.timeshighereducation.com/world-university-rankings/university-tennessee-knoxville
+301–400,301,Tomas Bata University in Zlín,Czechia,42.4,19.9,23.3,78.9,19.5,63.6,https://www.timeshighereducation.com/world-university-rankings/tomas-bata-university-zlin
+301–400,301,TU Dortmund University,Germany,42.4,28.0,31.8,60.9,96.5,39.8,https://www.timeshighereducation.com/world-university-rankings/tu-dortmund-university
+301–400,301,UEH University,Vietnam,42.4,13.0,18.9,91.3,53.7,51.1,https://www.timeshighereducation.com/world-university-rankings/ueh-university
+301–400,301,Université Côte d'Azur,France,42.4,31.3,28.3,51.9,49.6,76.0,https://www.timeshighereducation.com/world-university-rankings/universite-cote-dazur
+301–400,301,Université Libre de Bruxelles,Belgium,42.4,24.7,31.8,57.2,64.9,75.4,https://www.timeshighereducation.com/world-university-rankings/universite-libre-de-bruxelles
+301–400,301,Universiti Malaysia Pahang Al-Sultan Abdullah (UMPSA),Malaysia,42.4,22.9,27.7,65.0,77.0,69.6,https://www.timeshighereducation.com/world-university-rankings/universiti-malaysia-pahang-al-sultan-abdullah-umpsa
+301–400,301,University of Beira Interior,Portugal,42.4,20.3,23.7,81.2,46.5,46.0,https://www.timeshighereducation.com/world-university-rankings/university-beira-interior
+301–400,301,University of Calgary,Canada,42.4,25.4,27.1,61.7,83.1,80.9,https://www.timeshighereducation.com/world-university-rankings/university-calgary
+301–400,301,University of Canberra,Australia,42.4,22.4,21.0,68.4,57.7,80.1,https://www.timeshighereducation.com/world-university-rankings/university-canberra
+301–400,301,University of Colorado Boulder,United States,42.4,20.9,26.6,80.4,68.2,49.0,https://www.timeshighereducation.com/world-university-rankings/university-colorado-boulder
+301–400,301,University of Derby,United Kingdom,42.4,14.4,12.7,90.8,37.0,90.7,https://www.timeshighereducation.com/world-university-rankings/university-derby
+301–400,301,University of Galway,Ireland,42.4,16.2,20.6,82.0,68.4,69.3,https://www.timeshighereducation.com/world-university-rankings/university-galway
+301–400,301,University of Gothenburg,Sweden,42.4,23.9,33.7,65.6,69.4,48.6,https://www.timeshighereducation.com/world-university-rankings/university-gothenburg
+301–400,301,University of Greenwich,United Kingdom,42.4,15.1,11.5,93.1,41.6,96.7,https://www.timeshighereducation.com/world-university-rankings/university-greenwich
+301–400,301,University of Houston,United States,42.4,24.5,22.2,72.1,67.1,70.5,https://www.timeshighereducation.com/world-university-rankings/university-houston
+301–400,301,University of Hull,United Kingdom,42.4,23.7,16.2,72.6,57.0,92.7,https://www.timeshighereducation.com/world-university-rankings/university-hull
+301–400,301,University of Illinois Chicago,United States,42.4,23.0,24.3,70.2,67.0,66.1,https://www.timeshighereducation.com/world-university-rankings/university-illinois-chicago
+301–400,301,University of Jyväskylä,Finland,42.4,16.8,29.2,76.0,60.7,42.0,https://www.timeshighereducation.com/world-university-rankings/university-jyvaskyla
+301–400,301,University of Klagenfurt,Austria,42.4,21.2,17.6,78.0,45.7,82.1,https://www.timeshighereducation.com/world-university-rankings/university-klagenfurt
+301–400,301,University of Liège,Belgium,42.4,19.2,28.7,59.7,90.2,68.3,https://www.timeshighereducation.com/world-university-rankings/university-liege
+301–400,301,University of Lisbon,Portugal,42.4,22.9,30.0,66.2,66.3,49.0,https://www.timeshighereducation.com/world-university-rankings/university-lisbon
+301–400,301,University of Malta,Malta,42.4,17.2,17.6,90.5,48.6,48.1,https://www.timeshighereducation.com/world-university-rankings/university-malta
+301–400,301,University of Messina,Italy,42.4,22.0,17.8,81.8,76.0,46.2,https://www.timeshighereducation.com/world-university-rankings/university-messina
+301–400,301,University of Miami,United States,42.4,20.3,19.1,75.9,67.1,65.8,https://www.timeshighereducation.com/world-university-rankings/university-miami
+301–400,301,University of Naples Federico II,Italy,42.4,24.0,27.6,73.9,68.3,31.4,https://www.timeshighereducation.com/world-university-rankings/university-naples-federico-ii
+301–400,301,University of Plymouth,United Kingdom,42.4,15.1,12.4,85.2,65.4,94.8,https://www.timeshighereducation.com/world-university-rankings/university-plymouth
+301–400,301,University of Southern Queensland,Australia,42.4,25.0,18.2,77.0,61.8,69.4,https://www.timeshighereducation.com/world-university-rankings/university-southern-queensland
+301–400,301,University of St Andrews,United Kingdom,42.4,31.5,21.7,61.3,36.9,95.1,https://www.timeshighereducation.com/world-university-rankings/university-st-andrews
+301–400,301,University of Tasmania,Australia,42.4,21.4,19.3,71.7,72.9,87.1,https://www.timeshighereducation.com/world-university-rankings/university-tasmania
+301–400,301,University of Texas at Dallas,United States,42.4,22.6,32.3,54.0,68.0,69.7,https://www.timeshighereducation.com/world-university-rankings/university-texas-dallas
+301–400,301,University of the Witwatersrand,South Africa,42.4,24.8,27.6,64.1,73.3,61.2,https://www.timeshighereducation.com/world-university-rankings/university-witwatersrand
+301–400,301,University of Trento,Italy,42.4,23.7,30.0,73.1,70.0,51.9,https://www.timeshighereducation.com/world-university-rankings/university-trento
+301–400,301,University of Tunis El Manar,Tunisia,42.4,27.8,22.5,71.1,73.4,51.2,https://www.timeshighereducation.com/world-university-rankings/university-tunis-el-manar
+301–400,301,University of Turin,Italy,42.4,19.5,21.6,88.4,52.9,47.6,https://www.timeshighereducation.com/world-university-rankings/university-turin
+301–400,301,University of Turku,Finland,42.4,23.0,24.5,75.1,52.6,43.1,https://www.timeshighereducation.com/world-university-rankings/university-turku
+301–400,301,Victoria University of Wellington,New Zealand,42.4,21.9,24.6,69.1,56.3,77.5,https://www.timeshighereducation.com/world-university-rankings/victoria-university-wellington
+301–400,301,Washington State University,United States,42.4,22.2,24.7,69.0,72.7,59.5,https://www.timeshighereducation.com/world-university-rankings/washington-state-university
+301–400,301,Western Sydney University,Australia,42.4,20.6,21.8,73.3,66.7,87.7,https://www.timeshighereducation.com/world-university-rankings/western-sydney-university
+301–400,301,Yildiz Technical University,Turkey,42.4,27.6,24.5,69.4,91.3,39.0,https://www.timeshighereducation.com/world-university-rankings/yildiz-technical-university
+301–400,301,Zayed University,United Arab Emirates,42.4,18.7,21.3,83.2,53.5,74.0,https://www.timeshighereducation.com/world-university-rankings/zayed-university
+401–500,401,Aligarh Muslim University,India,39.4,25.3,19.3,68.3,55.6,39.4,https://www.timeshighereducation.com/world-university-rankings/aligarh-muslim-university
+401–500,401,American University,United States,39.4,27.2,18.5,67.0,60.6,55.1,https://www.timeshighereducation.com/world-university-rankings/american-university
+401–500,401,Auburn University,United States,39.4,20.2,24.0,60.5,96.7,47.9,https://www.timeshighereducation.com/world-university-rankings/auburn-university
+401–500,401,Australian Catholic University,Australia,39.4,14.0,12.1,83.8,17.3,88.7,https://www.timeshighereducation.com/world-university-rankings/australian-catholic-university
+401–500,401,Bond University,Australia,39.4,25.3,14.3,64.1,34.3,81.6,https://www.timeshighereducation.com/world-university-rankings/bond-university
+401–500,401,Case Western Reserve University,United States,39.4,30.6,21.4,54.7,67.6,64.3,https://www.timeshighereducation.com/world-university-rankings/case-western-reserve-university
+401–500,401,Chang’an University,China,39.4,13.5,17.6,85.7,94.4,37.6,https://www.timeshighereducation.com/world-university-rankings/changan-university
+401–500,401,Charles Darwin University,Australia,39.4,13.0,18.1,72.4,27.7,84.1,https://www.timeshighereducation.com/world-university-rankings/charles-darwin-university
+401–500,401,Chung-Ang University,South Korea,39.4,26.3,22.6,51.3,64.9,78.3,https://www.timeshighereducation.com/world-university-rankings/chung-ang-university
+401–500,401,COMSATS University Islamabad,Pakistan,39.4,19.8,12.8,86.7,45.2,51.3,https://www.timeshighereducation.com/world-university-rankings/comsats-university-islamabad
+401–500,401,Coventry University,United Kingdom,39.4,16.1,11.3,73.0,51.9,94.6,https://www.timeshighereducation.com/world-university-rankings/coventry-university
+401–500,401,Cyprus University of Technology,Cyprus,39.4,16.9,17.8,76.3,42.1,54.7,https://www.timeshighereducation.com/world-university-rankings/cyprus-university-technology
+401–500,401,De Montfort University,United Kingdom,39.4,10.6,11.5,81.1,51.0,92.2,https://www.timeshighereducation.com/world-university-rankings/de-montfort-university
+401–500,401,Dhofar University,Oman,39.4,12.6,13.1,81.3,40.6,76.4,https://www.timeshighereducation.com/world-university-rankings/dhofar-university
+401–500,401,Donghua University,China,39.4,20.6,21.6,60.7,99.8,48.6,https://www.timeshighereducation.com/world-university-rankings/donghua-university
+401–500,401,Ewha Womans University,South Korea,39.4,26.9,28.1,45.4,91.2,53.7,https://www.timeshighereducation.com/world-university-rankings/ewha-womans-university
+401–500,401,Ferdowsi University of Mashhad,Iran,39.4,19.2,22.4,69.7,79.4,41.4,https://www.timeshighereducation.com/world-university-rankings/ferdowsi-university-mashhad
+401–500,401,Graphic Era University,India,39.4,16.8,13.8,90.7,24.9,46.9,https://www.timeshighereducation.com/world-university-rankings/graphic-era-university
+401–500,401,Hasselt University,Belgium,39.4,23.0,24.9,58.7,66.6,65.1,https://www.timeshighereducation.com/world-university-rankings/hasselt-university
+401–500,401,Imam Mohammad Ibn Saud Islamic University,Saudi Arabia,39.4,25.4,20.0,59.4,42.8,74.6,https://www.timeshighereducation.com/world-university-rankings/imam-mohammad-ibn-saud-islamic-university
+401–500,401,International University of Rabat,Morocco,39.4,12.3,10.7,85.0,39.0,80.4,https://www.timeshighereducation.com/world-university-rankings/international-university-rabat
+401–500,401,ISCTE-University Institute of Lisbon,Portugal,39.4,24.9,26.4,64.2,70.1,44.1,https://www.timeshighereducation.com/world-university-rankings/iscte-university-institute-lisbon
+401–500,401,Istanbul Technical University,Turkey,39.4,27.7,24.1,57.0,73.2,35.8,https://www.timeshighereducation.com/world-university-rankings/istanbul-technical-university
+401–500,401,Jinan University (China),China,39.4,17.1,20.2,73.2,72.2,70.3,https://www.timeshighereducation.com/world-university-rankings/jinan-university-china
+401–500,401,Kadir Has University,Turkey,39.4,13.7,27.0,69.7,31.3,60.7,https://www.timeshighereducation.com/world-university-rankings/kadir-has-university
+401–500,401,KIIT University,India,39.4,27.6,23.9,57.3,77.6,35.0,https://www.timeshighereducation.com/world-university-rankings/kiit-university
+401–500,401,King Saud University,Saudi Arabia,39.4,12.4,13.5,81.9,64.4,72.4,https://www.timeshighereducation.com/world-university-rankings/king-saud-university
+401–500,401,Lahore University of Management Sciences,Pakistan,39.4,19.8,17.9,76.5,28.9,54.4,https://www.timeshighereducation.com/world-university-rankings/lahore-university-management-sciences
+401–500,401,Leibniz University Hannover,Germany,39.4,22.2,28.9,56.3,72.7,42.3,https://www.timeshighereducation.com/world-university-rankings/leibniz-university-hannover
+401–500,401,Lincoln University (New Zealand),New Zealand,39.4,19.8,14.8,76.4,30.4,91.6,https://www.timeshighereducation.com/world-university-rankings/lincoln-university-new-zealand
+401–500,401,Manchester Metropolitan University,United Kingdom,39.4,17.5,15.4,78.4,55.2,77.4,https://www.timeshighereducation.com/world-university-rankings/manchester-metropolitan-university
+401–500,401,Marche Polytechnic University,Italy,39.4,21.5,23.9,64.3,92.1,33.0,https://www.timeshighereducation.com/world-university-rankings/marche-polytechnic-university
+401–500,401,Maynooth University,Ireland,39.4,14.8,23.1,70.8,55.3,72.3,https://www.timeshighereducation.com/world-university-rankings/maynooth-university
+401–500,401,Memorial University of Newfoundland,Canada,39.4,13.3,18.8,77.1,60.1,83.3,https://www.timeshighereducation.com/world-university-rankings/memorial-university-newfoundland
+401–500,401,Missouri University of Science and Technology,United States,39.4,16.9,18.2,66.8,67.0,74.7,https://www.timeshighereducation.com/world-university-rankings/missouri-university-science-and-technology
+401–500,401,Nantes Université,France,39.4,20.0,15.2,76.5,51.6,59.0,https://www.timeshighereducation.com/world-university-rankings/nantes-universite
+401–500,401,National Taiwan University of Science and Technology (Taiwan Tech),Taiwan,39.4,26.3,23.7,50.6,96.8,61.0,https://www.timeshighereducation.com/world-university-rankings/national-taiwan-university-science-and-technology-taiwan-tech
+401–500,401,National University of Sciences and Technology,Pakistan,39.4,20.9,19.7,74.1,78.7,55.6,https://www.timeshighereducation.com/world-university-rankings/national-university-sciences-and-technology
+401–500,401,Nottingham Trent University,United Kingdom,39.4,20.2,11.7,75.4,35.4,86.4,https://www.timeshighereducation.com/world-university-rankings/nottingham-trent-university
+401–500,401,Otto von Guericke University of Magdeburg,Germany,39.4,16.2,14.8,85.3,55.0,62.2,https://www.timeshighereducation.com/world-university-rankings/otto-von-guericke-university-magdeburg
+401–500,401,Oxford Brookes University,United Kingdom,39.4,26.0,26.2,54.8,28.8,86.9,https://www.timeshighereducation.com/world-university-rankings/oxford-brookes-university
+401–500,401,Parthenope University of Naples,Italy,39.4,15.2,16.3,93.3,37.0,37.5,https://www.timeshighereducation.com/world-university-rankings/parthenope-university-naples
+401–500,401,Polytechnic University of Valencia,Spain,39.4,23.5,23.9,56.8,97.0,53.4,https://www.timeshighereducation.com/world-university-rankings/polytechnic-university-valencia
+401–500,401,Pontificia Universidad Católica de Chile,Chile,39.4,22.8,29.6,54.6,77.1,64.4,https://www.timeshighereducation.com/world-university-rankings/pontificia-universidad-catolica-de-chile
+401–500,401,Portland State University,United States,39.4,14.5,15.7,78.9,64.7,54.3,https://www.timeshighereducation.com/world-university-rankings/portland-state-university
+401–500,401,Qassim University,Saudi Arabia,39.4,25.9,19.3,65.4,31.9,79.1,https://www.timeshighereducation.com/world-university-rankings/qassim-university
+401–500,401,Qingdao University,China,39.4,12.9,10.7,91.7,55.3,45.2,https://www.timeshighereducation.com/world-university-rankings/qingdao-university
+401–500,401,Quaid-i-Azam University,Pakistan,39.4,15.3,14.3,87.0,29.1,54.3,https://www.timeshighereducation.com/world-university-rankings/quaid-i-azam-university
+401–500,401,Reykjavík University,Iceland,39.4,12.8,22.2,76.8,43.6,60.2,https://www.timeshighereducation.com/world-university-rankings/reykjavik-university
+401–500,401,Rutgers University–New Brunswick,United States,39.4,18.2,26.3,61.0,67.1,59.9,https://www.timeshighereducation.com/world-university-rankings/rutgers-university-new-brunswick-0
+401–500,401,Silesian University of Technology,Poland,39.4,18.8,14.3,85.9,45.5,33.9,https://www.timeshighereducation.com/world-university-rankings/silesian-university-technology
+401–500,401,Stellenbosch University,South Africa,39.4,25.5,29.9,51.0,96.5,44.7,https://www.timeshighereducation.com/world-university-rankings/stellenbosch-university
+401–500,401,Stony Brook University,United States,39.4,19.5,25.6,56.7,75.0,84.0,https://www.timeshighereducation.com/world-university-rankings/stony-brook-university
+401–500,401,Tallinn University of Technology,Estonia,39.4,18.0,20.7,71.3,67.1,55.5,https://www.timeshighereducation.com/world-university-rankings/tallinn-university-technology
+401–500,401,Texas Tech University,United States,39.4,27.9,23.9,55.9,64.9,42.0,https://www.timeshighereducation.com/world-university-rankings/texas-tech-university
+401–500,401,Toronto Metropolitan University,Canada,39.4,15.5,24.8,68.1,79.7,66.1,https://www.timeshighereducation.com/world-university-rankings/toronto-metropolitan-university
+401–500,401,Ulsan National Institute of Science and Technology (UNIST),South Korea,39.4,20.5,29.0,58.4,95.7,44.0,https://www.timeshighereducation.com/world-university-rankings/ulsan-national-institute-science-and-technology-unist
+401–500,401,Università della Svizzera italiana,Switzerland,39.4,18.6,24.2,59.8,58.7,95.0,https://www.timeshighereducation.com/world-university-rankings/universita-della-svizzera-italiana
+401–500,401,Universitas Gadjah Mada,Indonesia,39.4,32.7,32.6,37.8,70.9,46.3,https://www.timeshighereducation.com/world-university-rankings/universitas-gadjah-mada
+401–500,401,Université Laval,Canada,39.4,21.6,21.9,60.4,65.4,76.7,https://www.timeshighereducation.com/world-university-rankings/universite-laval
+401–500,401,Universiti Malaysia Terengganu (UMT),Malaysia,39.4,19.2,17.1,77.4,47.3,58.8,https://www.timeshighereducation.com/world-university-rankings/universiti-malaysia-terengganu-umt
+401–500,401,University at Buffalo,United States,39.4,23.8,19.7,61.1,67.2,70.1,https://www.timeshighereducation.com/world-university-rankings/university-buffalo
+401–500,401,University of Brighton,United Kingdom,39.4,15.3,12.6,67.9,69.5,90.1,https://www.timeshighereducation.com/world-university-rankings/university-brighton
+401–500,401,"University of California, Riverside",United States,39.4,22.9,19.9,53.6,67.1,79.3,https://www.timeshighereducation.com/world-university-rankings/university-california-riverside
+401–500,401,University of Campinas,Brazil,39.4,33.1,31.7,45.0,81.9,38.3,https://www.timeshighereducation.com/world-university-rankings/university-campinas
+401–500,401,University of Cape Coast,Ghana,39.4,19.6,21.6,77.1,22.2,38.2,https://www.timeshighereducation.com/world-university-rankings/university-cape-coast
+401–500,401,University of Castilla-La Mancha,Spain,39.4,15.6,13.5,85.8,53.5,44.1,https://www.timeshighereducation.com/world-university-rankings/university-castilla-la-mancha
+401–500,401,University of Coimbra,Portugal,39.4,20.6,28.9,65.9,87.1,42.4,https://www.timeshighereducation.com/world-university-rankings/university-coimbra
+401–500,401,University of Connecticut,United States,39.4,26.2,20.0,58.2,67.2,72.7,https://www.timeshighereducation.com/world-university-rankings/university-connecticut
+401–500,401,University of Delhi,India,39.4,34.4,26.8,54.0,74.4,24.5,https://www.timeshighereducation.com/world-university-rankings/university-delhi
+401–500,401,University of Florence,Italy,39.4,18.9,29.9,64.5,60.2,39.3,https://www.timeshighereducation.com/world-university-rankings/university-florence
+401–500,401,University of Ghana,Ghana,39.4,22.2,33.5,62.6,54.8,39.4,https://www.timeshighereducation.com/world-university-rankings/university-ghana
+401–500,401,University of Granada,Spain,39.4,22.2,22.1,73.8,65.3,48.8,https://www.timeshighereducation.com/world-university-rankings/university-granada
+401–500,401,University of Hawai’i at Mānoa,United States,39.4,18.8,16.0,69.5,63.3,81.4,https://www.timeshighereducation.com/world-university-rankings/university-hawaii-manoa
+401–500,401,University of Indonesia,Indonesia,39.4,36.5,27.4,41.8,81.3,61.7,https://www.timeshighereducation.com/world-university-rankings/university-indonesia
+401–500,401,University of Iowa,United States,39.4,21.2,22.9,61.4,68.7,58.0,https://www.timeshighereducation.com/world-university-rankings/university-iowa
+401–500,401,University of Kiel,Germany,39.4,21.1,25.7,62.5,30.4,60.2,https://www.timeshighereducation.com/world-university-rankings/university-kiel
+401–500,401,University of Leicester,United Kingdom,39.4,19.5,18.6,59.8,29.1,93.9,https://www.timeshighereducation.com/world-university-rankings/university-leicester
+401–500,401,University of Lincoln,United Kingdom,39.4,13.4,12.6,88.2,17.7,93.6,https://www.timeshighereducation.com/world-university-rankings/university-lincoln
+401–500,401,University of Minho,Portugal,39.4,21.2,27.1,55.9,96.6,39.8,https://www.timeshighereducation.com/world-university-rankings/university-minho
+401–500,401,"University of Nevada, Las Vegas",United States,39.4,18.2,21.7,69.0,66.1,46.2,https://www.timeshighereducation.com/world-university-rankings/university-nevada-las-vegas
+401–500,401,University of Pavia,Italy,39.4,18.7,23.7,66.5,79.0,51.8,https://www.timeshighereducation.com/world-university-rankings/university-pavia
+401–500,401,University of Porto,Portugal,39.4,25.1,27.7,62.2,66.5,38.9,https://www.timeshighereducation.com/world-university-rankings/university-porto
+401–500,401,University of Pretoria,South Africa,39.4,26.1,28.7,60.9,44.5,59.2,https://www.timeshighereducation.com/world-university-rankings/university-pretoria
+401–500,401,University of Salamanca,Spain,39.4,21.9,19.7,66.9,54.8,53.7,https://www.timeshighereducation.com/world-university-rankings/university-salamanca
+401–500,401,University of Salento,Italy,39.4,18.5,16.2,85.5,45.0,27.9,https://www.timeshighereducation.com/world-university-rankings/university-salento
+401–500,401,University of Salerno,Italy,39.4,22.3,22.0,73.4,77.1,41.5,https://www.timeshighereducation.com/world-university-rankings/university-salerno
+401–500,401,University of Salford,United Kingdom,39.4,16.8,11.3,74.1,67.2,86.5,https://www.timeshighereducation.com/world-university-rankings/university-salford
+401–500,401,University of Siegen,Germany,39.4,24.1,27.1,61.5,80.0,46.4,https://www.timeshighereducation.com/world-university-rankings/university-siegen
+401–500,401,University of Siena,Italy,39.4,28.7,25.7,60.0,64.0,41.7,https://www.timeshighereducation.com/world-university-rankings/university-siena
+401–500,401,University of the Sunshine Coast,Australia,39.4,22.9,18.5,63.1,67.2,74.3,https://www.timeshighereducation.com/world-university-rankings/university-sunshine-coast
+401–500,401,University of the West of Scotland,United Kingdom,39.4,18.1,10.9,78.0,71.5,89.5,https://www.timeshighereducation.com/world-university-rankings/university-west-scotland
+401–500,401,University of Valencia,Spain,39.4,27.1,22.7,62.0,57.7,47.8,https://www.timeshighereducation.com/world-university-rankings/university-valencia
+401–500,401,University of Victoria,Canada,39.4,15.1,23.1,69.3,58.7,85.4,https://www.timeshighereducation.com/world-university-rankings/university-victoria
+401–500,401,University of Windsor,Canada,39.4,15.1,16.9,75.2,52.3,89.9,https://www.timeshighereducation.com/world-university-rankings/university-windsor
+401–500,401,UPES,India,39.4,25.4,14.8,77.6,29.2,47.8,https://www.timeshighereducation.com/world-university-rankings/upes
+401–500,401,Victoria University,Australia,39.4,22.7,23.0,56.4,74.5,70.3,https://www.timeshighereducation.com/world-university-rankings/victoria-university
+401–500,401,Yaşar University,Turkey,39.4,20.0,13.0,84.0,30.0,46.6,https://www.timeshighereducation.com/world-university-rankings/yasar-university
+401–500,401,Yuan Ze University,Taiwan,39.4,18.1,20.2,64.1,80.1,61.8,https://www.timeshighereducation.com/world-university-rankings/yuan-ze-university
+401–500,401,Zhejiang Normal University,China,39.4,12.5,17.3,82.6,64.1,56.0,https://www.timeshighereducation.com/world-university-rankings/zhejiang-normal-university
+501–600,501,American University of Sharjah,United Arab Emirates,36.3,14.0,21.0,57.4,66.8,92.4,https://www.timeshighereducation.com/world-university-rankings/american-university-sharjah
+501–600,501,Azerbaijan State University of Economics,Azerbaijan,36.3,19.8,11.9,73.8,21.1,62.5,https://www.timeshighereducation.com/world-university-rankings/azerbaijan-state-university-economics
+501–600,501,Bangor University,United Kingdom,36.3,13.2,16.4,64.4,54.9,94.7,https://www.timeshighereducation.com/world-university-rankings/bangor-university
+501–600,501,Baylor University,United States,36.3,24.4,14.6,68.4,48.6,33.9,https://www.timeshighereducation.com/world-university-rankings/baylor-university
+501–600,501,Bharathiar University,India,36.3,20.0,19.9,77.1,62.2,23.9,https://www.timeshighereducation.com/world-university-rankings/bharathiar-university
+501–600,501,Birla Institute of Technology,India,36.3,19.7,17.3,74.0,64.1,20.3,https://www.timeshighereducation.com/world-university-rankings/birla-institute-technology
+501–600,501,Brandeis University,United States,36.3,23.1,18.4,45.9,58.6,81.6,https://www.timeshighereducation.com/world-university-rankings/brandeis-university
+501–600,501,Brno University of Technology,Czechia,36.3,12.1,15.2,71.5,65.3,64.2,https://www.timeshighereducation.com/world-university-rankings/brno-university-technology
+501–600,501,Catholic University of Portugal,Portugal,36.3,16.8,19.3,63.9,35.0,77.0,https://www.timeshighereducation.com/world-university-rankings/catholic-university-portugal
+501–600,501,Chaoyang University of Technology,Taiwan,36.3,14.2,14.9,80.4,55.5,53.1,https://www.timeshighereducation.com/world-university-rankings/chaoyang-university-technology
+501–600,501,Chitkara University,India,36.3,17.6,10.0,88.1,27.6,26.5,https://www.timeshighereducation.com/world-university-rankings/chitkara-university
+501–600,501,Complutense University of Madrid,Spain,36.3,35.0,25.2,43.0,66.6,46.4,https://www.timeshighereducation.com/world-university-rankings/complutense-university-madrid
+501–600,501,Edinburgh Napier University,United Kingdom,36.3,18.6,13.1,65.8,29.5,87.9,https://www.timeshighereducation.com/world-university-rankings/edinburgh-napier-university
+501–600,501,Federal University of Rio de Janeiro,Brazil,36.3,30.5,26.0,41.3,79.3,35.5,https://www.timeshighereducation.com/world-university-rankings/federal-university-rio-de-janeiro
+501–600,501,Financial University under the Government of the Russian Federation,Russian Federation,36.3,37.6,30.8,33.8,48.7,33.9,https://www.timeshighereducation.com/world-university-rankings/financial-university-under-government-russian-federation
+501–600,501,Gachon University,South Korea,36.3,22.0,18.2,57.6,55.8,74.6,https://www.timeshighereducation.com/world-university-rankings/gachon-university
+501–600,501,Guru Gobind Singh Indraprastha University,India,36.3,23.7,10.5,83.9,38.1,32.5,https://www.timeshighereducation.com/world-university-rankings/guru-gobind-singh-indraprastha-university
+501–600,501,Huaqiao University,China,36.3,13.5,11.2,75.0,47.6,79.8,https://www.timeshighereducation.com/world-university-rankings/huaqiao-university
+501–600,501,Imam Abdulrahman Bin Faisal University,Saudi Arabia,36.3,23.7,19.4,62.0,35.5,66.6,https://www.timeshighereducation.com/world-university-rankings/imam-abdulrahman-bin-faisal-university
+501–600,501,Inha University,South Korea,36.3,17.3,18.6,60.9,51.1,65.3,https://www.timeshighereducation.com/world-university-rankings/inha-university
+501–600,501,Institut Agro,France,36.3,34.9,29.4,37.2,62.8,49.9,https://www.timeshighereducation.com/world-university-rankings/institut-agro
+501–600,501,Iqra University,Pakistan,36.3,16.4,8.7,83.5,30.5,53.2,https://www.timeshighereducation.com/world-university-rankings/iqra-university
+501–600,501,Jagiellonian University,Poland,36.3,23.4,32.4,49.6,41.7,38.8,https://www.timeshighereducation.com/world-university-rankings/jagiellonian-university
+501–600,501,Jamia Millia Islamia,India,36.3,26.4,13.4,78.9,34.6,30.9,https://www.timeshighereducation.com/world-university-rankings/jamia-millia-islamia
+501–600,501,Kaunas University of Technology,Lithuania,36.3,21.5,24.5,65.1,50.0,38.2,https://www.timeshighereducation.com/world-university-rankings/kaunas-university-technology
+501–600,501,King Faisal University,Saudi Arabia,36.3,18.1,11.2,64.8,24.9,91.7,https://www.timeshighereducation.com/world-university-rankings/king-faisal-university
+501–600,501,Kingston University,United Kingdom,36.3,15.8,13.6,62.8,57.4,93.9,https://www.timeshighereducation.com/world-university-rankings/kingston-university
+501–600,501,Kobe University,Japan,36.3,37.1,25.0,36.3,48.7,45.0,https://www.timeshighereducation.com/world-university-rankings/kobe-university
+501–600,501,Konkuk University,South Korea,36.3,25.4,18.9,42.2,87.1,71.1,https://www.timeshighereducation.com/world-university-rankings/konkuk-university
+501–600,501,Leeds Beckett University,United Kingdom,36.3,16.0,14.8,68.3,48.6,73.7,https://www.timeshighereducation.com/world-university-rankings/leeds-beckett-university
+501–600,501,Mahidol University,Thailand,36.3,16.8,25.3,57.8,92.4,52.3,https://www.timeshighereducation.com/world-university-rankings/mahidol-university
+501–600,501,Mansoura University,Egypt,36.3,12.4,8.8,82.3,45.9,61.6,https://www.timeshighereducation.com/world-university-rankings/mansoura-university
+501–600,501,Middlesex University,United Kingdom,36.3,15.1,16.5,56.6,39.1,94.5,https://www.timeshighereducation.com/world-university-rankings/middlesex-university
+501–600,501,Murdoch University,Australia,36.3,14.1,13.8,67.7,36.5,90.8,https://www.timeshighereducation.com/world-university-rankings/murdoch-university
+501–600,501,Nanjing Forestry University,China,36.3,13.6,13.2,80.6,69.3,35.5,https://www.timeshighereducation.com/world-university-rankings/nanjing-forestry-university
+501–600,501,Nanjing Normal University,China,36.3,13.8,14.6,78.9,79.5,32.8,https://www.timeshighereducation.com/world-university-rankings/nanjing-normal-university
+501–600,501,Nanjing University of Information Science and Technology,China,36.3,11.4,13.4,81.5,55.3,47.4,https://www.timeshighereducation.com/world-university-rankings/nanjing-university-information-science-and-technology
+501–600,501,Nanjing University of Science and Technology (NJUST),China,36.3,22.5,18.0,72.6,63.3,32.3,https://www.timeshighereducation.com/world-university-rankings/nanjing-university-science-and-technology-njust
+501–600,501,National Chengchi University,Taiwan,36.3,26.8,31.3,33.4,89.9,49.7,https://www.timeshighereducation.com/world-university-rankings/national-chengchi-university
+501–600,501,National Cheng Kung University (NCKU),Taiwan,36.3,23.0,29.4,46.0,97.3,44.2,https://www.timeshighereducation.com/world-university-rankings/national-cheng-kung-university-ncku
+501–600,501,National Sun Yat-Sen University,Taiwan,36.3,25.6,24.3,44.2,89.5,46.7,https://www.timeshighereducation.com/world-university-rankings/national-sun-yat-sen-university
+501–600,501,"Northeastern University, China",China,36.3,18.9,13.9,73.4,81.8,42.5,https://www.timeshighereducation.com/world-university-rankings/northeastern-university-china
+501–600,501,North South University,Bangladesh,36.3,13.2,9.8,80.8,40.1,55.1,https://www.timeshighereducation.com/world-university-rankings/north-south-university
+501–600,501,Norwegian University of Life Sciences,Norway,36.3,21.7,17.8,66.8,31.6,55.3,https://www.timeshighereducation.com/world-university-rankings/norwegian-university-life-sciences
+501–600,501,Ocean University of China,China,36.3,17.8,11.9,82.0,74.0,31.0,https://www.timeshighereducation.com/world-university-rankings/ocean-university-china
+501–600,501,Ontario Tech University,Canada,36.3,10.7,20.7,68.6,68.0,60.5,https://www.timeshighereducation.com/world-university-rankings/ontario-tech-university
+501–600,501,Paderborn University,Germany,36.3,21.0,25.9,56.4,72.9,50.3,https://www.timeshighereducation.com/world-university-rankings/paderborn-university
+501–600,501,Peter the Great St Petersburg Polytechnic University,Russian Federation,36.3,31.5,22.7,47.4,32.7,61.6,https://www.timeshighereducation.com/world-university-rankings/peter-great-st-petersburg-polytechnic-university
+501–600,501,Pukyong National University,South Korea,36.3,22.4,11.0,74.2,46.0,55.9,https://www.timeshighereducation.com/world-university-rankings/pukyong-national-university
+501–600,501,Rensselaer Polytechnic Institute,United States,36.3,22.9,18.3,55.4,72.5,70.9,https://www.timeshighereducation.com/world-university-rankings/rensselaer-polytechnic-institute
+501–600,501,Rochester Institute of Technology,United States,36.3,21.0,18.9,59.6,59.4,56.4,https://www.timeshighereducation.com/world-university-rankings/rochester-institute-technology
+501–600,501,Saarland University,Germany,36.3,14.4,15.5,75.0,73.9,46.2,https://www.timeshighereducation.com/world-university-rankings/saarland-university
+501–600,501,Savitribai Phule Pune University,India,36.3,22.4,9.3,79.6,52.9,25.3,https://www.timeshighereducation.com/world-university-rankings/savitribai-phule-pune-university
+501–600,501,Shahid Beheshti University,Iran,36.3,21.4,22.7,61.4,80.7,30.2,https://www.timeshighereducation.com/world-university-rankings/shahid-beheshti-university
+501–600,501,Sharda University,India,36.3,18.8,9.5,85.6,17.8,36.2,https://www.timeshighereducation.com/world-university-rankings/sharda-university
+501–600,501,Southern Cross University,Australia,36.3,22.1,19.1,49.0,55.3,77.0,https://www.timeshighereducation.com/world-university-rankings/southern-cross-university
+501–600,501,Stevens Institute of Technology,United States,36.3,19.9,14.9,60.6,65.8,79.8,https://www.timeshighereducation.com/world-university-rankings/stevens-institute-technology
+501–600,501,Sukkur IBA University,Pakistan,36.3,16.6,19.2,71.0,34.5,50.8,https://www.timeshighereducation.com/world-university-rankings/sukkur-iba-university
+501–600,501,Sumy State University,Ukraine,36.3,20.9,16.5,71.3,21.9,54.4,https://www.timeshighereducation.com/world-university-rankings/sumy-state-university
+501–600,501,SUNY University at Albany,United States,36.3,16.8,22.9,57.3,77.7,65.6,https://www.timeshighereducation.com/world-university-rankings/suny-university-albany
+501–600,501,Symbiosis International University,India,36.3,21.3,13.8,81.2,34.7,39.7,https://www.timeshighereducation.com/world-university-rankings/symbiosis-international-university
+501–600,501,UiT The Arctic University of Norway,Norway,36.3,15.1,18.3,72.4,47.5,45.9,https://www.timeshighereducation.com/world-university-rankings/uit-arctic-university-norway
+501–600,501,Umeå University,Sweden,36.3,17.8,22.5,57.6,59.3,59.2,https://www.timeshighereducation.com/world-university-rankings/umea-university
+501–600,501,Università Cattolica del Sacro Cuore,Italy,36.3,28.4,20.4,57.6,40.1,51.1,https://www.timeshighereducation.com/world-university-rankings/universita-cattolica-del-sacro-cuore
+501–600,501,Université du Québec,Canada,36.3,20.0,21.7,56.3,65.8,70.3,https://www.timeshighereducation.com/world-university-rankings/universite-du-quebec
+501–600,501,Universiti Malaysia Sarawak (UNIMAS),Malaysia,36.3,21.8,23.9,46.0,98.5,64.1,https://www.timeshighereducation.com/world-university-rankings/universiti-malaysia-sarawak-unimas
+501–600,501,Universiti Sultan Zainal Abidin,Malaysia,36.3,21.5,14.4,73.6,49.4,53.7,https://www.timeshighereducation.com/world-university-rankings/universiti-sultan-zainal-abidin
+501–600,501,Universiti Tunku Abdul Rahman (UTAR),Malaysia,36.3,14.4,15.2,76.1,82.5,43.3,https://www.timeshighereducation.com/world-university-rankings/universiti-tunku-abdul-rahman-utar
+501–600,501,University of Arkansas,United States,36.3,19.9,23.4,69.2,64.5,31.0,https://www.timeshighereducation.com/world-university-rankings/university-arkansas
+501–600,501,University of Delaware,United States,36.3,23.9,16.7,60.3,68.5,58.4,https://www.timeshighereducation.com/world-university-rankings/university-delaware
+501–600,501,University of Dhaka,Bangladesh,36.3,16.6,12.7,76.7,41.9,47.8,https://www.timeshighereducation.com/world-university-rankings/university-dhaka
+501–600,501,University of Dundee,United Kingdom,36.3,18.8,16.6,58.9,48.5,93.2,https://www.timeshighereducation.com/world-university-rankings/university-dundee
+501–600,501,University of Eastern Finland,Finland,36.3,17.5,21.9,68.9,60.7,41.6,https://www.timeshighereducation.com/world-university-rankings/university-eastern-finland
+501–600,501,University of Ferrara,Italy,36.3,19.9,19.2,71.8,53.6,33.8,https://www.timeshighereducation.com/world-university-rankings/university-ferrara
+501–600,501,University of Fribourg,Switzerland,36.3,19.2,22.6,48.7,56.6,72.7,https://www.timeshighereducation.com/world-university-rankings/university-fribourg
+501–600,501,University of Genoa,Italy,36.3,24.1,21.6,59.1,70.6,34.9,https://www.timeshighereducation.com/world-university-rankings/university-genoa
+501–600,501,University of Graz,Austria,36.3,23.8,17.5,54.8,54.5,67.6,https://www.timeshighereducation.com/world-university-rankings/university-graz
+501–600,501,University of Guelph,Canada,36.3,18.3,21.8,56.8,63.2,63.8,https://www.timeshighereducation.com/world-university-rankings/university-guelph
+501–600,501,University of Kentucky,United States,36.3,20.2,21.3,62.8,67.9,47.8,https://www.timeshighereducation.com/world-university-rankings/university-kentucky
+501–600,501,University of Limerick,Ireland,36.3,16.9,18.9,64.0,62.1,59.6,https://www.timeshighereducation.com/world-university-rankings/university-limerick
+501–600,501,University of Ljubljana,Slovenia,36.3,15.2,19.7,62.9,72.1,48.9,https://www.timeshighereducation.com/world-university-rankings/university-ljubljana
+501–600,501,University of Management and Technology,Pakistan,36.3,14.9,8.8,82.2,26.7,54.9,https://www.timeshighereducation.com/world-university-rankings/university-management-and-technology
+501–600,501,University of Manitoba,Canada,36.3,19.8,18.7,60.3,58.4,61.3,https://www.timeshighereducation.com/world-university-rankings/university-manitoba
+501–600,501,University of Milan,Italy,36.3,18.8,22.2,55.6,68.8,52.7,https://www.timeshighereducation.com/world-university-rankings/university-milan
+501–600,501,University of Nebraska-Lincoln,United States,36.3,17.4,21.4,57.6,68.8,52.1,https://www.timeshighereducation.com/world-university-rankings/university-nebraska-lincoln
+501–600,501,University of North Carolina at Charlotte,United States,36.3,18.8,20.9,65.8,65.7,44.3,https://www.timeshighereducation.com/world-university-rankings/university-north-carolina-charlotte
+501–600,501,University of Oregon,United States,36.3,19.6,24.8,62.5,61.0,38.8,https://www.timeshighereducation.com/world-university-rankings/university-oregon
+501–600,501,University of Palermo,Italy,36.3,23.0,24.0,57.8,55.2,38.6,https://www.timeshighereducation.com/world-university-rankings/university-palermo
+501–600,501,University of Pisa,Italy,36.3,19.5,23.6,66.3,53.9,39.6,https://www.timeshighereducation.com/world-university-rankings/university-pisa
+501–600,501,University of Rome III,Italy,36.3,16.6,18.4,73.3,41.4,34.6,https://www.timeshighereducation.com/world-university-rankings/university-rome-iii
+501–600,501,University of Stirling,United Kingdom,36.3,17.2,17.3,57.4,38.0,86.1,https://www.timeshighereducation.com/world-university-rankings/university-stirling
+501–600,501,University of Tartu,Estonia,36.3,18.2,19.3,67.9,58.7,52.8,https://www.timeshighereducation.com/world-university-rankings/university-tartu
+501–600,501,University of Utah,United States,36.3,18.6,22.0,65.4,68.2,40.5,https://www.timeshighereducation.com/world-university-rankings/university-utah
+501–600,501,University of Wuppertal,Germany,36.3,22.1,25.3,51.7,70.2,45.7,https://www.timeshighereducation.com/world-university-rankings/university-wuppertal
+501–600,501,University of Zaragoza,Spain,36.3,20.3,15.7,73.0,51.0,36.4,https://www.timeshighereducation.com/world-university-rankings/university-zaragoza
+501–600,501,UWE Bristol (University of the West of England),United Kingdom,36.3,14.9,11.7,70.7,39.1,81.9,https://www.timeshighereducation.com/world-university-rankings/uwe-bristol-university-west-england
+501–600,501,Verona University,Italy,36.3,12.0,23.0,69.8,55.7,45.6,https://www.timeshighereducation.com/world-university-rankings/verona-university
+501–600,501,Xi’an Jiaotong-Liverpool University,China,36.3,22.5,14.9,60.7,26.7,76.0,https://www.timeshighereducation.com/world-university-rankings/xian-jiaotong-liverpool-university
+501–600,501,Zhejiang Gongshang University,China,36.3,15.4,10.9,81.7,43.7,41.8,https://www.timeshighereducation.com/world-university-rankings/zhejiang-gongshang-university
+601–800,601,AGH University of Krakow,Poland,33.8,24.9,15.3,49.0,61.1,36.2,https://www.timeshighereducation.com/world-university-rankings/agh-university-krakow
+601–800,601,Air University,Pakistan,33.8,11.1,8.5,80.5,17.2,50.8,https://www.timeshighereducation.com/world-university-rankings/air-university
+601–800,601,Al al-Bayt University,Jordan,33.8,8.6,9.4,87.2,17.5,41.7,https://www.timeshighereducation.com/world-university-rankings/al-al-bayt-university
+601–800,601,Al-Farabi Kazakh National University,Kazakhstan,33.8,25.9,20.3,40.3,32.1,62.8,https://www.timeshighereducation.com/world-university-rankings/al-farabi-kazakh-national-university
+601–800,601,Al-Zaytoonah University of Jordan,Jordan,33.8,10.7,12.0,80.4,17.2,53.8,https://www.timeshighereducation.com/world-university-rankings/al-zaytoonah-university-jordan
+601–800,601,American University in Cairo,Egypt,33.8,19.5,22.2,33.3,60.4,66.7,https://www.timeshighereducation.com/world-university-rankings/american-university-cairo
+601–800,601,Anadolu University,Turkey,33.8,15.7,9.4,69.2,26.6,31.3,https://www.timeshighereducation.com/world-university-rankings/anadolu-university
+601–800,601,Anglia Ruskin University (ARU),United Kingdom,33.8,12.2,10.2,52.6,17.2,91.1,https://www.timeshighereducation.com/world-university-rankings/anglia-ruskin-university-aru
+601–800,601,Anhui University,China,33.8,11.7,11.2,74.4,63.5,30.1,https://www.timeshighereducation.com/world-university-rankings/anhui-university
+601–800,601,Athens University of Economics and Business,Greece,33.8,18.8,23.7,47.3,66.7,44.2,https://www.timeshighereducation.com/world-university-rankings/athens-university-economics-and-business
+601–800,601,Autonomous University of Madrid,Spain,33.8,26.4,19.3,49.8,57.1,45.7,https://www.timeshighereducation.com/world-university-rankings/autonomous-university-madrid
+601–800,601,Babeş-Bolyai University,Romania,33.8,15.1,15.3,77.9,34.9,38.1,https://www.timeshighereducation.com/world-university-rankings/babes-bolyai-university
+601–800,601,Bahauddin Zakariya University,Pakistan,33.8,16.2,11.2,69.7,21.0,50.7,https://www.timeshighereducation.com/world-university-rankings/bahauddin-zakariya-university
+601–800,601,Bahçeşehir University,Turkey,33.8,16.0,15.2,53.6,52.8,54.0,https://www.timeshighereducation.com/world-university-rankings/bahcesehir-university
+601–800,601,Bahria University,Pakistan,33.8,12.5,9.1,77.6,27.8,53.0,https://www.timeshighereducation.com/world-university-rankings/bahria-university
+601–800,601,Banaras Hindu University,India,33.8,29.6,15.9,58.4,39.4,28.0,https://www.timeshighereducation.com/world-university-rankings/banaras-hindu-university
+601–800,601,Banasthali University,India,33.8,18.7,13.3,73.1,33.7,24.4,https://www.timeshighereducation.com/world-university-rankings/banasthali-university
+601–800,601,Birmingham City University,United Kingdom,33.8,10.8,10.5,64.2,33.6,94.7,https://www.timeshighereducation.com/world-university-rankings/birmingham-city-university
+601–800,601,BRAC University,Bangladesh,33.8,10.7,10.4,67.0,17.2,53.3,https://www.timeshighereducation.com/world-university-rankings/brac-university
+601–800,601,Brock University,Canada,33.8,13.4,15.3,61.9,28.0,70.8,https://www.timeshighereducation.com/world-university-rankings/brock-university
+601–800,601,Cairo University,Egypt,33.8,22.7,15.8,60.6,52.5,47.3,https://www.timeshighereducation.com/world-university-rankings/cairo-university
+601–800,601,Cardiff Metropolitan University,United Kingdom,33.8,19.8,10.9,57.7,17.2,88.5,https://www.timeshighereducation.com/world-university-rankings/cardiff-metropolitan-university
+601–800,601,Carleton University,Canada,33.8,16.5,18.3,55.2,40.6,78.2,https://www.timeshighereducation.com/world-university-rankings/carleton-university
+601–800,601,Changsha University of Science and Technology,China,33.8,11.6,11.4,72.9,82.6,28.1,https://www.timeshighereducation.com/world-university-rankings/changsha-university-science-and-technology
+601–800,601,Charles Sturt University,Australia,33.8,12.9,14.4,61.0,66.6,67.5,https://www.timeshighereducation.com/world-university-rankings/charles-sturt-university
+601–800,601,"China University of Petroleum, Beijing",China,33.8,19.5,17.8,48.6,88.7,33.2,https://www.timeshighereducation.com/world-university-rankings/china-university-petroleum-beijing
+601–800,601,Chonnam National University,South Korea,33.8,23.4,20.4,44.3,49.3,53.3,https://www.timeshighereducation.com/world-university-rankings/chonnam-national-university
+601–800,601,"Colorado State University, Fort Collins",United States,33.8,19.9,16.4,60.3,61.7,43.8,https://www.timeshighereducation.com/world-university-rankings/colorado-state-university-fort-collins-0
+601–800,601,Concordia University,Canada,33.8,15.4,15.3,60.4,65.2,71.6,https://www.timeshighereducation.com/world-university-rankings/concordia-university
+601–800,601,Covenant University,Nigeria,33.8,22.0,26.9,52.4,61.0,34.4,https://www.timeshighereducation.com/world-university-rankings/covenant-university
+601–800,601,CY Cergy Paris University,France,33.8,38.8,25.8,17.9,39.6,83.4,https://www.timeshighereducation.com/world-university-rankings/cy-cergy-paris-university
+601–800,601,Czech University of Life Sciences Prague (CZU),Czechia,33.8,15.4,14.6,59.6,45.9,72.4,https://www.timeshighereducation.com/world-university-rankings/czech-university-life-sciences-prague-czu
+601–800,601,Daffodil International University (DIU),Bangladesh,33.8,12.8,9.7,77.3,21.4,61.8,https://www.timeshighereducation.com/world-university-rankings/daffodil-international-university-diu
+601–800,601,Delhi Technological University,India,33.8,17.3,17.6,64.2,52.4,20.0,https://www.timeshighereducation.com/world-university-rankings/delhi-technological-university
+601–800,601,Duy Tan University,Vietnam,33.8,9.2,9.0,83.2,29.0,56.4,https://www.timeshighereducation.com/world-university-rankings/duy-tan-university
+601–800,601,East China University of Science and Technology,China,33.8,14.0,13.2,68.5,68.4,36.3,https://www.timeshighereducation.com/world-university-rankings/east-china-university-science-and-technology
+601–800,601,Ege University,Turkey,33.8,22.0,19.4,59.4,71.1,34.1,https://www.timeshighereducation.com/world-university-rankings/ege-university
+601–800,601,Federal University of Minas Gerais,Brazil,33.8,31.5,27.0,27.4,69.4,28.2,https://www.timeshighereducation.com/world-university-rankings/federal-university-minas-gerais
+601–800,601,Federal University of Technology Akure,Nigeria,33.8,25.7,12.2,55.4,30.6,49.5,https://www.timeshighereducation.com/world-university-rankings/federal-university-technology-akure
+601–800,601,Federation University Australia,Australia,33.8,16.9,14.0,50.6,38.1,76.2,https://www.timeshighereducation.com/world-university-rankings/federation-university-australia
+601–800,601,Gabriele d‘Annunzio University,Italy,33.8,14.2,12.3,68.8,31.1,36.8,https://www.timeshighereducation.com/world-university-rankings/gabriele-dannunzio-university
+601–800,601,Galgotias University,India,33.8,17.0,8.7,76.9,23.4,32.4,https://www.timeshighereducation.com/world-university-rankings/galgotias-university
+601–800,601,Gdańsk University of Technology,Poland,33.8,16.1,17.8,63.2,38.1,41.7,https://www.timeshighereducation.com/world-university-rankings/gdansk-university-technology
+601–800,601,Glasgow Caledonian University,United Kingdom,33.8,12.1,9.5,56.5,59.2,77.4,https://www.timeshighereducation.com/world-university-rankings/glasgow-caledonian-university
+601–800,601,GLA University,India,33.8,14.3,10.9,82.7,25.7,24.6,https://www.timeshighereducation.com/world-university-rankings/gla-university
+601–800,601,Government College University Faisalabad,Pakistan,33.8,11.6,10.3,77.7,17.2,50.2,https://www.timeshighereducation.com/world-university-rankings/government-college-university-faisalabad
+601–800,601,Guangdong University of Technology,China,33.8,11.9,12.1,65.3,68.6,30.8,https://www.timeshighereducation.com/world-university-rankings/guangdong-university-technology
+601–800,601,Harbin Engineering University,China,33.8,16.4,13.9,60.1,73.1,27.0,https://www.timeshighereducation.com/world-university-rankings/harbin-engineering-university
+601–800,601,Hungarian University of Agriculture and Life Sciences,Hungary,33.8,18.3,10.6,62.0,17.2,64.8,https://www.timeshighereducation.com/world-university-rankings/hungarian-university-agriculture-and-life-sciences
+601–800,601,Institut Teknologi Bandung,Indonesia,33.8,22.3,28.9,40.5,87.0,33.5,https://www.timeshighereducation.com/world-university-rankings/institut-teknologi-bandung
+601–800,601,"International Islamic University, Islamabad",Pakistan,33.8,13.6,10.1,67.0,17.2,52.3,https://www.timeshighereducation.com/world-university-rankings/international-islamic-university-islamabad
+601–800,601,Istanbul University,Turkey,33.8,27.0,22.7,47.4,40.7,36.8,https://www.timeshighereducation.com/world-university-rankings/istanbul-university
+601–800,601,Jaume I University,Spain,33.8,18.1,15.4,52.3,42.1,46.4,https://www.timeshighereducation.com/world-university-rankings/jaume-i-university
+601–800,601,Kansas State University,United States,33.8,23.9,22.4,43.7,64.3,39.1,https://www.timeshighereducation.com/world-university-rankings/kansas-state-university
+601–800,601,Keio University,Japan,33.8,31.2,26.4,36.0,65.3,48.8,https://www.timeshighereducation.com/world-university-rankings/keio-university
+601–800,601,Khon Kaen University,Thailand,33.8,11.6,13.9,64.9,47.8,44.4,https://www.timeshighereducation.com/world-university-rankings/khon-kaen-university
+601–800,601,KL University,India,33.8,22.8,10.2,79.7,17.8,30.1,https://www.timeshighereducation.com/world-university-rankings/kl-university
+601–800,601,Lehigh University,United States,33.8,22.0,12.4,51.9,65.8,73.2,https://www.timeshighereducation.com/world-university-rankings/lehigh-university
+601–800,601,London South Bank University,United Kingdom,33.8,12.3,8.6,45.9,63.0,94.0,https://www.timeshighereducation.com/world-university-rankings/london-south-bank-university
+601–800,601,Louisiana State University,United States,33.8,16.2,18.1,65.8,67.4,42.2,https://www.timeshighereducation.com/world-university-rankings/louisiana-state-university
+601–800,601,Manipal Academy of Higher Education,India,33.8,15.3,17.3,51.5,69.3,37.3,https://www.timeshighereducation.com/world-university-rankings/manipal-academy-higher-education
+601–800,601,Masaryk University,Czechia,33.8,18.5,21.6,47.1,39.4,63.0,https://www.timeshighereducation.com/world-university-rankings/masaryk-university
+601–800,601,Mississippi State University,United States,33.8,13.9,15.1,62.1,63.4,41.5,https://www.timeshighereducation.com/world-university-rankings/mississippi-state-university
+601–800,601,Mizzou - University of Missouri,United States,33.8,19.5,18.3,58.0,65.6,48.5,https://www.timeshighereducation.com/world-university-rankings/mizzou-university-missouri
+601–800,601,Multimedia University,Malaysia,33.8,26.1,19.8,46.0,65.4,58.9,https://www.timeshighereducation.com/world-university-rankings/multimedia-university
+601–800,601,Mutah University,Jordan,33.8,21.7,12.5,56.6,17.2,48.0,https://www.timeshighereducation.com/world-university-rankings/mutah-university
+601–800,601,National Central University,Taiwan,33.8,16.7,19.4,48.5,97.2,48.8,https://www.timeshighereducation.com/world-university-rankings/national-central-university
+601–800,601,National Yang Ming Chiao Tung University (NYCU Taiwan),Taiwan,33.8,20.9,26.3,44.1,99.1,46.0,https://www.timeshighereducation.com/world-university-rankings/national-yang-ming-chiao-tung-university-nycu-taiwan
+601–800,601,National Yunlin University of Science and Technology,Taiwan,33.8,14.6,19.3,44.1,82.9,43.7,https://www.timeshighereducation.com/world-university-rankings/national-yunlin-university-science-and-technology
+601–800,601,Nazarbayev University,Kazakhstan,33.8,20.8,18.7,51.4,38.6,72.4,https://www.timeshighereducation.com/world-university-rankings/nazarbayev-university
+601–800,601,New Jersey Institute of Technology,United States,33.8,19.3,12.2,52.7,67.8,77.2,https://www.timeshighereducation.com/world-university-rankings/new-jersey-institute-technology
+601–800,601,Northeast Normal University,China,33.8,14.5,13.1,71.9,58.0,48.7,https://www.timeshighereducation.com/world-university-rankings/northeast-normal-university
+601–800,601,Northern Illinois University,United States,33.8,16.4,10.7,53.9,51.3,57.8,https://www.timeshighereducation.com/world-university-rankings/northern-illinois-university
+601–800,601,North-West University,South Africa,33.8,17.6,13.3,70.9,23.8,47.8,https://www.timeshighereducation.com/world-university-rankings/north-west-university
+601–800,601,Obafemi Awolowo University,Nigeria,33.8,21.5,19.0,53.9,38.6,39.4,https://www.timeshighereducation.com/world-university-rankings/obafemi-awolowo-university
+601–800,601,Old Dominion University,United States,33.8,16.0,17.6,63.1,53.6,38.6,https://www.timeshighereducation.com/world-university-rankings/old-dominion-university
+601–800,601,O.P. Jindal Global University,India,33.8,18.1,15.1,69.6,17.2,51.4,https://www.timeshighereducation.com/world-university-rankings/op-jindal-global-university
+601–800,601,Osmania University,India,33.8,22.5,20.5,49.4,33.4,26.1,https://www.timeshighereducation.com/world-university-rankings/osmania-university
+601–800,601,Ozyegin University,Turkey,33.8,17.0,17.4,44.0,95.8,65.6,https://www.timeshighereducation.com/world-university-rankings/ozyegin-university
+601–800,601,Panjab University,India,33.8,28.1,15.6,49.6,42.8,24.6,https://www.timeshighereducation.com/world-university-rankings/panjab-university
+601–800,601,Plekhanov Russian University of Economics,Russian Federation,33.8,37.7,23.0,20.2,37.9,39.4,https://www.timeshighereducation.com/world-university-rankings/plekhanov-russian-university-economics
+601–800,601,Riga Technical University,Latvia,33.8,17.1,21.3,48.3,59.9,65.5,https://www.timeshighereducation.com/world-university-rankings/riga-technical-university
+601–800,601,Riphah International University,Pakistan,33.8,16.8,10.3,74.5,17.2,52.2,https://www.timeshighereducation.com/world-university-rankings/riphah-international-university
+601–800,601,Rovira i Virgili University,Spain,33.8,17.5,11.4,58.8,37.5,52.4,https://www.timeshighereducation.com/world-university-rankings/rovira-i-virgili-university
+601–800,601,Rowan University,United States,33.8,11.3,12.0,68.9,28.0,47.1,https://www.timeshighereducation.com/world-university-rankings/rowan-university
+601–800,601,RUDN University,Russian Federation,33.8,26.8,20.6,33.4,47.8,63.9,https://www.timeshighereducation.com/world-university-rankings/rudn-university
+601–800,601,Saint Louis University,United States,33.8,16.6,15.0,65.5,45.6,58.5,https://www.timeshighereducation.com/world-university-rankings/saint-louis-university
+601–800,601,San Diego State University,United States,33.8,17.6,8.3,63.3,53.6,34.4,https://www.timeshighereducation.com/world-university-rankings/san-diego-state-university
+601–800,601,Saudi Electronic University,Saudi Arabia,33.8,8.0,7.9,72.2,17.5,73.6,https://www.timeshighereducation.com/world-university-rankings/saudi-electronic-university
+601–800,601,SGH Warsaw School of Economics,Poland,33.8,31.6,23.0,35.7,17.6,34.0,https://www.timeshighereducation.com/world-university-rankings/sgh-warsaw-school-economics
+601–800,601,Shantou University,China,33.8,9.0,12.7,69.2,53.7,44.6,https://www.timeshighereducation.com/world-university-rankings/shantou-university
+601–800,601,Sheffield Hallam University,United Kingdom,33.8,17.0,9.8,58.1,37.1,80.5,https://www.timeshighereducation.com/world-university-rankings/sheffield-hallam-university
+601–800,601,"Soochow University, China",China,33.8,15.8,14.6,70.5,72.6,38.9,https://www.timeshighereducation.com/world-university-rankings/soochow-university-china
+601–800,601,South China Normal University,China,33.8,14.7,11.3,63.0,51.2,47.6,https://www.timeshighereducation.com/world-university-rankings/south-china-normal-university
+601–800,601,Southern Illinois University Carbondale,United States,33.8,22.4,22.0,45.4,78.7,37.7,https://www.timeshighereducation.com/world-university-rankings/southern-illinois-university-carbondale
+601–800,601,SRM Institute of Science and Technology,India,33.8,10.0,11.3,79.0,28.4,22.3,https://www.timeshighereducation.com/world-university-rankings/srm-institute-science-and-technology
+601–800,601,SUNY Binghamton University,United States,33.8,24.0,23.2,45.2,64.1,56.5,https://www.timeshighereducation.com/world-university-rankings/suny-binghamton-university
+601–800,601,Széchenyi István University,Hungary,33.8,18.5,13.2,65.3,17.5,47.9,https://www.timeshighereducation.com/world-university-rankings/szechenyi-istvan-university
+601–800,601,Technical University of Cartagena,Spain,33.8,22.5,14.7,44.0,48.3,48.4,https://www.timeshighereducation.com/world-university-rankings/technical-university-cartagena
+601–800,601,Texas State University,United States,33.8,15.3,14.1,55.9,41.3,48.8,https://www.timeshighereducation.com/world-university-rankings/texas-state-university
+601–800,601,The Hashemite University,Jordan,33.8,9.4,14.6,78.8,46.1,44.3,https://www.timeshighereducation.com/world-university-rankings/hashemite-university
+601–800,601,The Islamia University of Bahawalpur,Pakistan,33.8,12.9,9.2,79.7,22.4,50.8,https://www.timeshighereducation.com/world-university-rankings/islamia-university-bahawalpur
+601–800,601,The Open University,United Kingdom,33.8,20.3,11.0,54.8,54.3,57.2,https://www.timeshighereducation.com/world-university-rankings/open-university
+601–800,601,The University of Alabama,United States,33.8,16.1,20.2,54.3,59.9,31.3,https://www.timeshighereducation.com/world-university-rankings/university-alabama
+601–800,601,Ton Duc Thang University,Vietnam,33.8,10.3,8.7,75.5,26.5,54.8,https://www.timeshighereducation.com/world-university-rankings/ton-duc-thang-university
+601–800,601,Tulane University,United States,33.8,20.5,13.6,46.8,65.2,52.5,https://www.timeshighereducation.com/world-university-rankings/tulane-university
+601–800,601,Ulm University,Germany,33.8,20.9,13.9,46.2,57.1,51.3,https://www.timeshighereducation.com/world-university-rankings/ulm-university
+601–800,601,Ulster University,United Kingdom,33.8,11.2,12.6,49.2,50.8,90.4,https://www.timeshighereducation.com/world-university-rankings/ulster-university
+601–800,601,Unisinos University,Brazil,33.8,19.5,19.6,50.1,54.4,28.9,https://www.timeshighereducation.com/world-university-rankings/unisinos-university
+601–800,601,Universidade Estadual Paulista (Unesp),Brazil,33.8,21.9,27.9,47.0,65.4,35.5,https://www.timeshighereducation.com/world-university-rankings/universidade-estadual-paulista-unesp
+601–800,601,Universidade Federal de Santa Catarina,Brazil,33.8,21.5,23.1,54.9,44.4,34.4,https://www.timeshighereducation.com/world-university-rankings/universidade-federal-de-santa-catarina
+601–800,601,Universidade Federal do Rio Grande do Sul,Brazil,33.8,25.5,19.2,53.1,63.7,32.5,https://www.timeshighereducation.com/world-university-rankings/universidade-federal-do-rio-grande-do-sul
+601–800,601,Universitas Airlangga,Indonesia,33.8,25.4,15.1,49.0,27.0,65.7,https://www.timeshighereducation.com/world-university-rankings/universitas-airlangga
+601–800,601,Universitas Sebelas Maret,Indonesia,33.8,25.0,18.9,49.3,54.0,44.0,https://www.timeshighereducation.com/world-university-rankings/universitas-sebelas-maret
+601–800,601,Université d’Orléans,France,33.8,17.1,12.3,49.8,50.7,61.5,https://www.timeshighereducation.com/world-university-rankings/universite-dorleans
+601–800,601,Universiti Kuala Lumpur,Malaysia,33.8,19.5,11.9,57.1,49.2,47.7,https://www.timeshighereducation.com/world-university-rankings/universiti-kuala-lumpur
+601–800,601,Universiti Pendidikan Sultan Idris,Malaysia,33.8,24.7,19.3,46.2,50.0,58.5,https://www.timeshighereducation.com/world-university-rankings/universiti-pendidikan-sultan-idris
+601–800,601,Universiti Tenaga Nasional (UNITEN),Malaysia,33.8,19.0,10.2,48.3,70.7,62.2,https://www.timeshighereducation.com/world-university-rankings/universiti-tenaga-nasional-uniten
+601–800,601,Universiti Tun Hussein Onn Malaysia (UTHM),Malaysia,33.8,26.7,10.8,40.5,35.5,68.3,https://www.timeshighereducation.com/world-university-rankings/universiti-tun-hussein-onn-malaysia-uthm
+601–800,601,University College Cork,Ireland,33.8,17.2,17.9,59.9,37.8,59.3,https://www.timeshighereducation.com/world-university-rankings/university-college-cork
+601–800,601,University for Development Studies,Ghana,33.8,21.6,13.0,65.0,20.0,41.3,https://www.timeshighereducation.com/world-university-rankings/university-development-studies
+601–800,601,University of Algarve,Portugal,33.8,11.7,21.0,62.5,30.4,46.4,https://www.timeshighereducation.com/world-university-rankings/university-algarve
+601–800,601,University of Alicante,Spain,33.8,21.7,16.9,59.3,46.0,40.6,https://www.timeshighereducation.com/world-university-rankings/university-alicante
+601–800,601,University of Almería,Spain,33.8,18.3,15.4,61.9,32.7,41.5,https://www.timeshighereducation.com/world-university-rankings/university-almeria
+601–800,601,University of Bahrain,Bahrain,33.8,10.6,16.3,63.5,30.5,52.6,https://www.timeshighereducation.com/world-university-rankings/university-bahrain
+601–800,601,University of Bari Aldo Moro,Italy,33.8,15.6,15.5,65.4,39.9,33.4,https://www.timeshighereducation.com/world-university-rankings/university-bari-aldo-moro
+601–800,601,University of Brescia,Italy,33.8,14.7,16.1,70.2,56.0,37.3,https://www.timeshighereducation.com/world-university-rankings/university-brescia
+601–800,601,University of Burgos,Spain,33.8,15.6,14.9,64.8,38.6,37.8,https://www.timeshighereducation.com/world-university-rankings/university-burgos
+601–800,601,University of Cagliari,Italy,33.8,17.3,23.5,50.7,58.1,35.4,https://www.timeshighereducation.com/world-university-rankings/university-cagliari
+601–800,601,University of Calabria,Italy,33.8,17.1,17.1,67.0,57.0,35.9,https://www.timeshighereducation.com/world-university-rankings/university-calabria
+601–800,601,University of Central Punjab,Pakistan,33.8,12.0,8.5,83.7,22.5,51.4,https://www.timeshighereducation.com/world-university-rankings/university-central-punjab
+601–800,601,University of Chile,Chile,33.8,20.0,20.7,44.2,69.2,54.2,https://www.timeshighereducation.com/world-university-rankings/university-chile
+601–800,601,University of Colorado Denver/Anschutz Medical Campus,United States,33.8,8.9,13.4,59.7,64.6,47.7,https://www.timeshighereducation.com/world-university-rankings/university-colorado-denver-anschutz-medical-campus
+601–800,601,University of Córdoba,Spain,33.8,16.8,13.6,52.6,57.6,46.1,https://www.timeshighereducation.com/world-university-rankings/university-cordoba
+601–800,601,University of Cyprus,Cyprus,33.8,12.5,20.1,56.0,86.8,62.0,https://www.timeshighereducation.com/world-university-rankings/university-cyprus
+601–800,601,University of Deusto,Spain,33.8,18.1,20.8,54.3,45.4,46.4,https://www.timeshighereducation.com/world-university-rankings/university-deusto
+601–800,601,University of Évora,Portugal,33.8,18.5,20.0,51.8,24.5,49.2,https://www.timeshighereducation.com/world-university-rankings/university-evora
+601–800,601,University of Foggia,Italy,33.8,12.0,16.0,69.8,29.4,27.3,https://www.timeshighereducation.com/world-university-rankings/university-foggia
+601–800,601,University of Girona,Spain,33.8,16.0,14.8,56.9,66.0,44.1,https://www.timeshighereducation.com/world-university-rankings/university-girona
+601–800,601,University of Hagen,Germany,33.8,20.8,23.8,49.2,55.4,39.1,https://www.timeshighereducation.com/world-university-rankings/university-hagen
+601–800,601,University of Haifa,Israel,33.8,21.1,21.7,58.7,73.4,29.7,https://www.timeshighereducation.com/world-university-rankings/university-haifa
+601–800,601,University of Ha’il,Saudi Arabia,33.8,16.2,9.0,66.7,51.3,75.7,https://www.timeshighereducation.com/world-university-rankings/university-hail
+601–800,601,University of Iceland,Iceland,33.8,14.8,22.9,44.9,69.8,36.9,https://www.timeshighereducation.com/world-university-rankings/university-iceland
+601–800,601,University of Ilorin,Nigeria,33.8,11.4,12.9,76.8,17.2,40.8,https://www.timeshighereducation.com/world-university-rankings/university-ilorin
+601–800,601,University of Insubria,Italy,33.8,13.5,15.6,67.3,50.4,43.6,https://www.timeshighereducation.com/world-university-rankings/university-insubria
+601–800,601,University of Jaén,Spain,33.8,15.8,11.3,66.5,43.6,56.2,https://www.timeshighereducation.com/world-university-rankings/university-jaen
+601–800,601,University of Kansas,United States,33.8,16.4,17.0,50.4,63.0,53.4,https://www.timeshighereducation.com/world-university-rankings/university-kansas
+601–800,601,University of KwaZulu-Natal,South Africa,33.8,23.1,26.7,44.5,41.7,37.1,https://www.timeshighereducation.com/world-university-rankings/university-kwazulu-natal
+601–800,601,University of Lahore,Pakistan,33.8,16.8,11.4,74.0,32.2,53.1,https://www.timeshighereducation.com/world-university-rankings/university-lahore
+601–800,601,University of Lancashire,United Kingdom,33.8,11.6,9.0,61.7,35.5,74.0,https://www.timeshighereducation.com/world-university-rankings/university-lancashire
+601–800,601,University of Las Palmas de Gran Canaria,Spain,33.8,20.9,20.0,51.4,29.2,30.6,https://www.timeshighereducation.com/world-university-rankings/university-las-palmas-de-gran-canaria
+601–800,601,University of Lille,France,33.8,18.5,16.0,53.5,63.9,67.6,https://www.timeshighereducation.com/world-university-rankings/university-lille
+601–800,601,University of Manouba,Tunisia,33.8,22.6,9.0,62.8,29.5,40.5,https://www.timeshighereducation.com/world-university-rankings/university-manouba
+601–800,601,University of Memphis,United States,33.8,18.5,14.6,54.9,68.2,45.1,https://www.timeshighereducation.com/world-university-rankings/university-memphis
+601–800,601,University of Milan-Bicocca,Italy,33.8,16.5,14.2,64.6,68.7,39.9,https://www.timeshighereducation.com/world-university-rankings/university-milan-bicocca
+601–800,601,University of Modena and Reggio Emilia,Italy,33.8,18.3,15.7,51.4,63.2,36.2,https://www.timeshighereducation.com/world-university-rankings/university-modena-and-reggio-emilia
+601–800,601,University of Murcia,Spain,33.8,18.2,13.2,69.6,58.5,34.3,https://www.timeshighereducation.com/world-university-rankings/university-murcia
+601–800,601,University of New Brunswick UNB,Canada,33.8,13.9,10.4,53.0,65.2,90.0,https://www.timeshighereducation.com/world-university-rankings/university-new-brunswick-unb
+601–800,601,University of Oviedo,Spain,33.8,19.9,15.4,54.7,31.1,38.5,https://www.timeshighereducation.com/world-university-rankings/university-oviedo
+601–800,601,University of Patras,Greece,33.8,9.7,13.3,75.9,65.5,28.8,https://www.timeshighereducation.com/world-university-rankings/university-patras
+601–800,601,University of Piraeus,Greece,33.8,13.2,18.5,59.8,91.7,35.1,https://www.timeshighereducation.com/world-university-rankings/university-piraeus
+601–800,601,University of Regina,Canada,33.8,10.3,17.0,59.5,52.7,68.6,https://www.timeshighereducation.com/world-university-rankings/university-regina
+601–800,601,University of Rhode Island,United States,33.8,15.1,15.0,62.2,40.0,57.0,https://www.timeshighereducation.com/world-university-rankings/university-rhode-island
+601–800,601,University of Roehampton,United Kingdom,33.8,9.7,12.0,60.1,23.9,96.2,https://www.timeshighereducation.com/world-university-rankings/university-roehampton
+601–800,601,University of Santiago de Compostela,Spain,33.8,21.3,18.1,63.8,36.8,38.6,https://www.timeshighereducation.com/world-university-rankings/university-santiago-de-compostela
+601–800,601,University of Saskatchewan,Canada,33.8,14.8,17.3,52.4,69.7,60.6,https://www.timeshighereducation.com/world-university-rankings/university-saskatchewan
+601–800,601,University of Seville,Spain,33.8,18.8,19.1,60.3,42.5,38.8,https://www.timeshighereducation.com/world-university-rankings/university-seville
+601–800,601,University of Sfax,Tunisia,33.8,22.1,12.1,64.6,54.0,34.7,https://www.timeshighereducation.com/world-university-rankings/university-sfax
+601–800,601,University of Tabuk,Saudi Arabia,33.8,19.2,12.4,45.3,44.0,69.1,https://www.timeshighereducation.com/world-university-rankings/university-tabuk
+601–800,601,University of Texas at Arlington,United States,33.8,16.2,14.7,52.3,74.5,38.3,https://www.timeshighereducation.com/world-university-rankings/university-texas-arlington
+601–800,601,University of Texas at El Paso,United States,33.8,15.0,26.7,43.6,51.6,53.4,https://www.timeshighereducation.com/world-university-rankings/university-texas-el-paso
+601–800,601,University of Texas Rio Grande Valley,United States,33.8,12.7,7.9,70.4,37.6,49.7,https://www.timeshighereducation.com/world-university-rankings/university-texas-rio-grande-valley
+601–800,601,University of the Aegean,Greece,33.8,15.3,24.2,52.0,96.1,27.1,https://www.timeshighereducation.com/world-university-rankings/university-aegean
+601–800,601,"University of the Andes, Colombia",Colombia,33.8,24.8,18.7,48.9,49.8,59.3,https://www.timeshighereducation.com/world-university-rankings/university-andes-colombia
+601–800,601,University of the Punjab,Pakistan,33.8,13.2,9.4,78.9,38.4,49.9,https://www.timeshighereducation.com/world-university-rankings/university-punjab
+601–800,601,University of the South Pacific,Fiji,33.8,12.4,12.8,69.7,17.2,60.7,https://www.timeshighereducation.com/world-university-rankings/university-south-pacific
+601–800,601,University of Thessaly,Greece,33.8,8.7,17.7,77.8,42.7,26.9,https://www.timeshighereducation.com/world-university-rankings/university-thessaly
+601–800,601,University of Toledo,United States,33.8,15.8,13.9,48.5,60.0,56.2,https://www.timeshighereducation.com/world-university-rankings/university-toledo
+601–800,601,University of Tuscia,Italy,33.8,16.4,19.8,56.7,32.3,46.9,https://www.timeshighereducation.com/world-university-rankings/university-tuscia
+601–800,601,University of Udine,Italy,33.8,22.0,15.3,64.9,39.8,33.2,https://www.timeshighereducation.com/world-university-rankings/university-udine
+601–800,601,University of Urbino Carlo Bo,Italy,33.8,19.6,18.7,58.0,31.2,40.6,https://www.timeshighereducation.com/world-university-rankings/university-urbino-carlo-bo
+601–800,601,University of Warsaw,Poland,33.8,28.1,28.2,44.2,37.7,39.7,https://www.timeshighereducation.com/world-university-rankings/university-warsaw
+601–800,601,University of Westminster,United Kingdom,33.8,12.7,9.7,57.2,37.5,82.5,https://www.timeshighereducation.com/world-university-rankings/university-westminster
+601–800,601,University of Žilina,Slovakia,33.8,18.0,13.9,71.1,35.9,42.2,https://www.timeshighereducation.com/world-university-rankings/university-zilina
+601–800,601,"Vietnam National University, Hanoi",Vietnam,33.8,15.1,12.5,66.9,32.3,49.3,https://www.timeshighereducation.com/world-university-rankings/vietnam-national-university-hanoi
+601–800,601,VILNIUS TECH (Vilnius Gediminas Technical University),Lithuania,33.8,19.5,21.8,48.3,60.9,65.6,https://www.timeshighereducation.com/world-university-rankings/vilnius-tech-vilnius-gediminas-technical-university
+601–800,601,Vilnius University,Lithuania,33.8,21.6,25.2,43.7,69.1,43.0,https://www.timeshighereducation.com/world-university-rankings/vilnius-university
+601–800,601,VIT University,India,33.8,20.1,20.7,62.0,63.1,34.1,https://www.timeshighereducation.com/world-university-rankings/vit-university
+601–800,601,Wake Forest University,United States,33.8,26.3,9.1,58.7,40.6,45.5,https://www.timeshighereducation.com/world-university-rankings/wake-forest-university
+601–800,601,Waseda University,Japan,33.8,31.1,25.1,42.0,38.4,47.7,https://www.timeshighereducation.com/world-university-rankings/waseda-university
+601–800,601,Wayne State University,United States,33.8,17.0,14.7,54.9,62.6,37.7,https://www.timeshighereducation.com/world-university-rankings/wayne-state-university
+601–800,601,West University of Timişoara,Romania,33.8,17.9,10.4,70.0,18.3,37.5,https://www.timeshighereducation.com/world-university-rankings/west-university-timisoara
+601–800,601,Woosong University,South Korea,33.8,26.0,12.8,45.9,39.0,83.5,https://www.timeshighereducation.com/world-university-rankings/woosong-university
+601–800,601,Xiangtan University,China,33.8,19.2,13.0,60.4,44.4,25.0,https://www.timeshighereducation.com/world-university-rankings/xiangtan-university
+601–800,601,Yangzhou University,China,33.8,19.9,13.1,54.6,88.8,43.9,https://www.timeshighereducation.com/world-university-rankings/yangzhou-university
+601–800,601,Yarmouk University,Jordan,33.8,13.6,19.0,65.4,48.5,49.1,https://www.timeshighereducation.com/world-university-rankings/yarmouk-university
+601–800,601,Yazd University,Iran,33.8,15.4,16.3,70.7,67.3,34.3,https://www.timeshighereducation.com/world-university-rankings/yazd-university
+601–800,601,Yeungnam University,South Korea,33.8,17.5,16.2,52.9,88.2,52.7,https://www.timeshighereducation.com/world-university-rankings/yeungnam-university
+601–800,601,Zagazig University,Egypt,33.8,9.4,7.6,78.6,51.0,50.5,https://www.timeshighereducation.com/world-university-rankings/zagazig-university
+601–800,601,ZHAW Zurich University of Applied Sciences,Switzerland,33.8,18.2,15.0,48.3,67.3,67.2,https://www.timeshighereducation.com/world-university-rankings/zhaw-zurich-university-applied-sciences
+601–800,601,Zhejiang University of Finance and Economics,China,33.8,11.4,10.0,72.1,42.7,34.2,https://www.timeshighereducation.com/world-university-rankings/zhejiang-university-finance-and-economics
+801–1000,801,Adolfo Ibáñez University,Chile,28.7,14.7,10.7,37.5,25.3,61.3,https://www.timeshighereducation.com/world-university-rankings/adolfo-ibanez-university
+801–1000,801,Ain Shams University,Egypt,28.7,20.6,9.6,41.5,56.0,51.5,https://www.timeshighereducation.com/world-university-rankings/ain-shams-university
+801–1000,801,Ajou University,South Korea,28.7,21.3,14.8,33.4,62.8,60.1,https://www.timeshighereducation.com/world-university-rankings/ajou-university
+801–1000,801,Al-Balqa Applied University,Jordan,28.7,11.6,11.5,68.6,28.7,35.4,https://www.timeshighereducation.com/world-university-rankings/al-balqa-applied-university
+801–1000,801,Alexandria University,Egypt,28.7,9.1,17.7,54.7,40.6,50.2,https://www.timeshighereducation.com/world-university-rankings/alexandria-university
+801–1000,801,Allameh Tabataba ’i University,Iran,28.7,21.2,9.9,29.9,46.5,30.1,https://www.timeshighereducation.com/world-university-rankings/allameh-tabataba-i-university
+801–1000,801,Amedeo Avogadro University of Eastern Piedmont,Italy,28.7,7.1,13.3,42.1,34.8,42.9,https://www.timeshighereducation.com/world-university-rankings/amedeo-avogadro-university-eastern-piedmont
+801–1000,801,Ankara Yildirim Beyazit University,Turkey,28.7,17.0,8.8,53.2,17.7,38.6,https://www.timeshighereducation.com/world-university-rankings/ankara-yildirim-beyazit-university
+801–1000,801,Ariel University,Israel,28.7,14.6,17.0,40.2,31.5,26.9,https://www.timeshighereducation.com/world-university-rankings/ariel-university
+801–1000,801,Bar-Ilan University,Israel,28.7,17.9,23.3,44.8,53.5,18.7,https://www.timeshighereducation.com/world-university-rankings/bar-ilan-university
+801–1000,801,Beijing University of Chemical Technology,China,28.7,15.2,11.2,60.5,57.8,34.4,https://www.timeshighereducation.com/world-university-rankings/beijing-university-chemical-technology
+801–1000,801,Ben-Gurion University of the Negev,Israel,28.7,20.3,13.6,37.2,65.5,29.0,https://www.timeshighereducation.com/world-university-rankings/ben-gurion-university-negev
+801–1000,801,Bialystok University of Technology,Poland,28.7,18.2,13.4,40.1,32.0,28.6,https://www.timeshighereducation.com/world-university-rankings/bialystok-university-technology
+801–1000,801,BINUS University,Indonesia,28.7,21.5,17.7,41.0,66.4,39.2,https://www.timeshighereducation.com/world-university-rankings/binus-university
+801–1000,801,Bucharest University of Economic Studies,Romania,28.7,20.5,14.9,45.4,25.2,30.1,https://www.timeshighereducation.com/world-university-rankings/bucharest-university-economic-studies
+801–1000,801,Capital University,Egypt,28.7,17.0,11.8,49.3,35.1,53.7,https://www.timeshighereducation.com/world-university-rankings/capital-university-0
+801–1000,801,Central Michigan University,United States,28.7,16.4,11.5,54.6,60.9,43.6,https://www.timeshighereducation.com/world-university-rankings/central-michigan-university
+801–1000,801,Chiang Mai University,Thailand,28.7,11.0,15.7,47.3,61.0,36.0,https://www.timeshighereducation.com/world-university-rankings/chiang-mai-university
+801–1000,801,Chinese Culture University,Taiwan,28.7,12.0,13.8,39.5,40.8,36.5,https://www.timeshighereducation.com/world-university-rankings/chinese-culture-university
+801–1000,801,Christ University,India,28.7,11.4,9.5,47.7,22.1,21.9,https://www.timeshighereducation.com/world-university-rankings/christ-university
+801–1000,801,Chungnam National University,South Korea,28.7,16.6,17.9,38.7,56.6,34.3,https://www.timeshighereducation.com/world-university-rankings/chungnam-national-university
+801–1000,801,Chung Yuan Christian University,Taiwan,28.7,15.5,17.5,32.4,53.0,48.4,https://www.timeshighereducation.com/world-university-rankings/chung-yuan-christian-university
+801–1000,801,Comenius University Bratislava,Slovakia,28.7,20.5,14.8,43.1,27.7,49.9,https://www.timeshighereducation.com/world-university-rankings/comenius-university-bratislava
+801–1000,801,Czech Technical University in Prague,Czechia,28.7,18.5,12.4,26.2,50.1,48.2,https://www.timeshighereducation.com/world-university-rankings/czech-technical-university-prague
+801–1000,801,Del Rosario University,Colombia,28.7,16.9,15.1,27.4,53.1,55.2,https://www.timeshighereducation.com/world-university-rankings/del-rosario-university
+801–1000,801,Diponegoro University,Indonesia,28.7,25.1,19.6,23.0,50.0,37.2,https://www.timeshighereducation.com/world-university-rankings/diponegoro-university
+801–1000,801,Dokuz Eylül University,Turkey,28.7,16.9,9.7,47.4,36.7,32.3,https://www.timeshighereducation.com/world-university-rankings/dokuz-eylul-university
+801–1000,801,Eötvös Loránd University,Hungary,28.7,13.0,13.7,47.5,35.5,36.2,https://www.timeshighereducation.com/world-university-rankings/eotvos-lorand-university
+801–1000,801,Feng Chia University,Taiwan,28.7,15.1,11.7,31.4,71.4,39.6,https://www.timeshighereducation.com/world-university-rankings/feng-chia-university
+801–1000,801,Fluminense Federal University,Brazil,28.7,16.6,10.9,38.0,36.2,28.5,https://www.timeshighereducation.com/world-university-rankings/fluminense-federal-university
+801–1000,801,Fu Jen Catholic University,Taiwan,28.7,17.6,18.4,27.9,78.1,30.4,https://www.timeshighereducation.com/world-university-rankings/fu-jen-catholic-university
+801–1000,801,Fujian Agriculture and Forestry University,China,28.7,15.8,8.0,55.5,53.6,33.7,https://www.timeshighereducation.com/world-university-rankings/fujian-agriculture-and-forestry-university
+801–1000,801,Fuzhou University,China,28.7,11.7,11.4,59.3,61.1,46.7,https://www.timeshighereducation.com/world-university-rankings/fuzhou-university
+801–1000,801,Georgia Southern University,United States,28.7,11.5,12.0,38.7,58.3,26.6,https://www.timeshighereducation.com/world-university-rankings/georgia-southern-university
+801–1000,801,GITAM University,India,28.7,15.5,8.2,52.0,21.1,25.5,https://www.timeshighereducation.com/world-university-rankings/gitam-university
+801–1000,801,Hacettepe University,Turkey,28.7,24.7,16.1,35.3,51.0,24.4,https://www.timeshighereducation.com/world-university-rankings/hacettepe-university
+801–1000,801,Hangzhou Dianzi University (HDU),China,28.7,10.3,10.0,50.9,71.8,32.9,https://www.timeshighereducation.com/world-university-rankings/hangzhou-dianzi-university-hdu
+801–1000,801,Hangzhou Normal University,China,28.7,10.8,10.0,66.0,43.8,33.3,https://www.timeshighereducation.com/world-university-rankings/hangzhou-normal-university
+801–1000,801,Hellenic Open University,Greece,28.7,16.5,7.3,42.9,18.9,27.3,https://www.timeshighereducation.com/world-university-rankings/hellenic-open-university
+801–1000,801,HES-SO University of Applied Sciences and Arts of Western Switzerland,Switzerland,28.7,17.6,13.9,35.8,38.7,76.8,https://www.timeshighereducation.com/world-university-rankings/hes-so-university-applied-sciences-and-arts-western-switzerland
+801–1000,801,Ho Chi Minh City Open University,Vietnam,28.7,10.8,11.2,48.2,17.2,23.0,https://www.timeshighereducation.com/world-university-rankings/ho-chi-minh-city-open-university
+801–1000,801,Ibn Tofaïl University,Morocco,28.7,18.7,18.4,34.6,17.2,22.6,https://www.timeshighereducation.com/world-university-rankings/ibn-tofail-university
+801–1000,801,IFHE Hyderabad,India,28.7,15.0,9.7,43.3,22.2,23.6,https://www.timeshighereducation.com/world-university-rankings/ifhe-hyderabad
+801–1000,801,Incheon National University,South Korea,28.7,18.1,11.0,43.2,46.5,40.3,https://www.timeshighereducation.com/world-university-rankings/incheon-national-university
+801–1000,801,Instituto Politécnico de Viana do Castelo,Portugal,28.7,15.6,18.0,43.9,20.2,34.7,https://www.timeshighereducation.com/world-university-rankings/instituto-politecnico-de-viana-do-castelo
+801–1000,801,Institut Teknologi Sepuluh Nopember,Indonesia,28.7,18.8,9.5,35.8,41.3,48.1,https://www.timeshighereducation.com/world-university-rankings/institut-teknologi-sepuluh-nopember
+801–1000,801,Islamic Science University of Malaysia (USIM),Malaysia,28.7,19.2,9.3,40.2,21.8,39.8,https://www.timeshighereducation.com/world-university-rankings/islamic-science-university-malaysia-usim
+801–1000,801,"Jaypee Institute of Information Technology, Noida",India,28.7,16.7,12.7,36.5,24.6,22.0,https://www.timeshighereducation.com/world-university-rankings/jaypee-institute-information-technology-noida
+801–1000,801,Jeonbuk National University,South Korea,28.7,21.6,14.4,31.3,50.2,48.6,https://www.timeshighereducation.com/world-university-rankings/jeonbuk-national-university
+801–1000,801,Jiangnan University,China,28.7,11.4,18.1,50.6,99.5,29.9,https://www.timeshighereducation.com/world-university-rankings/jiangnan-university
+801–1000,801,Jiangsu University of Science and Technology,China,28.7,10.5,8.3,63.9,52.5,30.2,https://www.timeshighereducation.com/world-university-rankings/jiangsu-university-science-and-technology
+801–1000,801,Johannes Gutenberg University of Mainz,Germany,28.7,19.0,14.1,49.7,44.9,44.2,https://www.timeshighereducation.com/world-university-rankings/johannes-gutenberg-university-mainz
+801–1000,801,Kangwon National University,South Korea,28.7,19.6,13.2,33.7,47.2,30.6,https://www.timeshighereducation.com/world-university-rankings/kangwon-national-university
+801–1000,801,Kharazmi University,Iran,28.7,15.3,9.7,44.0,26.4,42.9,https://www.timeshighereducation.com/world-university-rankings/kharazmi-university
+801–1000,801,KMITL – King Mongkut’s Institute of Technology Ladkrabang,Thailand,28.7,13.1,17.4,37.1,67.3,41.1,https://www.timeshighereducation.com/world-university-rankings/kmitl-king-mongkuts-institute-technology-ladkrabang
+801–1000,801,Kuwait University,Kuwait,28.7,17.0,9.2,31.7,42.5,45.4,https://www.timeshighereducation.com/world-university-rankings/kuwait-university
+801–1000,801,L.N. Gumilyov Eurasian National University,Kazakhstan,28.7,18.1,11.4,27.8,17.2,49.0,https://www.timeshighereducation.com/world-university-rankings/ln-gumilyov-eurasian-national-university
+801–1000,801,Lucian Blaga University of Sibiu,Romania,28.7,17.4,13.8,46.9,40.9,38.5,https://www.timeshighereducation.com/world-university-rankings/lucian-blaga-university-sibiu
+801–1000,801,Lviv Polytechnic National University,Ukraine,28.7,20.2,15.5,29.1,26.9,26.7,https://www.timeshighereducation.com/world-university-rankings/lviv-polytechnic-national-university
+801–1000,801,Makerere University,Uganda,28.7,16.1,18.2,41.3,18.2,58.0,https://www.timeshighereducation.com/world-university-rankings/makerere-university
+801–1000,801,Manipal University Jaipur,India,28.7,18.6,10.1,47.2,33.0,31.5,https://www.timeshighereducation.com/world-university-rankings/manipal-university-jaipur
+801–1000,801,Marie and Louis Pasteur University,France,28.7,10.0,14.0,44.2,44.9,57.0,https://www.timeshighereducation.com/world-university-rankings/marie-and-louis-pasteur-university
+801–1000,801,Marmara University,Turkey,28.7,21.9,11.5,32.0,30.4,28.7,https://www.timeshighereducation.com/world-university-rankings/marmara-university
+801–1000,801,Mendel University in Brno,Czechia,28.7,17.3,23.0,29.8,22.9,45.3,https://www.timeshighereducation.com/world-university-rankings/mendel-university-brno
+801–1000,801,Miguel Hernández University of Elche,Spain,28.7,17.0,11.5,28.7,46.5,38.1,https://www.timeshighereducation.com/world-university-rankings/miguel-hernandez-university-elche
+801–1000,801,Ming Chuan University,Taiwan,28.7,14.1,15.2,42.9,38.0,40.3,https://www.timeshighereducation.com/world-university-rankings/ming-chuan-university
+801–1000,801,Mohammed V University of Rabat,Morocco,28.7,17.5,13.5,40.1,58.3,24.6,https://www.timeshighereducation.com/world-university-rankings/mohammed-v-university-rabat
+801–1000,801,Montana State University,United States,28.7,12.4,12.0,45.1,31.1,32.9,https://www.timeshighereducation.com/world-university-rankings/montana-state-university
+801–1000,801,Nanjing Tech University,China,28.7,13.0,10.8,51.5,83.3,33.1,https://www.timeshighereducation.com/world-university-rankings/nanjing-tech-university
+801–1000,801,National Autonomous University of Mexico,Mexico,28.7,24.5,21.6,24.9,47.5,43.9,https://www.timeshighereducation.com/world-university-rankings/national-autonomous-university-mexico
+801–1000,801,National Chung Cheng University,Taiwan,28.7,13.3,17.4,24.4,65.1,39.2,https://www.timeshighereducation.com/world-university-rankings/national-chung-cheng-university
+801–1000,801,National Chung Hsing University,Taiwan,28.7,13.8,15.2,41.3,70.2,45.5,https://www.timeshighereducation.com/world-university-rankings/national-chung-hsing-university
+801–1000,801,National Dong Hwa University,Taiwan,28.7,13.9,19.9,33.0,31.4,55.1,https://www.timeshighereducation.com/world-university-rankings/national-dong-hwa-university
+801–1000,801,National Kaohsiung University of Science and Technology,Taiwan,28.7,11.3,12.7,51.7,51.3,31.1,https://www.timeshighereducation.com/world-university-rankings/national-kaohsiung-university-science-and-technology
+801–1000,801,National Technical University of Ukraine – Igor Sikorsky Kyiv Polytechnic Institute,Ukraine,28.7,17.7,15.1,33.8,29.7,21.1,https://www.timeshighereducation.com/world-university-rankings/national-technical-university-ukraine-igor-sikorsky-kyiv-polytechnic
+801–1000,801,National University of Colombia,Colombia,28.7,13.0,13.4,38.7,39.7,33.3,https://www.timeshighereducation.com/world-university-rankings/national-university-colombia
+801–1000,801,National University of Distance Education (UNED),Spain,28.7,11.9,11.2,39.1,47.1,29.0,https://www.timeshighereducation.com/world-university-rankings/national-university-distance-education-uned
+801–1000,801,New Mexico State University (Main campus),United States,28.7,17.4,16.5,34.5,54.9,39.6,https://www.timeshighereducation.com/world-university-rankings/new-mexico-state-university-main-campus
+801–1000,801,Nicolaus Copernicus University in Toruń,Poland,28.7,13.0,18.0,41.8,41.1,33.9,https://www.timeshighereducation.com/world-university-rankings/nicolaus-copernicus-university-torun
+801–1000,801,Northwest University (China),China,28.7,18.6,8.8,54.2,42.0,26.9,https://www.timeshighereducation.com/world-university-rankings/northwest-university-china
+801–1000,801,Nova Southeastern University,United States,28.7,14.7,13.3,36.0,43.7,43.6,https://www.timeshighereducation.com/world-university-rankings/nova-southeastern-university
+801–1000,801,Ohio University (Main campus),United States,28.7,19.5,15.1,37.2,35.1,31.3,https://www.timeshighereducation.com/world-university-rankings/ohio-university-main-campus
+801–1000,801,Open University of Catalonia,Spain,28.7,12.0,12.3,55.3,32.3,45.1,https://www.timeshighereducation.com/world-university-rankings/open-university-catalonia
+801–1000,801,Örebro University,Sweden,28.7,13.2,17.6,45.2,26.4,40.8,https://www.timeshighereducation.com/world-university-rankings/orebro-university
+801–1000,801,Pablo de Olavide University,Spain,28.7,16.8,11.9,45.7,23.2,37.9,https://www.timeshighereducation.com/world-university-rankings/pablo-de-olavide-university
+801–1000,801,Paris Nanterre University,France,28.7,15.9,13.1,31.6,58.3,56.4,https://www.timeshighereducation.com/world-university-rankings/paris-nanterre-university
+801–1000,801,Polytechnic Institute of Porto,Portugal,28.7,10.9,11.6,46.7,33.6,28.1,https://www.timeshighereducation.com/world-university-rankings/polytechnic-institute-porto
+801–1000,801,Pondicherry University,India,28.7,22.5,11.2,46.4,42.1,21.1,https://www.timeshighereducation.com/world-university-rankings/pondicherry-university
+801–1000,801,Pontifical Catholic University of Peru,Peru,28.7,20.6,10.7,40.7,29.9,45.6,https://www.timeshighereducation.com/world-university-rankings/pontifical-catholic-university-peru
+801–1000,801,Pontifical Catholic University of Rio Grande do Sul (PUCRS),Brazil,28.7,20.5,13.3,34.4,31.4,32.7,https://www.timeshighereducation.com/world-university-rankings/pontifical-catholic-university-rio-grande-do-sul-pucrs
+801–1000,801,Pontifícia Universidade Católica do Paraná,Brazil,28.7,15.5,12.3,47.6,67.2,27.9,https://www.timeshighereducation.com/world-university-rankings/pontificia-universidade-catolica-do-parana
+801–1000,801,Pontificia Universidad Javeriana,Colombia,28.7,17.7,12.5,30.7,17.2,41.4,https://www.timeshighereducation.com/world-university-rankings/pontificia-universidad-javeriana
+801–1000,801,Poznan University of Technology,Poland,28.7,18.6,11.6,41.6,51.1,44.9,https://www.timeshighereducation.com/world-university-rankings/poznan-university-technology
+801–1000,801,Prince of Songkla University,Thailand,28.7,14.1,10.7,50.1,44.7,51.8,https://www.timeshighereducation.com/world-university-rankings/prince-songkla-university
+801–1000,801,Public University of Navarre,Spain,28.7,16.5,10.3,40.8,52.0,36.3,https://www.timeshighereducation.com/world-university-rankings/public-university-navarre
+801–1000,801,Ritsumeikan University,Japan,28.7,13.8,11.0,34.6,36.2,44.2,https://www.timeshighereducation.com/world-university-rankings/ritsumeikan-university
+801–1000,801,Russian Presidential Academy of National Economy and Public Administration,Russian Federation,28.7,21.7,21.0,24.8,30.2,23.8,https://www.timeshighereducation.com/world-university-rankings/russian-presidential-academy-national-economy-and-public-administration
+801–1000,801,Sakarya University,Turkey,28.7,20.2,11.6,53.2,22.3,36.3,https://www.timeshighereducation.com/world-university-rankings/sakarya-university
+801–1000,801,Shanghai Normal University,China,28.7,11.9,12.2,52.4,45.9,34.7,https://www.timeshighereducation.com/world-university-rankings/shanghai-normal-university
+801–1000,801,Sidi Mohamed Ben Abdellah University,Morocco,28.7,10.5,7.6,51.7,31.6,20.6,https://www.timeshighereducation.com/world-university-rankings/sidi-mohamed-ben-abdellah-university
+801–1000,801,Sogang University,South Korea,28.7,28.0,15.2,31.5,42.1,47.4,https://www.timeshighereducation.com/world-university-rankings/sogang-university
+801–1000,801,Southern Federal University,Russian Federation,28.7,21.0,14.2,28.0,26.3,45.0,https://www.timeshighereducation.com/world-university-rankings/southern-federal-university
+801–1000,801,Tanta University,Egypt,28.7,15.8,7.0,53.7,22.9,51.5,https://www.timeshighereducation.com/world-university-rankings/tanta-university
+801–1000,801,Taras Shevchenko National University of Kyiv,Ukraine,28.7,23.6,17.9,28.4,25.8,24.7,https://www.timeshighereducation.com/world-university-rankings/taras-shevchenko-national-university-kyiv
+801–1000,801,Technical University of Košice,Slovakia,28.7,20.5,20.6,36.1,58.5,42.3,https://www.timeshighereducation.com/world-university-rankings/technical-university-kosice
+801–1000,801,Technological University Dublin,Ireland,28.7,17.1,12.9,33.0,58.5,55.2,https://www.timeshighereducation.com/world-university-rankings/technological-university-dublin
+801–1000,801,Telkom University,Indonesia,28.7,13.7,12.2,44.0,54.7,60.9,https://www.timeshighereducation.com/world-university-rankings/telkom-university
+801–1000,801,Thammasat University,Thailand,28.7,15.5,20.4,41.7,68.7,40.8,https://www.timeshighereducation.com/world-university-rankings/thammasat-university
+801–1000,801,The University of Danang,Vietnam,28.7,11.5,11.3,49.3,44.7,48.0,https://www.timeshighereducation.com/world-university-rankings/university-danang
+801–1000,801,The University of Texas at San Antonio,United States,28.7,12.9,13.3,56.0,47.2,45.6,https://www.timeshighereducation.com/world-university-rankings/university-texas-san-antonio
+801–1000,801,Umm Al-Qura University,Saudi Arabia,28.7,18.4,19.1,38.7,44.2,59.4,https://www.timeshighereducation.com/world-university-rankings/umm-al-qura-university
+801–1000,801,Universidade Federal de Pernambuco,Brazil,28.7,22.6,19.3,35.7,71.3,24.9,https://www.timeshighereducation.com/world-university-rankings/universidade-federal-de-pernambuco
+801–1000,801,Universidade Federal do Paraná (UFPR),Brazil,28.7,21.7,15.6,37.9,73.8,33.7,https://www.timeshighereducation.com/world-university-rankings/universidade-federal-do-parana-ufpr
+801–1000,801,Universidade Lusófona,Portugal,28.7,16.0,8.1,41.6,27.5,35.9,https://www.timeshighereducation.com/world-university-rankings/universidade-lusofona
+801–1000,801,Universitas Padjadjaran,Indonesia,28.7,22.3,15.0,30.2,31.0,47.6,https://www.timeshighereducation.com/world-university-rankings/universitas-padjadjaran
+801–1000,801,Universitas Sumatera Utara,Indonesia,28.7,15.0,9.4,43.1,24.4,42.3,https://www.timeshighereducation.com/world-university-rankings/universitas-sumatera-utara
+801–1000,801,Université de Poitiers,France,28.7,14.4,15.8,43.8,27.9,66.8,https://www.timeshighereducation.com/world-university-rankings/universite-de-poitiers
+801–1000,801,Université Grenoble Alpes,France,28.7,16.5,16.1,38.2,64.0,52.0,https://www.timeshighereducation.com/world-university-rankings/universite-grenoble-alpes
+801–1000,801,Universiti Malaysia Kelantan,Malaysia,28.7,12.1,11.7,60.4,43.3,48.9,https://www.timeshighereducation.com/world-university-rankings/universiti-malaysia-kelantan
+801–1000,801,Universiti Malaysia Sabah (UMS),Malaysia,28.7,15.7,11.5,42.2,25.0,37.0,https://www.timeshighereducation.com/world-university-rankings/universiti-malaysia-sabah-ums
+801–1000,801,Universiti Teknikal Malaysia Melaka,Malaysia,28.7,22.3,12.0,21.2,57.3,63.2,https://www.timeshighereducation.com/world-university-rankings/universiti-teknikal-malaysia-melaka
+801–1000,801,Universiti Teknologi MARA,Malaysia,28.7,21.8,16.5,46.4,43.3,35.1,https://www.timeshighereducation.com/world-university-rankings/universiti-teknologi-mara
+801–1000,801,University Cadi Ayyad of Marrakech,Morocco,28.7,10.9,8.2,69.6,24.7,34.0,https://www.timeshighereducation.com/world-university-rankings/university-cadi-ayyad-marrakech
+801–1000,801,University of A Coruña,Spain,28.7,14.4,10.5,35.9,61.0,31.2,https://www.timeshighereducation.com/world-university-rankings/university-coruna
+801–1000,801,University of Alcalá,Spain,28.7,19.6,14.7,44.2,43.9,46.0,https://www.timeshighereducation.com/world-university-rankings/university-alcala
+801–1000,801,University of Antioquia,Colombia,28.7,12.4,18.6,34.2,23.8,27.9,https://www.timeshighereducation.com/world-university-rankings/university-antioquia
+801–1000,801,University of Belgrade,Serbia,28.7,14.7,20.1,49.0,28.6,31.1,https://www.timeshighereducation.com/world-university-rankings/university-belgrade
+801–1000,801,University of Bordeaux,France,28.7,16.9,14.5,39.7,51.9,44.6,https://www.timeshighereducation.com/world-university-rankings/university-bordeaux
+801–1000,801,University of Brasília,Brazil,28.7,24.9,17.6,31.9,24.4,26.1,https://www.timeshighereducation.com/world-university-rankings/university-brasilia
+801–1000,801,University of Brawijaya,Indonesia,28.7,27.2,14.4,32.0,53.3,37.2,https://www.timeshighereducation.com/world-university-rankings/university-brawijaya
+801–1000,801,University of Cadiz,Spain,28.7,11.9,12.0,47.8,52.2,38.9,https://www.timeshighereducation.com/world-university-rankings/university-cadiz
+801–1000,801,University of Campania Luigi Vanvitelli,Italy,28.7,10.9,7.5,67.6,43.5,30.1,https://www.timeshighereducation.com/world-university-rankings/university-campania-luigi-vanvitelli
+801–1000,801,University of Carthage,Tunisia,28.7,16.8,8.8,53.7,22.2,41.4,https://www.timeshighereducation.com/world-university-rankings/university-carthage
+801–1000,801,University of Catania,Italy,28.7,9.9,13.4,56.7,59.5,46.2,https://www.timeshighereducation.com/world-university-rankings/university-catania
+801–1000,801,University of Chittagong,Bangladesh,28.7,9.9,8.9,46.0,32.1,55.7,https://www.timeshighereducation.com/world-university-rankings/university-chittagong
+801–1000,801,University of Clermont Auvergne,France,28.7,16.7,12.0,41.1,63.8,64.1,https://www.timeshighereducation.com/world-university-rankings/university-clermont-auvergne
+801–1000,801,University of Craiova,Romania,28.7,11.6,9.8,46.8,22.4,41.9,https://www.timeshighereducation.com/world-university-rankings/university-craiova
+801–1000,801,University of Debrecen,Hungary,28.7,22.4,15.5,37.4,26.7,42.7,https://www.timeshighereducation.com/world-university-rankings/university-debrecen
+801–1000,801,University of Denver,United States,28.7,20.8,10.4,53.5,51.1,39.9,https://www.timeshighereducation.com/world-university-rankings/university-denver
+801–1000,801,University of East London,United Kingdom,28.7,11.1,10.8,51.1,31.8,85.6,https://www.timeshighereducation.com/world-university-rankings/university-east-london
+801–1000,801,Prague University of Economics and Business (VŠE),Czechia,28.7,18.0,15.1,36.5,22.6,45.9,https://www.timeshighereducation.com/world-university-rankings/prague-university-economics-and-business-vse
+801–1000,801,"University of Education, Lahore",Pakistan,28.7,9.2,8.5,65.4,17.2,50.5,https://www.timeshighereducation.com/world-university-rankings/university-education-lahore
+801–1000,801,University of Gdańsk,Poland,28.7,18.3,10.5,38.2,43.6,31.3,https://www.timeshighereducation.com/world-university-rankings/university-gdansk
+801–1000,801,University of Hertfordshire,United Kingdom,28.7,11.1,8.3,46.1,33.8,73.9,https://www.timeshighereducation.com/world-university-rankings/university-hertfordshire
+801–1000,801,University of Huelva,Spain,28.7,18.0,10.8,38.4,39.9,32.6,https://www.timeshighereducation.com/world-university-rankings/university-huelva
+801–1000,801,University of Hyderabad,India,28.7,24.6,16.1,41.2,59.1,21.0,https://www.timeshighereducation.com/world-university-rankings/university-hyderabad
+801–1000,801,University of Isfahan,Iran,28.7,17.8,16.4,51.0,57.8,28.3,https://www.timeshighereducation.com/world-university-rankings/university-isfahan
+801–1000,801,University of Jeddah,Saudi Arabia,28.7,9.0,8.0,62.7,27.9,72.6,https://www.timeshighereducation.com/world-university-rankings/university-jeddah
+801–1000,801,University of Lagos,Nigeria,28.7,16.0,18.1,51.8,22.4,38.3,https://www.timeshighereducation.com/world-university-rankings/university-lagos
+801–1000,801,University of Macedonia,Greece,28.7,10.7,16.6,51.8,37.9,28.5,https://www.timeshighereducation.com/world-university-rankings/university-macedonia
+801–1000,801,University of Malaga,Spain,28.7,15.4,11.7,48.9,65.5,33.6,https://www.timeshighereducation.com/world-university-rankings/university-malaga
+801–1000,801,University of Maribor,Slovenia,28.7,15.5,13.4,36.5,55.4,37.5,https://www.timeshighereducation.com/world-university-rankings/university-maribor
+801–1000,801,University of Mauritius,Mauritius,28.7,11.9,10.8,67.6,30.1,27.2,https://www.timeshighereducation.com/world-university-rankings/university-mauritius
+801–1000,801,University of Monastir,Tunisia,28.7,9.4,9.4,49.0,58.4,38.5,https://www.timeshighereducation.com/world-university-rankings/university-monastir
+801–1000,801,University of Moratuwa,Sri Lanka,28.7,13.6,15.9,53.1,40.3,31.5,https://www.timeshighereducation.com/world-university-rankings/university-moratuwa
+801–1000,801,University of Nairobi,Kenya,28.7,21.4,13.6,38.1,17.2,37.7,https://www.timeshighereducation.com/world-university-rankings/university-nairobi
+801–1000,801,University of Nebraska Omaha,United States,28.7,11.0,12.5,51.2,34.2,51.3,https://www.timeshighereducation.com/world-university-rankings/university-nebraska-omaha
+801–1000,801,University of Nigeria Nsukka,Nigeria,28.7,25.7,11.0,36.5,22.6,29.1,https://www.timeshighereducation.com/world-university-rankings/university-nigeria-nsukka
+801–1000,801,University of Novi Sad,Serbia,28.7,10.4,12.1,39.9,57.4,30.3,https://www.timeshighereducation.com/world-university-rankings/university-novi-sad
+801–1000,801,University of Pardubice,Czechia,28.7,10.6,15.9,49.9,50.7,37.7,https://www.timeshighereducation.com/world-university-rankings/university-pardubice
+801–1000,801,University of Parma,Italy,28.7,8.6,15.6,51.9,42.3,32.0,https://www.timeshighereducation.com/world-university-rankings/university-parma
+801–1000,801,University of Pécs,Hungary,28.7,17.3,16.7,32.6,24.3,29.3,https://www.timeshighereducation.com/world-university-rankings/university-pecs
+801–1000,801,University of Primorska,Slovenia,28.7,15.2,17.4,29.4,26.9,56.8,https://www.timeshighereducation.com/world-university-rankings/university-primorska
+801–1000,801,University of Rennes 1,France,28.7,13.1,8.8,28.8,67.3,60.5,https://www.timeshighereducation.com/world-university-rankings/university-rennes-1
+801–1000,801,University of Rijeka,Croatia,28.7,15.4,13.5,40.7,28.7,29.4,https://www.timeshighereducation.com/world-university-rankings/university-rijeka
+801–1000,801,University of Sannio,Italy,28.7,19.9,12.5,52.6,37.5,30.4,https://www.timeshighereducation.com/world-university-rankings/university-sannio
+801–1000,801,University of Savoie Mont Blanc,France,28.7,13.9,9.5,41.2,24.7,43.1,https://www.timeshighereducation.com/world-university-rankings/university-savoie-mont-blanc
+801–1000,801,University of Seoul,South Korea,28.7,19.9,20.5,27.9,46.7,30.8,https://www.timeshighereducation.com/world-university-rankings/university-seoul
+801–1000,801,University of Sousse,Tunisia,28.7,14.7,8.4,55.5,25.2,39.9,https://www.timeshighereducation.com/world-university-rankings/university-sousse
+801–1000,801,University of South Africa,South Africa,28.7,11.7,10.7,45.9,29.2,33.2,https://www.timeshighereducation.com/world-university-rankings/university-south-africa
+801–1000,801,University of Split,Croatia,28.7,20.9,13.0,47.5,29.8,30.6,https://www.timeshighereducation.com/world-university-rankings/university-split
+801–1000,801,University of Sunderland,United Kingdom,28.7,11.8,7.2,36.1,31.6,80.9,https://www.timeshighereducation.com/world-university-rankings/university-sunderland
+801–1000,801,University of Szeged,Hungary,28.7,17.2,12.6,36.3,30.9,36.9,https://www.timeshighereducation.com/world-university-rankings/university-szeged
+801–1000,801,University of the Balearic Islands,Spain,28.7,16.8,9.7,40.4,21.3,51.8,https://www.timeshighereducation.com/world-university-rankings/university-balearic-islands
+801–1000,801,University of the Basque Country,Spain,28.7,21.0,13.9,52.3,43.2,34.9,https://www.timeshighereducation.com/world-university-rankings/university-basque-country
+801–1000,801,University of the Free State,South Africa,28.7,12.0,17.3,48.8,36.7,53.4,https://www.timeshighereducation.com/world-university-rankings/university-free-state
+801–1000,801,University of the Philippines,Philippines,28.7,19.2,13.5,29.5,25.2,32.0,https://www.timeshighereducation.com/world-university-rankings/university-philippines
+801–1000,801,University of the Western Cape,South Africa,28.7,13.2,18.7,32.0,17.2,45.2,https://www.timeshighereducation.com/world-university-rankings/university-western-cape
+801–1000,801,University of Trás-os-Montes and Alto Douro,Portugal,28.7,14.8,17.2,57.1,5.9,35.0,https://www.timeshighereducation.com/world-university-rankings/university-tras-os-montes-and-alto-douro
+801–1000,801,University of Trieste,Italy,28.7,13.6,14.0,51.9,43.9,38.2,https://www.timeshighereducation.com/world-university-rankings/university-trieste
+801–1000,801,University of Tunis,Tunisia,28.7,18.1,8.5,46.3,28.9,37.5,https://www.timeshighereducation.com/world-university-rankings/university-tunis
+801–1000,801,University of Valladolid,Spain,28.7,16.1,10.9,42.7,40.3,39.0,https://www.timeshighereducation.com/world-university-rankings/university-valladolid
+801–1000,801,University of Vigo,Spain,28.7,16.7,16.4,46.9,43.3,46.0,https://www.timeshighereducation.com/world-university-rankings/university-vigo
+801–1000,801,University of West Attica,Greece,28.7,7.2,11.6,50.0,38.7,23.7,https://www.timeshighereducation.com/world-university-rankings/university-west-attica
+801–1000,801,University of Western Macedonia,Greece,28.7,8.7,13.0,53.8,17.5,24.8,https://www.timeshighereducation.com/world-university-rankings/university-western-macedonia
+801–1000,801,University of Wolverhampton,United Kingdom,28.7,12.8,10.9,40.9,29.5,72.6,https://www.timeshighereducation.com/world-university-rankings/university-wolverhampton
+801–1000,801,University of Wyoming,United States,28.7,19.9,11.0,56.3,40.4,35.2,https://www.timeshighereducation.com/world-university-rankings/university-wyoming
+801–1000,801,University of Zagreb,Croatia,28.7,16.0,16.2,54.9,47.9,30.7,https://www.timeshighereducation.com/world-university-rankings/university-zagreb
+801–1000,801,University Rey Juan Carlos,Spain,28.7,16.0,11.7,60.8,46.0,30.8,https://www.timeshighereducation.com/world-university-rankings/university-rey-juan-carlos
+801–1000,801,Vietnam National University (Ho Chi Minh City),Vietnam,28.7,14.2,12.5,48.3,30.6,29.5,https://www.timeshighereducation.com/world-university-rankings/vietnam-national-university-ho-chi-minh-city
+801–1000,801,Virginia Commonwealth University,United States,28.7,20.0,18.7,45.4,58.5,27.7,https://www.timeshighereducation.com/world-university-rankings/virginia-commonwealth-university
+801–1000,801,VSB - Technical University of Ostrava,Czechia,28.7,11.9,14.1,42.3,47.3,47.7,https://www.timeshighereducation.com/world-university-rankings/vsb-technical-university-ostrava
+801–1000,801,Vytautas Magnus University,Lithuania,28.7,14.6,13.7,38.7,39.1,59.1,https://www.timeshighereducation.com/world-university-rankings/vytautas-magnus-university
+801–1000,801,Warsaw University of Life Sciences – SGGW,Poland,28.7,15.1,12.2,43.4,30.1,38.7,https://www.timeshighereducation.com/world-university-rankings/warsaw-university-life-sciences-sggw
+801–1000,801,Warsaw University of Technology,Poland,28.7,15.5,16.9,36.7,66.3,24.8,https://www.timeshighereducation.com/world-university-rankings/warsaw-university-technology
+801–1000,801,Wilfrid Laurier University,Canada,28.7,12.1,11.2,49.3,43.9,70.7,https://www.timeshighereducation.com/world-university-rankings/wilfrid-laurier-university
+801–1000,801,William & Mary,United States,28.7,24.9,9.9,42.0,40.5,37.3,https://www.timeshighereducation.com/world-university-rankings/william-mary
+801–1000,801,Wrocław University of Science and Technology,Poland,28.7,16.0,13.7,55.1,46.9,38.2,https://www.timeshighereducation.com/world-university-rankings/wroclaw-university-science-and-technology
+801–1000,801,Wuhan Textile University,China,28.7,9.1,9.1,50.6,61.8,28.5,https://www.timeshighereducation.com/world-university-rankings/wuhan-textile-university
+801–1000,801,Yanshan University,China,28.7,12.3,8.9,52.7,61.9,33.7,https://www.timeshighereducation.com/world-university-rankings/yanshan-university
+1001+,1001,Akdeniz University,Turkey,21.1,11.3,9.9,34.3,22.5,25.2,https://www.timeshighereducation.com/world-university-rankings/akdeniz-university
+1001+,1001,Alexandru Ioan Cuza University,Romania,21.1,14.6,9.2,35.6,17.2,43.3,https://www.timeshighereducation.com/world-university-rankings/alexandru-ioan-cuza-university
+1001+,1001,Anáhuac University,Mexico,21.1,16.4,8.5,16.2,21.0,32.5,https://www.timeshighereducation.com/world-university-rankings/anahuac-university
+1001+,1001,Ankara University,Turkey,21.1,22.6,11.6,27.7,17.2,30.6,https://www.timeshighereducation.com/world-university-rankings/ankara-university
+1001+,1001,Autonomous University of Baja California,Mexico,21.1,12.8,7.8,22.7,17.2,32.3,https://www.timeshighereducation.com/world-university-rankings/autonomous-university-baja-california
+1001+,1001,Budapest University of Technology and Economics,Hungary,21.1,11.6,12.5,36.9,40.0,26.5,https://www.timeshighereducation.com/world-university-rankings/budapest-university-technology-and-economics
+1001+,1001,Chuo University,Japan,21.1,13.9,8.6,20.8,18.0,38.5,https://www.timeshighereducation.com/world-university-rankings/chuo-university
+1001+,1001,De La Salle University,Philippines,21.1,11.0,9.8,38.5,26.0,28.4,https://www.timeshighereducation.com/world-university-rankings/de-la-salle-university
+1001+,1001,Durban University of Technology,South Africa,21.1,16.0,9.6,28.6,18.8,35.7,https://www.timeshighereducation.com/world-university-rankings/durban-university-technology
+1001+,1001,EAFIT University,Colombia,21.1,14.7,9.7,30.8,19.5,39.6,https://www.timeshighereducation.com/world-university-rankings/eafit-university
+1001+,1001,Federal University of Espírito Santo,Brazil,21.1,14.9,10.8,22.9,44.0,31.4,https://www.timeshighereducation.com/world-university-rankings/federal-university-espirito-santo
+1001+,1001,Federal University of Goiás,Brazil,21.1,17.3,17.9,17.7,21.7,24.3,https://www.timeshighereducation.com/world-university-rankings/federal-university-goias
+1001+,1001,Federal University of Rio Grande do Norte (UFRN),Brazil,21.1,12.3,11.9,17.5,49.8,27.4,https://www.timeshighereducation.com/world-university-rankings/federal-university-rio-grande-do-norte-ufrn
+1001+,1001,Federal University of Santa Maria,Brazil,21.1,21.2,10.2,30.1,29.9,23.2,https://www.timeshighereducation.com/world-university-rankings/federal-university-santa-maria
+1001+,1001,Federal University of Uberlândia,Brazil,21.1,17.1,9.4,26.7,34.9,26.4,https://www.timeshighereducation.com/world-university-rankings/federal-university-uberlandia
+1001+,1001,Federal University of Viçosa,Brazil,21.1,22.8,12.4,23.1,27.3,26.8,https://www.timeshighereducation.com/world-university-rankings/federal-university-vicosa
+1001+,1001,Hosei University,Japan,21.1,10.2,8.6,26.4,29.1,39.2,https://www.timeshighereducation.com/world-university-rankings/hosei-university
+1001+,1001,International Hellenic University,Greece,21.1,8.3,9.8,48.1,32.9,24.1,https://www.timeshighereducation.com/world-university-rankings/international-hellenic-university
+1001+,1001,Islamic University of Indonesia,Indonesia,21.1,14.3,9.4,40.3,18.8,26.5,https://www.timeshighereducation.com/world-university-rankings/islamic-university-indonesia
+1001+,1001,Ivan Franko National University of Lviv,Ukraine,21.1,17.5,10.4,14.3,17.4,20.9,https://www.timeshighereducation.com/world-university-rankings/ivan-franko-national-university-lviv
+1001+,1001,Kasetsart University,Thailand,21.1,11.7,13.0,28.4,47.1,31.6,https://www.timeshighereducation.com/world-university-rankings/kasetsart-university
+1001+,1001,Lodz University of Technology,Poland,21.1,12.8,12.9,22.5,68.6,27.1,https://www.timeshighereducation.com/world-university-rankings/lodz-university-technology
+1001+,1001,Matej Bel University,Slovakia,21.1,15.0,10.7,31.2,23.7,33.8,https://www.timeshighereducation.com/world-university-rankings/matej-bel-university
+1001+,1001,Metropolitan Autonomous University,Mexico,21.1,14.4,18.9,15.6,24.9,26.1,https://www.timeshighereducation.com/world-university-rankings/metropolitan-autonomous-university
+1001+,1001,National Taipei University,Taiwan,21.1,16.5,11.4,29.0,33.1,30.6,https://www.timeshighereducation.com/world-university-rankings/national-taipei-university
+1001+,1001,National Technical University Kharkiv Polytechnic Institute,Ukraine,21.1,17.7,9.2,20.7,22.1,33.7,https://www.timeshighereducation.com/world-university-rankings/national-technical-university-kharkiv-polytechnic-institute
+1001+,1001,National University of La Plata,Argentina,21.1,18.3,10.2,26.1,5.9,57.6,https://www.timeshighereducation.com/world-university-rankings/national-university-la-plata
+1001+,1001,National University of Life and Environmental Sciences of Ukraine,Ukraine,21.1,13.5,9.0,29.5,21.0,22.8,https://www.timeshighereducation.com/world-university-rankings/national-university-life-and-environmental-sciences-ukraine
+1001+,1001,Nelson Mandela University,South Africa,21.1,18.5,10.2,34.7,21.5,30.5,https://www.timeshighereducation.com/world-university-rankings/nelson-mandela-university
+1001+,1001,Oakland University,United States,21.1,11.8,10.0,31.0,40.5,37.5,https://www.timeshighereducation.com/world-university-rankings/oakland-university
+1001+,1001,Pamukkale University,Turkey,21.1,15.5,8.3,28.3,35.3,25.3,https://www.timeshighereducation.com/world-university-rankings/pamukkale-university
+1001+,1001,Polytechnic Institute of Setúbal,Portugal,21.1,12.7,8.3,26.6,5.9,32.6,https://www.timeshighereducation.com/world-university-rankings/polytechnic-institute-setubal
+1001+,1001,Presidency University,India,21.1,14.8,7.7,25.0,24.2,19.9,https://www.timeshighereducation.com/world-university-rankings/presidency-university
+1001+,1001,Saints Cyril and Methodius University in Skopje,North Macedonia,21.1,13.2,11.2,22.9,49.0,38.2,https://www.timeshighereducation.com/world-university-rankings/saints-cyril-and-methodius-university-skopje
+1001+,1001,"Soochow University, Taiwan",Taiwan,21.1,10.4,12.3,35.3,39.5,33.2,https://www.timeshighereducation.com/world-university-rankings/soochow-university-taiwan
+1001+,1001,Southwest Petroleum University,China,21.1,11.3,8.9,32.4,58.5,24.3,https://www.timeshighereducation.com/world-university-rankings/southwest-petroleum-university
+1001+,1001,"State University ""Kyiv Aviation Institute""",Ukraine,21.1,17.5,8.4,30.8,17.2,23.5,https://www.timeshighereducation.com/world-university-rankings/state-university-kyiv-aviation-institute
+1001+,1001,State University of Malang,Indonesia,21.1,15.1,8.8,27.6,20.3,37.3,https://www.timeshighereducation.com/world-university-rankings/state-university-malang
+1001+,1001,Tamkang University,Taiwan,21.1,12.8,9.6,33.1,44.3,39.9,https://www.timeshighereducation.com/world-university-rankings/tamkang-university
+1001+,1001,Technical University of Liberec,Czechia,21.1,11.6,14.2,23.4,50.9,37.3,https://www.timeshighereducation.com/world-university-rankings/technical-university-liberec
+1001+,1001,The University of the West Indies,Jamaica,21.1,13.3,9.1,28.7,27.1,37.9,https://www.timeshighereducation.com/world-university-rankings/university-west-indies
+1001+,1001,Tribhuvan University,Nepal,21.1,7.2,6.8,26.7,18.9,33.1,https://www.timeshighereducation.com/world-university-rankings/tribhuvan-university
+1001+,1001,UNIR – International University of La Rioja,Spain,21.1,10.7,9.3,33.5,17.2,53.6,https://www.timeshighereducation.com/world-university-rankings/unir-international-university-la-rioja-0
+1001+,1001,Universidad Autónoma del Estado de Mexico (UAEMex),Mexico,21.1,16.5,9.0,13.8,20.2,28.6,https://www.timeshighereducation.com/world-university-rankings/universidad-autonoma-del-estado-de-mexico-uaemex
+1001+,1001,Universidade do Estado do Rio de Janeiro (UERJ),Brazil,21.1,15.6,9.9,35.2,5.9,30.3,https://www.timeshighereducation.com/world-university-rankings/universidade-do-estado-do-rio-de-janeiro-uerj
+1001+,1001,Universidade Estadual de Maringá,Brazil,21.1,17.1,11.5,18.7,31.9,28.9,https://www.timeshighereducation.com/world-university-rankings/universidade-estadual-de-maringa
+1001+,1001,Universidade Federal da Bahia,Brazil,21.1,19.5,13.3,21.9,43.5,27.9,https://www.timeshighereducation.com/world-university-rankings/universidade-federal-da-bahia
+1001+,1001,Universidade Nove de Julho (Uninove),Brazil,21.1,13.2,7.9,20.5,23.7,27.2,https://www.timeshighereducation.com/world-university-rankings/universidade-nove-de-julho-uninove
+1001+,1001,Universidad Panamericana (UP),Mexico,21.1,18.2,8.3,24.2,25.0,47.3,https://www.timeshighereducation.com/world-university-rankings/universidad-panamericana
+1001+,1001,Universitas Muhammadiyah Yogyakarta,Indonesia,21.1,10.2,10.1,32.7,21.7,43.9,https://www.timeshighereducation.com/world-university-rankings/universitas-muhammadiyah-yogyakarta
+1001+,1001,Universitas Pendidikan Indonesia,Indonesia,21.1,18.7,8.6,28.6,20.8,38.7,https://www.timeshighereducation.com/world-university-rankings/universitas-pendidikan-indonesia
+1001+,1001,Universitas Syiah Kuala,Indonesia,21.1,14.0,8.1,19.9,17.9,26.6,https://www.timeshighereducation.com/world-university-rankings/universitas-syiah-kuala
+1001+,1001,Université Hassan II de Casablanca,Morocco,21.1,11.9,7.6,23.5,30.7,23.0,https://www.timeshighereducation.com/world-university-rankings/universite-hassan-ii-de-casablanca
+1001+,1001,University of Baghdad,Iraq,21.1,17.9,17.1,22.4,52.4,26.1,https://www.timeshighereducation.com/world-university-rankings/university-baghdad
+1001+,1001,University of Botswana,Botswana,21.1,10.2,11.1,41.4,5.9,41.0,https://www.timeshighereducation.com/world-university-rankings/university-botswana
+1001+,1001,University of Guadalajara,Mexico,21.1,13.5,8.6,18.9,17.2,27.4,https://www.timeshighereducation.com/world-university-rankings/university-guadalajara
+1001+,1001,University of La Laguna,Spain,21.1,16.3,8.5,35.9,33.2,29.3,https://www.timeshighereducation.com/world-university-rankings/university-la-laguna
+1001+,1001,University of Lodz,Poland,21.1,17.1,12.5,32.6,20.7,29.8,https://www.timeshighereducation.com/world-university-rankings/university-lodz
+1001+,1001,University of Prishtina,Kosovo,21.1,10.1,13.3,26.6,28.9,34.9,https://www.timeshighereducation.com/world-university-rankings/university-prishtina
+1001+,1001,"University of Santiago, Chile (USACH)",Chile,21.1,13.2,10.7,27.8,34.0,46.1,https://www.timeshighereducation.com/world-university-rankings/university-santiago-chile-usach
+1001+,1001,University of Sarajevo,Bosnia and Herzegovina,21.1,10.6,12.4,30.7,48.7,17.2,https://www.timeshighereducation.com/world-university-rankings/university-sarajevo
+1001+,1001,University of Szczecin,Poland,21.1,22.1,8.3,32.5,17.6,31.2,https://www.timeshighereducation.com/world-university-rankings/university-szczecin
+1001+,1001,University of Warmia and Mazury in Olsztyn,Poland,21.1,9.5,10.9,31.8,22.8,25.7,https://www.timeshighereducation.com/world-university-rankings/university-warmia-and-mazury-olsztyn
+1001+,1001,V.N. Karazin Kharkiv National University,Ukraine,21.1,22.9,13.5,19.2,58.2,25.9,https://www.timeshighereducation.com/world-university-rankings/vn-karazin-kharkiv-national-university

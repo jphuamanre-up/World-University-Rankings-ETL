@@ -1,29 +1,251 @@
-﻿rank,name,url,country,overall_score,teaching_score,research_env_score,research_quality_score,industry_score,international_outlook_score
-,University of São Paulo,https://www.timeshighereducation.com/world-university-rankings/university-sao-paulo,,,,,,,
-,University of Campinas,https://www.timeshighereducation.com/world-university-rankings/university-campinas,,,,,,,
-,Pontificia Universidad Católica de Chile,https://www.timeshighereducation.com/world-university-rankings/pontificia-universidad-catolica-de-chile,,,,,,,
-,Federal University of Rio de Janeiro,https://www.timeshighereducation.com/world-university-rankings/federal-university-rio-de-janeiro,,,,,,,
-,Universidade Estadual Paulista (Unesp),https://www.timeshighereducation.com/world-university-rankings/universidade-estadual-paulista-unesp,,,,,,,
-,Pontifical Catholic University of Rio de Janeiro (PUC-Rio),https://www.timeshighereducation.com/world-university-rankings/pontifical-catholic-university-rio-de-janeiro-puc-rio,,,,,,,
-,Tecnológico de Monterrey,https://www.timeshighereducation.com/world-university-rankings/tecnologico-de-monterrey,,,,,,,
-,Universidade Federal do Rio Grande do Sul,https://www.timeshighereducation.com/world-university-rankings/universidade-federal-do-rio-grande-do-sul,,,,,,,
-,National Autonomous University of Mexico,https://www.timeshighereducation.com/world-university-rankings/national-autonomous-university-mexico,,,,,,,
-,Federal University of Minas Gerais,https://www.timeshighereducation.com/world-university-rankings/federal-university-minas-gerais,,,,,,,
-,Universidade Federal de Santa Catarina,https://www.timeshighereducation.com/world-university-rankings/universidade-federal-de-santa-catarina,,,,,,,
-,Universidade Federal de São Paulo (UNIFESP),https://www.timeshighereducation.com/world-university-rankings/universidade-federal-de-sao-paulo-unifesp,,,,,,,
-,University of Chile,https://www.timeshighereducation.com/world-university-rankings/university-chile,,,,,,,
-,"University of the Andes, Colombia",https://www.timeshighereducation.com/world-university-rankings/university-andes-colombia,,,,,,,
-,Federal University of São Carlos,https://www.timeshighereducation.com/world-university-rankings/federal-university-sao-carlos,,,,,,,
-,"UEES, Espiritu Santo University",https://www.timeshighereducation.com/world-university-rankings/uees-espiritu-santo-university,,,,,,,
-,Universidade Federal do Paraná (UFPR),https://www.timeshighereducation.com/world-university-rankings/universidade-federal-do-parana-ufpr,,,,,,,
-,University of Tarapacá,https://www.timeshighereducation.com/world-university-rankings/university-tarapaca,,,,,,,
-,Pontifical Catholic University of Rio Grande do Sul (PUCRS),https://www.timeshighereducation.com/world-university-rankings/pontifical-catholic-university-rio-grande-do-sul-pucrs,,,,,,,
-,University of Brasília,https://www.timeshighereducation.com/world-university-rankings/university-brasilia,,,,,,,
-,Universidade Federal de Pernambuco,https://www.timeshighereducation.com/world-university-rankings/universidade-federal-de-pernambuco,,,,,,,
-,Federal University of Lavras,https://www.timeshighereducation.com/world-university-rankings/federal-university-lavras,,,,,,,
-,Adolfo Ibáñez University,https://www.timeshighereducation.com/world-university-rankings/adolfo-ibanez-university,,,,,,,
-,Pontifical Catholic University of Valparaíso,https://www.timeshighereducation.com/world-university-rankings/pontifical-catholic-university-valparaiso,,,,,,,
-,University of Havana,https://www.timeshighereducation.com/world-university-rankings/university-havana,,,,,,,
-,Unisinos University,https://www.timeshighereducation.com/world-university-rankings/unisinos-university,,,,,,,
-,Federal University of Goiás,https://www.timeshighereducation.com/world-university-rankings/federal-university-goias,,,,,,,
-,Universidade Federal de Ouro Preto (UFOP),https://www.timeshighereducation.com/world-university-rankings/universidade-federal-de-ouro-preto-ufop,,,,,,,
+﻿rank_raw,rank,name,country,overall_score,teaching_score,research_env_score,research_quality_score,industry_score,international_score,url
+1,1,University of São Paulo,Brazil,62.8,65.5,56.1,69.9,96.6,43.4,https://www.timeshighereducation.com/world-university-rankings/university-sao-paulo
+2,2,University of Campinas,Brazil,58.1,58.7,52.3,69.1,78.1,41.5,https://www.timeshighereducation.com/world-university-rankings/university-campinas
+3,3,Pontificia Universidad Católica de Chile,Chile,50.0,38.0,43.6,72.6,80.2,58.1,https://www.timeshighereducation.com/world-university-rankings/pontificia-universidad-catolica-de-chile
+=4,4,Federal University of Rio de Janeiro,Brazil,47.9,50.2,38.4,56.8,84.9,37.2,https://www.timeshighereducation.com/world-university-rankings/federal-university-rio-de-janeiro
+=4,4,Universidade Estadual Paulista (Unesp),Brazil,47.9,52.1,38.1,57.5,62.7,39.0,https://www.timeshighereducation.com/world-university-rankings/universidade-estadual-paulista-unesp
+6,6,Pontifical Catholic University of Rio de Janeiro (PUC-Rio),Brazil,44.2,42.0,39.1,50.7,72.8,45.4,https://www.timeshighereducation.com/world-university-rankings/pontifical-catholic-university-rio-de-janeiro-puc-rio
+7,7,Tecnológico de Monterrey,Mexico,42.6,29.7,31.3,70.1,68.4,65.8,https://www.timeshighereducation.com/world-university-rankings/tecnologico-de-monterrey
+8,8,Universidade Federal do Rio Grande do Sul,Brazil,40.9,42.1,27.4,60.1,56.7,35.6,https://www.timeshighereducation.com/world-university-rankings/universidade-federal-do-rio-grande-do-sul
+9,9,National Autonomous University of Mexico,Mexico,40.8,37.1,32.5,48.9,66.7,60.1,https://www.timeshighereducation.com/world-university-rankings/national-autonomous-university-mexico
+10,10,Federal University of Minas Gerais,Brazil,39.8,45.6,26.5,50.2,53.0,36.9,https://www.timeshighereducation.com/world-university-rankings/federal-university-minas-gerais
+=11,11,Universidade Federal de Santa Catarina,Brazil,39.3,40.9,26.1,54.5,65.5,37.0,https://www.timeshighereducation.com/world-university-rankings/universidade-federal-de-santa-catarina
+=11,11,Universidade Federal de São Paulo (UNIFESP),Brazil,39.3,40.7,28.6,51.6,59.2,36.3,https://www.timeshighereducation.com/world-university-rankings/universidade-federal-de-sao-paulo-unifesp
+13,13,University of Chile,Chile,38.4,33.6,25.0,61.6,56.5,49.3,https://www.timeshighereducation.com/world-university-rankings/university-chile
+14,14,"University of the Andes, Colombia",Colombia,38.0,30.8,27.0,60.7,43.2,57.8,https://www.timeshighereducation.com/world-university-rankings/university-andes-colombia
+15,15,Federal University of São Carlos,Brazil,36.9,38.1,26.5,50.0,55.4,33.1,https://www.timeshighereducation.com/world-university-rankings/federal-university-sao-carlos
+16,16,"UEES, Espiritu Santo University",Ecuador,36.6,42.2,17.0,39.3,39.9,88.7,https://www.timeshighereducation.com/world-university-rankings/uees-espiritu-santo-university
+17,17,Universidade Federal do Paraná (UFPR),Brazil,34.5,41.1,20.4,43.0,51.9,35.4,https://www.timeshighereducation.com/world-university-rankings/universidade-federal-do-parana-ufpr
+18,18,University of Tarapacá,Chile,34.0,16.4,31.4,62.2,21.7,58.7,https://www.timeshighereducation.com/world-university-rankings/university-tarapaca
+19,19,Pontifical Catholic University of Rio Grande do Sul (PUCRS),Brazil,33.0,39.0,22.0,35.0,57.8,36.1,https://www.timeshighereducation.com/world-university-rankings/pontifical-catholic-university-rio-grande-do-sul-pucrs
+20,20,University of Brasília,Brazil,32.1,37.7,19.2,42.4,33.2,35.7,https://www.timeshighereducation.com/world-university-rankings/university-brasilia
+21,21,Universidade Federal de Pernambuco,Brazil,32.0,38.7,19.3,36.8,62.5,28.8,https://www.timeshighereducation.com/world-university-rankings/universidade-federal-de-pernambuco
+22,22,Federal University of Lavras,Brazil,30.9,34.8,21.8,38.9,32.8,29.9,https://www.timeshighereducation.com/world-university-rankings/federal-university-lavras
+23,23,Adolfo Ibáñez University,Chile,30.8,19.5,22.0,55.1,22.7,62.5,https://www.timeshighereducation.com/world-university-rankings/adolfo-ibanez-university
+=24,24,Pontifical Catholic University of Valparaíso,Chile,29.6,21.4,21.7,48.1,33.8,51.3,https://www.timeshighereducation.com/world-university-rankings/pontifical-catholic-university-valparaiso
+=24,24,University of Havana,Cuba,29.6,38.5,22.1,13.0,55.8,51.8,https://www.timeshighereducation.com/world-university-rankings/university-havana
+26,26,Unisinos University,Brazil,29.5,26.1,25.3,36.6,55.3,30.7,https://www.timeshighereducation.com/world-university-rankings/unisinos-university
+27,27,Federal University of Goiás,Brazil,29.3,36.0,23.3,28.2,25.4,30.6,https://www.timeshighereducation.com/world-university-rankings/federal-university-goias
+28,28,Universidade Federal de Ouro Preto (UFOP),Brazil,29.2,25.6,29.8,34.5,35.2,26.0,https://www.timeshighereducation.com/world-university-rankings/universidade-federal-de-ouro-preto-ufop
+29,29,"University of the Andes, Chile",Chile,28.8,29.6,19.7,36.4,22.4,48.1,https://www.timeshighereducation.com/world-university-rankings/university-andes-chile
+=30,30,National University of Colombia,Colombia,28.4,27.5,17.5,41.7,35.9,41.0,https://www.timeshighereducation.com/world-university-rankings/national-university-colombia
+=30,30,Universidade Federal do ABC (UFABC),Brazil,28.4,22.2,20.2,46.7,28.9,45.1,https://www.timeshighereducation.com/world-university-rankings/universidade-federal-do-abc-ufabc
+=32,32,Federal University of Santa Maria,Brazil,28.3,28.4,17.5,44.6,37.2,27.7,https://www.timeshighereducation.com/world-university-rankings/federal-university-santa-maria
+=32,32,University of Concepción,Chile,28.3,22.2,19.7,40.9,47.7,50.8,https://www.timeshighereducation.com/world-university-rankings/university-concepcion
+34,34,University of Antioquia,Colombia,28.0,25.7,21.2,36.2,39.9,40.3,https://www.timeshighereducation.com/world-university-rankings/university-antioquia
+35,35,Universidad San Francisco de Quito,Ecuador,27.9,26.3,14.0,42.2,19.3,63.7,https://www.timeshighereducation.com/world-university-rankings/universidad-san-francisco-de-quito
+36,36,University of La Frontera,Chile,27.8,22.6,24.9,34.0,24.1,50.2,https://www.timeshighereducation.com/world-university-rankings/university-la-frontera
+37,37,Universidade do Estado do Rio de Janeiro (UERJ),Brazil,27.7,36.8,13.8,35.1,23.2,29.7,https://www.timeshighereducation.com/world-university-rankings/universidade-do-estado-do-rio-de-janeiro-uerj
+38,38,Catholic University of Brasília,Brazil,27.6,32.8,26.2,18.0,22.2,37.4,https://www.timeshighereducation.com/world-university-rankings/catholic-university-brasilia
+=39,39,Federal University of Rio Grande do Norte (UFRN),Brazil,27.0,31.2,16.5,31.8,43.3,33.2,https://www.timeshighereducation.com/world-university-rankings/federal-university-rio-grande-do-norte-ufrn
+=39,39,"University of Santiago, Chile (USACH)",Chile,27.0,20.9,19.2,42.3,30.1,47.5,https://www.timeshighereducation.com/world-university-rankings/university-santiago-chile-usach
+41,41,Austral University of Chile,Chile,26.8,19.0,19.9,39.6,41.8,52.4,https://www.timeshighereducation.com/world-university-rankings/austral-university-chile
+42,42,Del Rosario University,Colombia,26.7,24.4,18.8,34.6,30.5,49.8,https://www.timeshighereducation.com/world-university-rankings/del-rosario-university
+43,43,"University of the North, Colombia",Colombia,26.6,23.8,18.1,37.1,24.0,51.0,https://www.timeshighereducation.com/world-university-rankings/university-north-colombia
+=44,44,Federico Santa María Technical University,Chile,26.5,19.4,15.0,45.2,40.7,53.8,https://www.timeshighereducation.com/world-university-rankings/federico-santa-maria-technical-university
+=44,44,Pontifícia Universidade Católica do Paraná,Brazil,26.5,27.4,16.0,35.8,52.4,31.4,https://www.timeshighereducation.com/world-university-rankings/pontificia-universidade-catolica-do-parana
+=44,44,Universidade Estadual de Maringá,Brazil,26.5,35.1,16.3,29.5,26.8,23.7,https://www.timeshighereducation.com/world-university-rankings/universidade-estadual-de-maringa
+47,47,University of Talca,Chile,26.4,22.2,16.5,38.4,37.6,52.0,https://www.timeshighereducation.com/world-university-rankings/university-talca
+=48,48,Federal University of Espírito Santo,Brazil,26.3,28.6,15.2,34.3,53.0,30.0,https://www.timeshighereducation.com/world-university-rankings/federal-university-espirito-santo
+=48,48,Fluminense Federal University,Brazil,26.3,27.9,15.4,39.9,27.2,31.5,https://www.timeshighereducation.com/world-university-rankings/fluminense-federal-university
+50,50,Federal University of Pelotas,Brazil,26.2,27.8,16.9,38.7,25.0,27.2,https://www.timeshighereducation.com/world-university-rankings/federal-university-pelotas
+51,51,Federal University of Viçosa,Brazil,26.0,33.4,13.7,32.6,28.7,27.5,https://www.timeshighereducation.com/world-university-rankings/federal-university-vicosa
+52,52,Metropolitan Autonomous University,Mexico,25.9,26.9,24.1,25.5,30.1,28.0,https://www.timeshighereducation.com/world-university-rankings/metropolitan-autonomous-university
+53,53,Catholic University of the North,Chile,25.8,17.6,18.2,41.0,19.9,61.0,https://www.timeshighereducation.com/world-university-rankings/catholic-university-north
+54,54,Universidade Federal da Bahia,Brazil,25.6,30.2,15.6,31.7,25.1,33.0,https://www.timeshighereducation.com/world-university-rankings/universidade-federal-da-bahia
+=55,55,Diego Portales University,Chile,25.5,18.7,14.5,46.3,19.2,54.1,https://www.timeshighereducation.com/world-university-rankings/diego-portales-university
+=55,55,Universidad Peruana Cayetano Heredia,Peru,25.5,22.9,18.2,31.6,33.7,49.7,https://www.timeshighereducation.com/world-university-rankings/universidad-peruana-cayetano-heredia
+=57,57,Universidad Católica del Maule,Chile,25.3,18.5,20.3,36.2,17.8,54.6,https://www.timeshighereducation.com/world-university-rankings/universidad-catolica-del-maule
+=57,57,University of la Costa,Colombia,25.3,15.5,16.6,47.1,17.4,55.6,https://www.timeshighereducation.com/world-university-rankings/university-la-costa
+=59,59,Federal Rural University of Pernambuco,Brazil,25.1,36.0,12.1,28.2,24.1,24.6,https://www.timeshighereducation.com/world-university-rankings/federal-rural-university-pernambuco
+=59,59,The University of the West Indies,Jamaica,25.1,24.6,13.8,33.7,29.4,52.6,https://www.timeshighereducation.com/world-university-rankings/university-west-indies
+61,61,Federal University of Uberlândia,Brazil,25.0,28.2,15.1,32.6,39.4,25.9,https://www.timeshighereducation.com/world-university-rankings/federal-university-uberlandia
+=62,62,National University of La Plata,Argentina,24.9,24.7,13.6,30.0,26.5,62.6,https://www.timeshighereducation.com/world-university-rankings/national-university-la-plata
+=62,62,Pontifical Catholic University of Peru,Peru,24.9,26.9,11.4,37.5,24.1,42.7,https://www.timeshighereducation.com/world-university-rankings/pontifical-catholic-university-peru
+=64,64,Escuela Superior Politécnica del Litoral,Ecuador,24.7,23.6,10.7,36.6,31.3,56.7,https://www.timeshighereducation.com/world-university-rankings/escuela-superior-politecnica-del-litoral
+=64,64,Federal University of Mato Grosso do Sul,Brazil,24.7,26.9,16.3,29.4,37.8,32.3,https://www.timeshighereducation.com/world-university-rankings/federal-university-mato-grosso-do-sul
+=64,64,Universidade Federal de Juiz de Fora,Brazil,24.7,27.0,15.4,33.9,25.1,31.5,https://www.timeshighereducation.com/world-university-rankings/universidade-federal-de-juiz-de-fora
+=67,67,Universidad del Desarrollo,Chile,24.6,19.9,14.4,39.0,28.0,51.0,https://www.timeshighereducation.com/world-university-rankings/universidad-del-desarrollo
+=67,67,Universidade Estadual do Norte Fluminense Darcy Ribeiro,Brazil,24.6,32.2,14.0,25.9,21.9,35.0,https://www.timeshighereducation.com/world-university-rankings/universidade-estadual-do-norte-fluminense-darcy-ribeiro
+69,69,Londrina State University,Brazil,24.5,32.6,13.7,27.6,26.9,25.9,https://www.timeshighereducation.com/world-university-rankings/londrina-state-university
+=70,70,Alberto Hurtado University,Chile,24.4,17.0,21.8,38.4,16.0,37.7,https://www.timeshighereducation.com/world-university-rankings/alberto-hurtado-university
+=70,70,Federal University of Pará,Brazil,24.4,28.6,14.7,31.5,28.4,26.5,https://www.timeshighereducation.com/world-university-rankings/federal-university-para
+=70,70,Universidade do Estado de Santa Catarina,Brazil,24.4,34.5,13.5,24.5,27.4,23.9,https://www.timeshighereducation.com/world-university-rankings/universidade-do-estado-de-santa-catarina
+=73,73,Universidad Andrés Bello (UNAB),Chile,24.3,18.6,12.5,43.9,22.4,52.5,https://www.timeshighereducation.com/world-university-rankings/universidad-andres-bello-unab
+=73,73,Universidade Federal de Ciências da Saúde de Porto Alegre (UFCSPA),Brazil,24.3,26.5,16.4,30.4,30.4,30.3,https://www.timeshighereducation.com/world-university-rankings/universidade-federal-de-ciencias-da-saude-de-porto-alegre-ufcspa
+=75,75,Pontificia Universidad Javeriana,Colombia,23.9,24.0,14.9,31.7,24.4,43.0,https://www.timeshighereducation.com/world-university-rankings/pontificia-universidad-javeriana
+=75,75,Universidad Católica de la Santísima Concepción,Chile,23.9,13.4,23.5,34.2,17.6,50.3,https://www.timeshighereducation.com/world-university-rankings/universidad-catolica-de-la-santisima-concepcion
+77,77,Yachay University for Experimental Technology and Research (Yachay Tech),Ecuador,23.8,23.6,13.2,24.6,20.8,70.9,https://www.timeshighereducation.com/world-university-rankings/yachay-university-experimental-technology-and-research-yachay-tech
+=78,78,State University of Ponta Grossa,Brazil,23.3,27.7,19.7,20.2,20.6,28.1,https://www.timeshighereducation.com/world-university-rankings/state-university-ponta-grossa
+=78,78,Universidad Autónoma de Chile,Chile,23.3,16.7,15.3,36.5,20.7,55.5,https://www.timeshighereducation.com/world-university-rankings/universidad-autonoma-de-chile
+=78,78,Universidad Regional Amazónica Ikiam,Ecuador,23.3,24.1,10.5,28.7,16.1,65.9,https://www.timeshighereducation.com/world-university-rankings/universidad-regional-amazonica-ikiam
+81,81,University of La Serena,Chile,23.2,18.3,11.9,41.4,17.3,50.3,https://www.timeshighereducation.com/world-university-rankings/university-la-serena
+82,82,Austral University,Argentina,23.0,24.8,13.3,25.2,22.0,52.5,https://www.timeshighereducation.com/world-university-rankings/austral-university
+=83,83,University of Las Américas (UDLA),Ecuador,22.8,22.2,11.1,27.6,25.2,63.0,https://www.timeshighereducation.com/world-university-rankings/university-las-americas-udla
+=83,83,University of Los Lagos,Chile,22.8,19.0,18.3,28.5,16.6,48.5,https://www.timeshighereducation.com/world-university-rankings/university-los-lagos
+=85,85,Escuela Politécnica Nacional,Ecuador,22.7,21.8,11.1,33.9,24.6,47.4,https://www.timeshighereducation.com/world-university-rankings/escuela-politecnica-nacional
+=85,85,University of Costa Rica,Costa Rica,22.7,25.9,11.2,27.3,23.2,45.6,https://www.timeshighereducation.com/world-university-rankings/university-costa-rica
+87,87,University of Valparaíso,Chile,22.6,20.3,15.9,29.4,20.6,46.7,https://www.timeshighereducation.com/world-university-rankings/university-valparaiso
+88,88,Universidad Pontificia Bolivariana (UPB),Colombia,22.4,28.4,13.9,18.7,36.1,34.8,https://www.timeshighereducation.com/world-university-rankings/universidad-pontificia-bolivariana-upb
+=89,89,National University of San Martín,Argentina,22.2,25.0,12.4,24.0,27.6,45.2,https://www.timeshighereducation.com/world-university-rankings/national-university-san-martin
+=89,89,Universidad UTE,Ecuador,22.2,20.0,9.5,35.1,17.4,56.9,https://www.timeshighereducation.com/world-university-rankings/universidad-ute
+=91,91,Antonio Nariño University,Colombia,22.1,19.8,9.0,37.9,17.1,51.5,https://www.timeshighereducation.com/world-university-rankings/antonio-narino-university
+=91,91,Universidad Autónoma de Querétaro,Mexico,22.1,27.1,13.2,24.4,29.8,28.3,https://www.timeshighereducation.com/world-university-rankings/universidad-autonoma-de-queretaro
+93,93,University of La Sabana,Colombia,21.9,24.0,13.2,25.5,21.3,41.8,https://www.timeshighereducation.com/world-university-rankings/university-la-sabana
+94,94,University of Antofagasta,Chile,21.6,23.9,11.1,23.3,18.1,55.0,https://www.timeshighereducation.com/world-university-rankings/university-antofagasta
+=95,95,University of Medellín,Colombia,21.5,21.8,14.0,24.7,23.0,44.5,https://www.timeshighereducation.com/world-university-rankings/university-medellin
+=95,95,University of Passo Fundo (UPF),Brazil,21.5,22.9,14.9,28.4,19.0,27.9,https://www.timeshighereducation.com/world-university-rankings/university-passo-fundo-upf
+97,97,EAFIT University,Colombia,21.1,22.1,13.0,23.5,21.3,46.5,https://www.timeshighereducation.com/world-university-rankings/eafit-university
+98,98,Universidad Tecnológica de Bolívar,Colombia,20.8,16.2,15.1,29.2,34.7,38.2,https://www.timeshighereducation.com/world-university-rankings/universidad-tecnologica-de-bolivar
+=99,99,Icesi University,Colombia,20.7,22.5,14.0,20.5,21.4,41.8,https://www.timeshighereducation.com/world-university-rankings/icesi-university
+=99,99,Universidade Estadual de Santa Cruz,Brazil,20.7,27.9,11.6,18.0,19.3,36.1,https://www.timeshighereducation.com/world-university-rankings/universidade-estadual-de-santa-cruz
+101–125,101,Arturo Prat University,Chile,20.6,16.1,13.9,16.9,23.6,47.0,https://www.timeshighereducation.com/world-university-rankings/arturo-prat-university
+101–125,101,Benemérita Universidad Autónoma de Puebla,Mexico,20.6,26.5,10.5,19.3,21.2,36.0,https://www.timeshighereducation.com/world-university-rankings/benemerita-universidad-autonoma-de-puebla
+101–125,101,Catholic University of Uruguay,Uruguay,20.6,22.7,10.4,16.5,18.5,58.7,https://www.timeshighereducation.com/world-university-rankings/catholic-university-uruguay
+101–125,101,Ceará State University,Brazil,20.6,26.3,13.8,15.0,19.8,22.0,https://www.timeshighereducation.com/world-university-rankings/ceara-state-university
+101–125,101,El Bosque University,Colombia,20.6,24.2,10.0,13.3,17.7,42.5,https://www.timeshighereducation.com/world-university-rankings/el-bosque-university
+101–125,101,Externado University of Colombia,Colombia,20.6,25.5,10.5,15.8,16.1,46.1,https://www.timeshighereducation.com/world-university-rankings/externado-university-colombia
+101–125,101,Finis Terrae University,Chile,20.6,22.7,10.6,18.2,16.2,47.9,https://www.timeshighereducation.com/world-university-rankings/finis-terrae-university
+101–125,101,Instituto Politécnico Nacional (IPN),Mexico,20.6,23.9,10.6,22.1,25.4,25.9,https://www.timeshighereducation.com/world-university-rankings/instituto-politecnico-nacional-ipn
+101–125,101,Mackenzie Presbyterian University,Brazil,20.6,24.5,13.9,18.4,27.2,29.9,https://www.timeshighereducation.com/world-university-rankings/mackenzie-presbyterian-university
+101–125,101,National University of Córdoba,Argentina,20.6,20.7,10.8,17.7,21.3,38.0,https://www.timeshighereducation.com/world-university-rankings/national-university-cordoba
+101–125,101,National University of Cuyo,Argentina,20.6,19.3,11.5,20.6,23.5,40.3,https://www.timeshighereducation.com/world-university-rankings/national-university-cuyo
+101–125,101,Universidad Nacional de Loja,Ecuador,20.6,15.5,9.5,33.9,16.0,50.7,https://www.timeshighereducation.com/world-university-rankings/universidad-nacional-de-loja
+101–125,101,PUC-Campinas,Brazil,20.6,24.7,13.4,14.2,18.5,24.1,https://www.timeshighereducation.com/world-university-rankings/puc-campinas
+101–125,101,Temuco Catholic University,Chile,20.6,22.7,13.0,20.9,18.8,45.1,https://www.timeshighereducation.com/world-university-rankings/temuco-catholic-university
+101–125,101,Universidad César Vallejo,Peru,20.6,27.9,11.2,17.6,16.0,21.6,https://www.timeshighereducation.com/world-university-rankings/universidad-cesar-vallejo
+101–125,101,Universidad Científica del Sur,Peru,20.6,22.3,10.4,15.1,16.3,41.4,https://www.timeshighereducation.com/world-university-rankings/universidad-cientifica-del-sur
+101–125,101,Universidad del Pacífico,Peru,20.6,22.5,9.3,20.7,17.7,52.7,https://www.timeshighereducation.com/world-university-rankings/universidad-del-pacifico
+101–125,101,Universidad del Valle,Colombia,20.6,26.0,10.1,15.4,21.1,40.1,https://www.timeshighereducation.com/world-university-rankings/universidad-del-valle
+101–125,101,Universidade Cidade de São Paulo,Brazil,20.6,17.6,15.2,15.9,17.6,47.2,https://www.timeshighereducation.com/world-university-rankings/universidade-cidade-de-sao-paulo
+101–125,101,Universidade Estadual do Oeste do Paraná (Unioeste),Brazil,20.6,28.0,10.8,11.8,17.9,21.7,https://www.timeshighereducation.com/world-university-rankings/universidade-estadual-do-oeste-do-parana-unioeste
+101–125,101,Universidade Federal de Sergipe,Brazil,20.6,21.3,12.6,24.5,22.8,29.9,https://www.timeshighereducation.com/world-university-rankings/universidade-federal-de-sergipe-0
+101–125,101,Universidad Industrial de Santander (UIS),Colombia,20.6,21.8,12.9,20.8,24.2,39.1,https://www.timeshighereducation.com/world-university-rankings/universidad-industrial-de-santander-uis
+101–125,101,Universidad Mayor,Chile,20.6,20.9,10.0,23.5,17.6,48.2,https://www.timeshighereducation.com/world-university-rankings/universidad-mayor
+101–125,101,Universidad Nacional Agraria La Molina,Peru,20.6,25.2,8.5,12.2,16.8,44.8,https://www.timeshighereducation.com/world-university-rankings/universidad-nacional-agraria-la-molina
+101–125,101,Universidad Nacional Mayor de San Marcos,Peru,20.6,21.9,11.7,21.6,16.6,34.0,https://www.timeshighereducation.com/world-university-rankings/universidad-nacional-mayor-de-san-marcos
+101–125,101,Universidad Panamericana (UP),Mexico,20.6,25.3,9.9,17.3,19.3,46.9,https://www.timeshighereducation.com/world-university-rankings/universidad-panamericana
+101–125,101,University of Cuenca,Ecuador,20.6,16.8,12.1,18.0,35.2,46.3,https://www.timeshighereducation.com/world-university-rankings/university-cuenca
+101–125,101,University of Monterrey,Mexico,20.6,24.0,13.4,14.9,18.1,49.5,https://www.timeshighereducation.com/world-university-rankings/university-monterrey
+101–125,101,University of Vale do Itajaí,Brazil,20.6,20.0,16.6,16.3,40.4,32.3,https://www.timeshighereducation.com/world-university-rankings/university-vale-do-itajai
+126–150,126,Anáhuac University,Mexico,18.0,26.2,10.0,11.1,16.9,33.4,https://www.timeshighereducation.com/world-university-rankings/anahuac-university
+126–150,126,Bernardo O’Higgins University,Chile,18.0,16.8,12.2,14.6,22.6,48.6,https://www.timeshighereducation.com/world-university-rankings/bernardo-ohiggins-university
+126–150,126,Central University of Venezuela,Venezuela,18.0,24.7,9.1,7.7,19.4,48.7,https://www.timeshighereducation.com/world-university-rankings/central-university-venezuela
+126–150,126,Centro Federal de Educação Tecnológica Celso Suckow da Fonseca (CEFET-RJ),Brazil,18.0,18.1,11.3,21.9,18.6,36.3,https://www.timeshighereducation.com/world-university-rankings/centro-federal-de-educacao-tecnologica-celso-suckow-da-fonseca-cefet-rj
+126–150,126,CES University,Colombia,18.0,23.7,10.8,10.6,16.9,37.9,https://www.timeshighereducation.com/world-university-rankings/ces-university
+126–150,126,Ecotec University,Ecuador,18.0,16.0,9.9,20.6,19.4,54.1,https://www.timeshighereducation.com/world-university-rankings/ecotec-university
+126–150,126,EIA University,Colombia,18.0,21.3,8.5,13.8,23.4,47.9,https://www.timeshighereducation.com/world-university-rankings/eia-university
+126–150,126,National University of Costa Rica,Costa Rica,18.0,23.7,9.5,11.0,17.6,45.1,https://www.timeshighereducation.com/world-university-rankings/national-university-costa-rica
+126–150,126,ORT Uruguay University,Uruguay,18.0,23.9,9.2,10.5,17.1,44.0,https://www.timeshighereducation.com/world-university-rankings/ort-uruguay-university
+126–150,126,Pontifical Catholic University of Argentina,Argentina,18.0,24.9,8.7,9.8,16.7,46.8,https://www.timeshighereducation.com/world-university-rankings/pontifical-catholic-university-argentina
+126–150,126,Pontificia Universidad Católica del Ecuador,Ecuador,18.0,17.0,10.3,18.4,16.7,53.3,https://www.timeshighereducation.com/world-university-rankings/pontificia-universidad-catolica-del-ecuador
+126–150,126,Pontificia Universidad Católica Madre y Maestra (PUCMM),Dominican Republic,18.0,20.2,10.6,10.5,16.6,62.0,https://www.timeshighereducation.com/world-university-rankings/pontificia-universidad-catolica-madre-y-maestra-pucmm
+126–150,126,Tecnológico de Costa Rica,Costa Rica,18.0,23.1,8.9,14.0,17.8,39.1,https://www.timeshighereducation.com/world-university-rankings/tecnologico-de-costa-rica
+126–150,126,Universidade Estadual de Feira de Santana (UEFS),Brazil,18.0,23.4,11.2,15.7,17.9,28.3,https://www.timeshighereducation.com/world-university-rankings/universidade-estadual-de-feira-de-santana-uefs
+126–150,126,Universidade Federal do Maranhão (UFMA),Brazil,18.0,18.6,12.9,19.4,24.6,24.2,https://www.timeshighereducation.com/world-university-rankings/universidade-federal-do-maranhao-ufma
+126–150,126,Universidad Nacional de Asunción,Paraguay,18.0,23.1,9.9,7.7,20.4,47.2,https://www.timeshighereducation.com/world-university-rankings/universidad-nacional-de-asuncion
+126–150,126,Universidad San Ignacio de Loyola,Peru,18.0,15.3,12.0,24.2,16.7,40.9,https://www.timeshighereducation.com/world-university-rankings/universidad-san-ignacio-de-loyola
+126–150,126,Universidad Santo Tomás,Chile,18.0,16.2,12.1,19.0,16.6,45.6,https://www.timeshighereducation.com/world-university-rankings/universidad-santo-tomas
+126–150,126,University of Bío-Bío,Chile,18.0,19.1,7.0,23.7,18.7,46.8,https://www.timeshighereducation.com/world-university-rankings/university-bio-bio
+126–150,126,University of Guadalajara,Mexico,18.0,20.4,10.0,20.6,19.6,29.7,https://www.timeshighereducation.com/world-university-rankings/university-guadalajara
+126–150,126,University of Guanajuato,Mexico,18.0,20.4,10.4,18.8,22.2,33.1,https://www.timeshighereducation.com/world-university-rankings/university-guanajuato
+151+,151,Autonomous University of Baja California,Mexico,17.2,17.2,9.9,18.5,18.2,32.3,https://www.timeshighereducation.com/world-university-rankings/autonomous-university-baja-california
+151+,151,Autonomous University of Chiapas,Mexico,17.2,18.2,8.8,11.2,16.1,35.2,https://www.timeshighereducation.com/world-university-rankings/autonomous-university-chiapas
+151+,151,Autonomous University of Guerrero (UAGro),Mexico,17.2,18.6,8.3,10.3,17.7,29.7,https://www.timeshighereducation.com/world-university-rankings/autonomous-university-guerrero-uagro
+151+,151,Autonomous University of Sinaloa,Mexico,17.2,19.6,8.3,12.0,16.9,39.1,https://www.timeshighereducation.com/world-university-rankings/autonomous-university-sinaloa
+151+,151,Catholic University of Córdoba,Argentina,17.2,21.9,9.5,7.9,17.1,40.8,https://www.timeshighereducation.com/world-university-rankings/catholic-university-cordoba
+151+,151,CETYS Universidad,Mexico,17.2,25.2,7.7,4.5,19.4,51.2,https://www.timeshighereducation.com/world-university-rankings/cetys-universidad
+151+,151,Cruzeiro do Sul University,Brazil,17.2,13.9,9.6,9.8,16.8,41.9,https://www.timeshighereducation.com/world-university-rankings/cruzeiro-do-sul-university
+151+,151,EAN University,Colombia,17.2,14.7,8.5,5.8,18.7,40.3,https://www.timeshighereducation.com/world-university-rankings/ean-university
+151+,151,Escuela Superior Politécnica de Chimborazo,Ecuador,17.2,17.6,8.1,7.3,16.3,47.9,https://www.timeshighereducation.com/world-university-rankings/escuela-superior-politecnica-de-chimborazo
+151+,151,"Federal Institute of Education, Science and Technology of São Paulo",Brazil,17.2,15.1,7.2,6.0,17.5,23.3,https://www.timeshighereducation.com/world-university-rankings/federal-institute-education-science-and-technology-sao-paulo
+151+,151,Instituto Tecnológico de Buenos Aires (ITBA),Argentina,17.2,23.8,7.5,4.7,17.9,53.7,https://www.timeshighereducation.com/world-university-rankings/instituto-tecnologico-de-buenos-aires-itba
+151+,151,Instituto Tecnológico Metropolitano,Colombia,17.2,15.5,8.2,10.7,18.7,30.9,https://www.timeshighereducation.com/world-university-rankings/instituto-tecnologico-metropolitano
+151+,151,La Salle University (Colombia),Colombia,17.2,18.2,9.5,7.7,16.2,29.4,https://www.timeshighereducation.com/world-university-rankings/la-salle-university-colombia
+151+,151,National University of Quilmes,Argentina,17.2,16.0,10.0,11.8,22.3,32.9,https://www.timeshighereducation.com/world-university-rankings/national-university-quilmes
+151+,151,National University of Rosario (UNR),Argentina,17.2,17.1,9.3,9.6,21.1,41.2,https://www.timeshighereducation.com/world-university-rankings/national-university-rosario-unr
+151+,151,Nueva Granada Military University,Colombia,17.2,23.0,9.0,10.5,17.3,28.1,https://www.timeshighereducation.com/world-university-rankings/nueva-granada-military-university
+151+,151,Pontifical Catholic University of Minas Gerais,Brazil,17.2,19.4,11.7,17.7,19.5,25.5,https://www.timeshighereducation.com/world-university-rankings/pontifical-catholic-university-minas-gerais
+151+,151,Positivo University,Brazil,17.2,24.1,9.3,6.4,16.5,32.1,https://www.timeshighereducation.com/world-university-rankings/positivo-university
+151+,151,Regional Autonomous University of the Andes (UNIANDES),Ecuador,17.2,22.3,11.5,8.9,16.3,24.7,https://www.timeshighereducation.com/world-university-rankings/regional-autonomous-university-andes-uniandes
+151+,151,Simón Bolívar University (Colombia),Colombia,17.2,17.6,9.9,8.4,18.9,49.4,https://www.timeshighereducation.com/world-university-rankings/simon-bolivar-university-colombia
+151+,151,State University of Bahia,Brazil,17.2,23.6,9.8,6.5,17.1,22.3,https://www.timeshighereducation.com/world-university-rankings/state-university-bahia
+151+,151,State University of Southwestern Bahia (UESB),Brazil,17.2,28.8,9.6,8.2,16.5,19.5,https://www.timeshighereducation.com/world-university-rankings/state-university-southwestern-bahia-uesb
+151+,151,Technical University of Cotopaxi (UTC),Ecuador,17.2,14.0,8.2,4.2,16.6,34.4,https://www.timeshighereducation.com/world-university-rankings/technical-university-cotopaxi-utc
+151+,151,Technical University of the North,Ecuador,17.2,14.9,13.1,9.5,16.0,36.3,https://www.timeshighereducation.com/world-university-rankings/technical-university-north
+151+,151,Technological University of Pereira,Colombia,17.2,20.3,8.4,9.6,20.5,34.3,https://www.timeshighereducation.com/world-university-rankings/technological-university-pereira
+151+,151,Tiradentes University,Brazil,17.2,17.1,9.9,12.4,17.3,43.2,https://www.timeshighereducation.com/world-university-rankings/tiradentes-university
+151+,151,UNESC,Brazil,17.2,21.9,10.2,13.8,23.7,31.4,https://www.timeshighereducation.com/world-university-rankings/unesc
+151+,151,Unichristus,Brazil,17.2,20.9,9.9,7.1,16.3,22.3,https://www.timeshighereducation.com/world-university-rankings/unichristus
+151+,151,Universidad Autónoma de Coahuila,Mexico,17.2,22.9,8.8,12.6,17.1,27.1,https://www.timeshighereducation.com/world-university-rankings/universidad-autonoma-de-coahuila
+151+,151,Universidad Autónoma del Estado de Hidalgo,Mexico,17.2,19.5,9.8,10.1,19.2,26.9,https://www.timeshighereducation.com/world-university-rankings/universidad-autonoma-del-estado-de-hidalgo
+151+,151,Universidad Autónoma del Estado de Mexico (UAEMex),Mexico,17.2,23.8,10.3,10.7,18.3,26.6,https://www.timeshighereducation.com/world-university-rankings/universidad-autonoma-del-estado-de-mexico-uaemex
+151+,151,Universidad Autónoma de Nuevo León (UANL),Mexico,17.2,15.0,10.6,21.5,22.4,32.8,https://www.timeshighereducation.com/world-university-rankings/universidad-autonoma-de-nuevo-leon-uanl
+151+,151,Universidad Autónoma de Yucatán,Mexico,17.2,19.7,11.2,15.6,24.1,31.6,https://www.timeshighereducation.com/world-university-rankings/universidad-autonoma-de-yucatan
+151+,151,Universidad Católica de Colombia,Colombia,17.2,18.0,9.8,17.9,16.0,28.7,https://www.timeshighereducation.com/world-university-rankings/universidad-catolica-de-colombia
+151+,151,Universidad Católica de Cuenca,Ecuador,17.2,20.2,9.8,7.8,17.6,41.9,https://www.timeshighereducation.com/world-university-rankings/universidad-catolica-de-cuenca
+151+,151,Universidad Católica San Pablo,Peru,17.2,14.7,9.0,10.4,17.4,46.8,https://www.timeshighereducation.com/world-university-rankings/universidad-catolica-san-pablo
+151+,151,Universidad de Cartagena,Colombia,17.2,16.4,11.1,13.5,18.9,39.8,https://www.timeshighereducation.com/world-university-rankings/universidad-de-cartagena
+151+,151,Universidad de las Fuerzas Armadas – ESPE,Ecuador,17.2,15.5,8.6,12.5,21.1,35.5,https://www.timeshighereducation.com/world-university-rankings/universidad-de-las-fuerzas-armadas-espe
+151+,151,Universidad del Magdalena,Colombia,17.2,17.7,15.4,10.7,16.3,39.0,https://www.timeshighereducation.com/world-university-rankings/universidad-del-magdalena
+151+,151,Universidad de Pamplona,Colombia,17.2,31.8,8.5,2.8,16.1,27.0,https://www.timeshighereducation.com/world-university-rankings/universidad-de-pamplona
+151+,151,Universidad Distrital Francisco José de Caldas,Colombia,17.2,19.7,10.1,14.6,19.3,30.8,https://www.timeshighereducation.com/world-university-rankings/universidad-distrital-francisco-jose-de-caldas
+151+,151,Universidade Estadual do Maranhão,Brazil,17.2,17.3,10.4,9.3,16.2,24.0,https://www.timeshighereducation.com/world-university-rankings/universidade-estadual-do-maranhao
+151+,151,Universidade Federal Rural do Semi-Arido,Brazil,17.2,20.6,9.3,11.0,16.3,19.1,https://www.timeshighereducation.com/world-university-rankings/universidade-federal-rural-do-semi-arido
+151+,151,Universidade Nove de Julho (Uninove),Brazil,17.2,22.8,9.6,9.7,17.8,32.1,https://www.timeshighereducation.com/world-university-rankings/universidade-nove-de-julho-uninove
+151+,151,Universidad Estatal a Distancia,Costa Rica,17.2,15.7,7.9,3.4,16.0,41.3,https://www.timeshighereducation.com/world-university-rankings/universidad-estatal-distancia
+151+,151,Universidad Internacional del Ecuador,Ecuador,17.2,17.7,9.8,8.4,16.1,52.1,https://www.timeshighereducation.com/world-university-rankings/universidad-internacional-del-ecuador
+151+,151,Universidad Libre de Colombia,Colombia,17.2,15.5,9.8,7.7,16.0,29.1,https://www.timeshighereducation.com/world-university-rankings/universidad-libre-de-colombia
+151+,151,Universidad Manuela Beltrán,Colombia,17.2,15.5,9.2,4.8,16.1,41.0,https://www.timeshighereducation.com/world-university-rankings/universidad-manuela-beltran
+151+,151,Universidad Michoacana de San Nicolás de Hidalgo,Mexico,17.2,19.3,9.9,17.4,19.4,29.5,https://www.timeshighereducation.com/world-university-rankings/universidad-michoacana-de-san-nicolas-de-hidalgo
+151+,151,Universidad Nacional Abierta y a Distancia (UNAD),Colombia,17.2,11.7,8.3,5.0,16.0,40.1,https://www.timeshighereducation.com/world-university-rankings/universidad-nacional-abierta-y-distancia-unad
+151+,151,Universidad Nacional de Chimborazo,Ecuador,17.2,18.1,10.6,9.6,17.3,47.2,https://www.timeshighereducation.com/world-university-rankings/universidad-nacional-de-chimborazo
+151+,151,Universidad Nacional del Litoral,Argentina,17.2,16.9,10.7,20.1,25.2,33.3,https://www.timeshighereducation.com/world-university-rankings/universidad-nacional-del-litoral
+151+,151,Universidad Pedagogica y Tecnologica de Colombia - UPTC,Colombia,17.2,16.3,8.6,7.8,16.4,34.1,https://www.timeshighereducation.com/world-university-rankings/universidad-pedagogica-y-tecnologica-de-colombia-uptc
+151+,151,Universidad Peruana de Ciencias Aplicadas (UPC),Peru,17.2,16.1,9.8,22.6,17.2,33.5,https://www.timeshighereducation.com/world-university-rankings/universidad-peruana-de-ciencias-aplicadas-upc
+151+,151,Universidad Politécnica Salesiana,Ecuador,17.2,15.8,10.5,19.6,20.3,33.2,https://www.timeshighereducation.com/world-university-rankings/universidad-politecnica-salesiana
+151+,151,Universidad Popular Autónoma del Estado de Puebla,Mexico,17.2,22.3,9.8,9.6,16.2,24.3,https://www.timeshighereducation.com/world-university-rankings/universidad-popular-autonoma-del-estado-de-puebla
+151+,151,Universidad Técnica de Manabí,Ecuador,17.2,12.5,10.4,11.1,16.1,60.0,https://www.timeshighereducation.com/world-university-rankings/universidad-tecnica-de-manabi
+151+,151,Universidad Técnica Particular de Loja,Ecuador,17.2,15.7,9.4,15.0,20.1,44.9,https://www.timeshighereducation.com/world-university-rankings/universidad-tecnica-particular-de-loja
+151+,151,Universidad Tecnológica Centroamericana (UNITEC),Honduras,17.2,20.1,8.4,7.3,16.0,30.4,https://www.timeshighereducation.com/world-university-rankings/universidad-tecnologica-centroamericana-unitec
+151+,151,University of Bogotá Jorge Tadeo Lozano,Colombia,17.2,17.0,10.3,11.4,16.8,39.7,https://www.timeshighereducation.com/world-university-rankings/university-bogota-jorge-tadeo-lozano
+151+,151,University of Cauca,Colombia,17.2,20.9,9.7,11.0,34.7,36.8,https://www.timeshighereducation.com/world-university-rankings/university-cauca
+151+,151,University of Caxias do Sul,Brazil,17.2,21.8,10.5,14.3,23.5,23.4,https://www.timeshighereducation.com/world-university-rankings/university-caxias-do-sul
+151+,151,University of Colima,Mexico,17.2,23.6,8.8,9.6,19.0,29.9,https://www.timeshighereducation.com/world-university-rankings/university-colima
+151+,151,University of Fortaleza (UNIFOR),Brazil,17.2,17.9,11.2,18.4,19.6,29.7,https://www.timeshighereducation.com/world-university-rankings/university-fortaleza-unifor
+151+,151,University of Franca,Brazil,17.2,13.8,9.3,6.0,16.9,21.8,https://www.timeshighereducation.com/world-university-rankings/university-franca
+151+,151,University of Panama,Panama,17.2,13.7,9.1,6.7,19.5,49.4,https://www.timeshighereducation.com/world-university-rankings/university-panama
+151+,151,University of Pernambuco,Brazil,17.2,19.8,10.4,16.8,19.7,27.2,https://www.timeshighereducation.com/world-university-rankings/university-pernambuco
+151+,151,University of San Martín de Porres,Peru,17.2,17.6,9.7,8.9,18.4,36.6,https://www.timeshighereducation.com/world-university-rankings/university-san-martin-de-porres
+151+,151,University of Santander,Colombia,17.2,18.8,9.7,13.0,16.3,46.5,https://www.timeshighereducation.com/world-university-rankings/university-santander
+151+,151,University of Sonora,Mexico,17.2,17.6,9.5,19.6,27.8,34.1,https://www.timeshighereducation.com/world-university-rankings/university-sonora
+151+,151,"University of the Andes, Venezuela",Venezuela,17.2,18.4,9.4,9.3,24.8,50.2,https://www.timeshighereducation.com/world-university-rankings/university-andes-venezuela
+151+,151,UNNOBA,Argentina,17.2,19.8,9.4,3.4,16.2,33.9,https://www.timeshighereducation.com/world-university-rankings/unnoba
+151+,151,Vila Velha University,Brazil,17.2,21.5,11.4,9.7,16.4,22.2,https://www.timeshighereducation.com/world-university-rankings/vila-velha-university
+Reporter,Reporter,Andrés Bello Catholic University (UCAB),Venezuela,,,,,,,https://www.timeshighereducation.com/world-university-rankings/andres-bello-catholic-university-ucab
+Reporter,Reporter,Autonomous University of Asunción,Paraguay,,,,,,,https://www.timeshighereducation.com/world-university-rankings/autonomous-university-asuncion
+Reporter,Reporter,Centro de Estudios para la Calidad Educativa y la Investigación Científica (CECEIC),Mexico,,,,,,,https://www.timeshighereducation.com/world-university-rankings/centro-de-estudios-para-la-calidad-educativa-y-la-investigacion-cientifica
+Reporter,Reporter,Centro Universitário Cesuca,Brazil,,,,,,,https://www.timeshighereducation.com/world-university-rankings/centro-universitario-cesuca
+Reporter,Reporter,Centro Universitário de Jaguariúna,Brazil,,,,,,,https://www.timeshighereducation.com/world-university-rankings/centro-universitario-de-jaguariuna
+Reporter,Reporter,Centro Universitário Integrado,Brazil,,,,,,,https://www.timeshighereducation.com/world-university-rankings/centro-universitario-integrado
+Reporter,Reporter,Centro Universitário Max Planck,Brazil,,,,,,,https://www.timeshighereducation.com/world-university-rankings/centro-universitario-max-planck
+Reporter,Reporter,Centro Universitário Nossa Senhora do Patrocínio (CEUNSP),Brazil,,,,,,,https://www.timeshighereducation.com/world-university-rankings/centro-universitario-nossa-senhora-do-patrocinio-ceunsp
+Reporter,Reporter,Dr. Rafael Belloso Chacín Private University,Venezuela,,,,,,,https://www.timeshighereducation.com/world-university-rankings/dr-rafael-belloso-chacin-private-university
+Reporter,Reporter,FSG University Center,Brazil,,,,,,,https://www.timeshighereducation.com/world-university-rankings/fsg-university-center
+Reporter,Reporter,Israel Technological University,Ecuador,,,,,,,https://www.timeshighereducation.com/world-university-rankings/israel-technological-university
+Reporter,Reporter,João Pessoa University Center (UNIPÊ),Brazil,,,,,,,https://www.timeshighereducation.com/world-university-rankings/joao-pessoa-university-center-unipe
+Reporter,Reporter,Modulo University Center,Brazil,,,,,,,https://www.timeshighereducation.com/world-university-rankings/modulo-university-center
+Reporter,Reporter,National University of Education (UNAE),Ecuador,,,,,,,https://www.timeshighereducation.com/world-university-rankings/national-university-educationunae
+Reporter,Reporter,Queensland University,Haiti,,,,,,,https://www.timeshighereducation.com/world-university-rankings/queensland-university
+Reporter,Reporter,Universidad del Istmo Panamá,Panama,,,,,,,https://www.timeshighereducation.com/world-university-rankings/universidad-del-istmo-panama
+Reporter,Reporter,Universidade Federal do Ceará (UFC),Brazil,,,,,,,https://www.timeshighereducation.com/world-university-rankings/universidade-federal-do-ceara-ufc
+Reporter,Reporter,Universidad Mayor de San Andrés (UMSA),Bolivia,,,,,,,https://www.timeshighereducation.com/world-university-rankings/universidad-mayor-de-san-andres-umsa
+Reporter,Reporter,Universidad Nacional de Itapúa,Paraguay,,,,,,,https://www.timeshighereducation.com/world-university-rankings/universidad-nacional-de-itapua
+Reporter,Reporter,Universidad Nacional de Rafaela (UNRaf),Argentina,,,,,,,https://www.timeshighereducation.com/world-university-rankings/universidad-nacional-de-rafaela-unraf
+Reporter,Reporter,Universidad Nur,Bolivia,,,,,,,https://www.timeshighereducation.com/world-university-rankings/universidad-nur
+Reporter,Reporter,University Braz Cubas,Brazil,,,,,,,https://www.timeshighereducation.com/world-university-rankings/university-braz-cubas
+Reporter,Reporter,University Center of the Federal District,Brazil,,,,,,,https://www.timeshighereducation.com/world-university-rankings/university-center-federal-district
+Reporter,Reporter,University of Blumenau (FURB),Brazil,,,,,,,https://www.timeshighereducation.com/world-university-rankings/university-blumenau-furb
+Reporter,Reporter,University of San Buenaventura Cali,Colombia,,,,,,,https://www.timeshighereducation.com/world-university-rankings/university-san-buenaventura-cali
+Reporter,Reporter,University San Marcos,Costa Rica,,,,,,,https://www.timeshighereducation.com/world-university-rankings/university-san-marcos
+Reporter,Reporter,Valle del Momboy University,Venezuela,,,,,,,https://www.timeshighereducation.com/world-university-rankings/valle-del-momboy-university
